@@ -1,4 +1,14 @@
+#pragma once 
 
+#ifndef MYSLAM_FRAME_H
+#define MYSLAM_FRAME_H
+
+#include "myslam/common_include.h"
+#include "myslam/camera.h"
+
+namespace myslam {
+
+struct MapPoint;
 struct Feature;
 struct Frame {
 public:
@@ -36,3 +46,7 @@ public:
     //工厂设计模式，根据需要在这个函数里创建不同的Frame对象
     static std::shared_ptr<Frame> CreateFrame();
 };
+
+}
+
+#endif

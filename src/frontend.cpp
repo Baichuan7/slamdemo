@@ -1,9 +1,13 @@
 #include <opencv2/opencv.hpp>
 
-#include "myslam/feature.h"
-#include "myslam/map.h"
-#include "myslam/frontend.h"
 #include "myslam/algorithm.h"
+#include "myslam/backend.h"
+#include "myslam/config.h"
+#include "myslam/feature.h"
+#include "myslam/frontend.h"
+#include "myslam/g2o_types.h"
+#include "myslam/map.h"
+#include "myslam/viewer.h"
 
 namespace myslam {
 
@@ -35,13 +39,14 @@ bool Frontend::AddFrame(myslam::Frame::Ptr frame) {
 }
 
 bool Frontend::Track() {
-    // 这里好像是用上一帧和上上一帧的相对位姿乘以上一帧的位姿: 这里只是给个初值，在EstimateCurrentPose（）会优化（待确定）
+    // 这里好像是用上一帧和上上一帧的相对位姿乘以上一帧的位姿: 这里只是给个初值，在EstimateCurrentPose()会优化（待确定）
     if (last_frame_) {
+        // 这里没有用几何方法计算相对位置 都是上一帧和上两帧的相对位姿
         current_frame_->SetPose(relative_motion_ * last_frame_->Pose());
     }
 
     int num_track_last = TrackLastFrame();
-    tracking_inliners_ = EstiamteCurrentPose();
+    tracking_inliners_ = EstimateCurrentPose();
 
     if (tracking_inliners_ > num_features_tracking_)
     {
@@ -57,12 +62,17 @@ bool Frontend::Track() {
     }
 
    InsertKeyframe(); 
-   realative_motion_ = current_frame_->Pose() * last_frame_->Pose().Inverse();
+   relative_motion_ = current_frame_->Pose() * last_frame_->Pose().Inverse();
 
    if(viewer_) viewer_->AddCurrentFrame(current_frame);
    return true;
 }
 
+/*
+/ 观测的inlier不够就把当前帧设为关键帧
+/ 地图管理关键帧
+/ 和地图点
+/ */
 bool Frontend::InsertKeyframe() {
     if (tracking_inliners_ => num_features_needed_for_keyframe_) {
         // 这里的插入策略采取跟踪的特征点不够的时候才补关键帧
@@ -80,13 +90,17 @@ bool Frontend::InsertKeyframe() {
 
     FindFeaturesInRight();
     TriangulateNewPoints();
-    backend_->update();
+    backend_->UpdateMap();
 
     if ( viewer_ ) viewer_->UpdateMap();
 
     return true;
 }
 
+/*
+/ TrackLastFrame()中 新feature里的mappoint对应上了地图点
+/ 这里把mappoint中的observations对应上这里的新feature
+*/
 void Frontend::SetObservationsForKeyFrame() {
     for (auto& feat : current_frame_->features_left) {
         auto mp = feat->map_point_.lock();
@@ -94,6 +108,9 @@ void Frontend::SetObservationsForKeyFrame() {
     }
 }
 
+/*
+仅仅从同一帧左右目恢复3D点
+*/
 int Frontend::TriangulateNewPoints() {
     std::vector<SE3> poses{camera_left_->pose(), camera_right_->pose()};
     SE3 current_pose_Twc = current_frame_->Pose().inverse();
@@ -150,6 +167,10 @@ bool Frontend::StereoInit() {
     return false;
 }
 
+/*
+/ 因为特征点不够，所以这一帧设为关键帧
+/ 然后提取更多特征
+*/
 int Frontend::DetectFeatures() {
     // 先做一个mask，在已有特征点的10X10邻域内填上0(mask中非0值是ROI），这样防止重复检测过近的特征点
     cv::Mat mask(current_frame_->left_img_.size(), CV_8UC1, 255);
@@ -171,6 +192,9 @@ int Frontend::DetectFeatures() {
     return cnt_detected;
 }
 
+/*
+光流跟踪左右目图像
+*/
 int Frontend::FindFeaturesInRight() {
     std::vector<cv::Point2f> kps_left, kps_right;
     // 和TrackLastFrame()一致，
@@ -212,6 +236,8 @@ int Frontend::FindFeaturesInRight() {
     return num_good_pts;
 }
 
+// 跟踪这一帧的所有特征 
+// 并且把新的特征对应上地图点
 int Frontend::TrackLastFrame() {
     std::vector<cv::Point2f> kps_last, kps_current;
     /*
@@ -263,6 +289,11 @@ int Frontend::TrackLastFrame() {
     return num_good_pts;
 }
 
+/*
+/ 图优化pose
+/ chi2大的观测设为outlier，reset对应mappoint
+/ @return 观测内点数量
+*/
 int Frontend::EstimateCurrentPose () {
     // 建立图模型，vertex是这一帧的pose，边是这一帧的所有观测
     typedef g2o::BlockSolver_6_3 BlockSolverType;
@@ -322,7 +353,7 @@ int Frontend::EstimateCurrentPose () {
                 cnt_outlier++;
             }
             else {
-                feature[i]->is_outlier_ = false;
+                features[i]->is_outlier_ = false;
                 e->setLevel(0);
             }
             //鲁棒核防止误差过大，但是会影响优化精度，默认最后一次优化前外点筛完了，进行一次不加核函数的优化
@@ -337,6 +368,10 @@ int Frontend::EstimateCurrentPose () {
 
     LOG(INFO) << "Current pose: \n" << current_frame_->Pose().matrix();
 
+    // 这里是不是应该直接对 current_frame->features_left_操作 
+    // features只是拷贝过来的
+    // 但是上面outlier点的判断也是在features里设置的
+    // 没事了 里面放的是指针 实际操作的还是current_frame
     for (auto& feat : features)
     {
         if (feat->is_outlier_) {

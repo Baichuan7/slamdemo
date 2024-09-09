@@ -36,6 +36,8 @@
         "utility": "cpp",
         "variant": "cpp",
         "thread": "cpp",
-        "core": "cpp"
+        "core": "cpp",
+        "semaphore": "cpp",
+        "stop_token": "cpp"
     }
 }

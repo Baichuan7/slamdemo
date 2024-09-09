@@ -1,3 +1,14 @@
+#pragma once 
+#ifndef MYSLAM_MAPPOINT_H
+#define MYSLAM_MAPPOINT_H
+
+#include "myslam/common_include.h"
+
+namespace myslam {
+
+struct Frame;
+
+struct Feature;
 
 struct MapPoint {
 public:
@@ -5,7 +16,7 @@ public:
     typedef std::shared_ptr<MapPoint> Ptr;
 
     unsigned long id_ = 0;
-    bool_is_outlier = 0;
+    bool is_outlier_ = 0;
     Vec3 pos_ = Vec3::Zero();
     std::mutex data_mutex_; 
     int observed_times_ = 0;//being observed by feature matching algo
@@ -41,3 +52,7 @@ public:
     static MapPoint::Ptr CreateNewMappoint();//也可以加MapPoint 不会报错
 
 };
+
+}
+
+#endif

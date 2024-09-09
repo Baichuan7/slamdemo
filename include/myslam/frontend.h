@@ -1,8 +1,10 @@
 #pragma once
 #ifndef MYSLAM_FRONTEND_H
-#define MYSLAM_FRRONTEND_H
+#define MYSLAM_FRONTEND_H
 
 #include <opencv2/features2d.hpp>
+
+#include "myslam/common_include.h"
 #include "myslam/map.h"
 #include "myslam/frame.h"
 
@@ -46,7 +48,7 @@ private:
     int TrackLastFrame();
 
     // @return num of inliners
-    int EstiamteCurrentPose();
+    int EstimateCurrentPose();
 
     bool InsertKeyframe();
 

@@ -1,4 +1,12 @@
+#pragma once
+#ifndef MYSLAM_FEATURE_H
+#define MYSLAM_FEATURE_H
 
+#include <memory>
+#include <opencv2/feature2d.hpp>
+#include "myslam/common_include.h"
+
+namsespace myslam {
 
 struct Feature {
 public:
@@ -17,3 +25,7 @@ public:
     Feature(std::shared_ptr<Frame> frame, cv::KeyPoint& kp) : frame_(frame), position_(kp) {}
 
 };
+}
+
+
+#endif

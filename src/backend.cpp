@@ -6,7 +6,7 @@
 #include "myslam/mappoint.h"
 #include "myslam/g2o_types.h"
 
-namespace{
+namespace myslam{
 
 Backend::Backend() {
     backend_running_.store(true);
@@ -21,7 +21,8 @@ void Backend::UpdateMap() {
 
 void Backend::Stop() {
     backend_running_.store(false);
-    // std::unique_lock<std::mutex> lock(data_mutex_);//为啥没有这句
+    // 源代码没有这一句，但是如果已经进了BackendLoop循环，但是还没有wait的时候notify了，那么BaokendLoop就会一直阻塞了
+    std::unique_lock<std::mutex> lock(data_mutex_);//为啥没有这句
     map_update_.notify_one();//猜测：让阻塞的BackendLoop跑完
 }
 
