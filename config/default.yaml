@@ -1,0 +1,10 @@
+%YAML:1.0
+
+dataset_dir: /home/liubaichuan/Work/datasets/kitti/data_odometry_gray/sequences/05
+
+# camera intrinsics
+
+# feature num threshold
+num_features: 150
+num_features_init: 50
+num_features_tracking: 50

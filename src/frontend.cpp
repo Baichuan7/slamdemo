@@ -87,7 +87,7 @@ bool Frontend::InsertKeyframe() {
 
     SetObservationsForKeyFrame();
     DetectFeatures();
-
+    // 观测不够插入关键帧，然后在这里补观测
     FindFeaturesInRight();
     TriangulateNewPoints();
     backend_->UpdateMap();
@@ -291,6 +291,7 @@ int Frontend::TrackLastFrame() {
 
 /*
 / 图优化pose
+/ 用当前帧pose和观测构建单节点图
 / chi2大的观测设为outlier，reset对应mappoint
 / @return 观测内点数量
 */
