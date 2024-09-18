@@ -15,11 +15,11 @@ public:
     EIGEN_MAKE_ALIGNED_OPERATOR_NEW;
     typedef std::shared_ptr<VisualOdometry> Ptr;
 
-    VisualOdometry(const string& config_file);
+    VisualOdometry(const std::string& config_file);
 
     bool Init();
 
-    bool Run();
+    void Run();
 
     bool Step();
 
@@ -35,7 +35,7 @@ private:
     Viewer::Ptr viewer_ = nullptr;
 
     Dataset::Ptr dataset_ = nullptr;
-}
+};
 }
 
 #endif

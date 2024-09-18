@@ -12,7 +12,7 @@ class Map;
 class Backend {
 public:
     EIGEN_MAKE_ALIGNED_OPERATOR_NEW;
-    typedef std::shared_ptr<backend> Ptr;
+    typedef std::shared_ptr<Backend> Ptr;
 
     Backend();
 
@@ -29,7 +29,7 @@ public:
 private:
     void BackendLoop();//后端线程
 
-    void Optimize(Map::KeyframesType& keyframes, Map::LandmarkType& landmarks);
+    void Optimize(Map::KeyframesType& keyframes, Map::LandmarksType& landmarks);
 
     std::shared_ptr<Map> map_;
     std::thread backend_thread_;

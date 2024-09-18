@@ -68,10 +68,10 @@ private:
     // data
     FrontendStatus status_ = FrontendStatus::INITING;
 
-    Frame::Ptr current_frame = nullptr;
-    Frame::Ptr last_frame = nullptr;
-    Camera::Ptr camera_left = nullptr;
-    Camera::Ptr camera_right = nullptr;
+    Frame::Ptr current_frame_ = nullptr;
+    Frame::Ptr last_frame_ = nullptr;
+    Camera::Ptr camera_left_ = nullptr;
+    Camera::Ptr camera_right_ = nullptr;
 
     Map::Ptr map_ = nullptr;
     std::shared_ptr<Backend> backend_ = nullptr;
@@ -82,7 +82,7 @@ private:
     int tracking_inliners_ = 0; // used for testing new keyframes
 
     // params
-    int num_features = 200;
+    int num_features_ = 200;
     int num_features_init_ = 100;
     int num_features_tracking_ = 50;
     int num_features_tracking_bad_ = 20;

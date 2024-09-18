@@ -152,6 +152,19 @@ run_kitti_stereo/fast:
 	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/run_kitti_stereo.dir/build.make app/CMakeFiles/run_kitti_stereo.dir/build
 .PHONY : run_kitti_stereo/fast
 
+#=============================================================================
+# Target rules for targets named test_triangulation
+
+# Build rule for target.
+test_triangulation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_triangulation
+.PHONY : test_triangulation
+
+# fast build rule for target.
+test_triangulation/fast:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_triangulation.dir/build.make test/CMakeFiles/test_triangulation.dir/build
+.PHONY : test_triangulation/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -163,6 +176,7 @@ help:
 	@echo "... test"
 	@echo "... myslam"
 	@echo "... run_kitti_stereo"
+	@echo "... test_triangulation"
 .PHONY : help
 
 

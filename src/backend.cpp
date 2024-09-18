@@ -10,7 +10,7 @@ namespace myslam{
 
 Backend::Backend() {
     backend_running_.store(true);
-    backend_thread_ = std::thread(std::bind(&Backend::BackendLoop(), this));
+    backend_thread_ = std::thread(std::bind(&Backend::BackendLoop, this));
 }
 
 //这个函数实际上是用来notify启动其他线程实现updatemap的
@@ -46,8 +46,8 @@ void Backend::Optimize(Map::KeyframesType& keyframes,
     typedef g2o::LinearSolverCSparse<BlockSolverType::PoseMatrixType>
                            LinearSolverType;
     auto solver = new g2o::OptimizationAlgorithmLevenberg(
-        g2o::make_unique<BlockSolverType>(
-            g2o::make_unique<LinearSolverType>())
+        std::make_unique<BlockSolverType>(
+            std::make_unique<LinearSolverType>())
     );
     g2o::SparseOptimizer optimizer;
     optimizer.setAlgorithm(solver);
@@ -58,9 +58,9 @@ void Backend::Optimize(Map::KeyframesType& keyframes,
     for (auto &keyframe : keyframes) {
         auto kf = keyframe.second;
         VertexPose* vertex_pose = new VertexPose();
-        vertex_pose.setId(kf->keyframe_id_);
-        Vertex_pose.setEstimate(kf->Pose());
-        optimizer.AddVertex(Vertex_pose);
+        vertex_pose->setId(kf->keyframe_id_);
+        vertex_pose->setEstimate(kf->Pose());
+        optimizer.addVertex(vertex_pose);
         if (max_kf_id < kf->keyframe_id_) {
             max_kf_id = kf->keyframe_id_;
         }
@@ -69,8 +69,8 @@ void Backend::Optimize(Map::KeyframesType& keyframes,
     }
 
     Mat33 K = cam_left_->K();
-    SE3 left_ext = cam_left_->Pose();
-    SE3 right_ext = cam_right_->Pose();
+    SE3 left_ext = cam_left_->pose();
+    SE3 right_ext = cam_right_->pose();
 
     // Landmarks vertex and Edges
     // 这是一个只连接active位姿和landmark的图，没有pose之间的边
@@ -132,7 +132,7 @@ void Backend::Optimize(Map::KeyframesType& keyframes,
                 edge->setVertex(0, vertices.at(frame->keyframe_id_));
                 edge->setVertex(1, vertices_landmarks.at(landmark_id));
                 edge->setMeasurement(toVec2(feat->position_.pt));
-                edge->setInformation(Mat22::Indentity());
+                edge->setInformation(Mat22::Identity());
                 auto rk = new g2o::RobustKernelHuber();
                 rk->setDelta(chi2_th);
                 edge->setRobustKernel(rk);
@@ -143,7 +143,7 @@ void Backend::Optimize(Map::KeyframesType& keyframes,
         }
     }
 
-    optimizer.initializaOptimization();
+    optimizer.initializeOptimization();
     optimizer.optimize(10);
 
     int cnt_outlier = 0, cnt_inlier = 0;
@@ -186,7 +186,7 @@ void Backend::Optimize(Map::KeyframesType& keyframes,
 
     for (auto& v : vertices)
     {
-        keyframes.at(v.fisrt)->SetPose(v.second->estimate());
+        keyframes.at(v.first)->SetPose(v.second->estimate());
     }
     for (auto& v : vertices_landmarks)
     {

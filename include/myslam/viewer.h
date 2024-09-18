@@ -10,7 +10,7 @@
 #include "myslam/map.h"
 
 namespace myslam {
-Class Viewer {
+class Viewer {
 public:
     EIGEN_MAKE_ALIGNED_OPERATOR_NEW;
     typedef std::shared_ptr<Viewer> Ptr;
@@ -29,7 +29,7 @@ private:
 
     void DrawFrame(Frame::Ptr frame, const float* color);
 
-    void DrawMapPoint();
+    void DrawMapPoints();
 
     void FollowCurrentFrame(pangolin::OpenGlRenderState& vis_camera);
 

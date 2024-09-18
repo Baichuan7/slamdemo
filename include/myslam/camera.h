@@ -20,14 +20,14 @@ public:
 
     Camera();
 
-    Camera(double fx, double fy, double cx, double cy, double baseline, SE3& pose) : fx_(fx), fy_(fy), cx_(cx), cy_(cy), baseline_(baseline), 
+    Camera(double fx, double fy, double cx, double cy, double baseline, const SE3& pose) : fx_(fx), fy_(fy), cx_(cx), cy_(cy), baseline_(baseline), 
         pose_(pose) { pose_inv_ = pose_.inverse(); }
 
     SE3 pose() const {return pose_; }
 
     Mat33 K() const {
         Mat33 K;
-        k << fx_, 0, cx, 0, fy_, cy_, 0, 0, 1;
+        K << fx_, 0, cx_, 0, fy_, cy_, 0, 0, 1;
         return K;
     }
 
@@ -39,9 +39,9 @@ public:
 
     Vec3 pixel2camera(const Vec2& p_p, double depth = 1);
 
-    Vec3 pixel2world(const Vec2& p_p, const SE3& T_c_w, double depth = 1):
+    Vec3 pixel2world(const Vec2& p_p, const SE3& T_c_w, double depth = 1);
 
-    Vec3 world2pixel(const Vec3& p_w, const SE3& T_c_w); 
+    Vec2 world2pixel(const Vec3& p_w, const SE3& T_c_w); 
 };
 
 }

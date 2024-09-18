@@ -27,25 +27,25 @@ public:
     MapPoint(long id, Vec3 position);
 
     Vec3 Pos() {
-        std::unique_mutex<std::mutex> lck(data_mutex_);
+        std::unique_lock<std::mutex> lck(data_mutex_);
         return pos_;
     }
 
-    void setPos(const Vec& Pos) {
-        std::unique_mutex<std::mutex> lck(data_mutex_);
+    void SetPos(const Vec3& Pos) {
+        std::unique_lock<std::mutex> lck(data_mutex_);
         pos_ = Pos;
     }
 
     void AddObservation(std::shared_ptr<Feature> feature) {
-        std::unique_mutex<std::mutex> lck(data_mutex_);
-        observations.push_back(feature);//这里的push是复制操作
+        std::unique_lock<std::mutex> lck(data_mutex_);
+        observations_.push_back(feature);//这里的push是复制操作
         observed_times_++;
     }
 
     void RemoveObservation(std::shared_ptr<Feature> feat);
 
     std::list<std::weak_ptr<Feature>> GetObs() {
-        std::unique_mutex<std::mutex> lck(data_mutex);
+        std::unique_lock<std::mutex> lck(data_mutex_);
         return observations_; 
     }
     //factory function

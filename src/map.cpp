@@ -4,13 +4,13 @@
 namespace myslam {
 
 void Map::InsertMapPoint(MapPoint::Ptr map_point) {
-    if (landmarks_.find(map_point_->id_) == landmarks_.end())
+    if (landmarks_.find(map_point->id_) == landmarks_.end())
     {
         landmarks_.insert(make_pair(map_point->id_, map_point));
         active_landmarks_.insert(make_pair(map_point->id_, map_point));
     } else {
-        landmarks_[map_point->id] = map_point;
-        active_landmarks_[map_point->id] = map_point;
+        landmarks_[map_point->id_] = map_point;
+        active_landmarks_[map_point->id_] = map_point;
     }
 }
 
@@ -25,7 +25,7 @@ void Map::InsertKeyFrame(Frame::Ptr frame) {
         active_keyframes_[frame->keyframe_id_] = frame;
     }
 
-    if (active_keyframes_.size() > num_active_keyframe_) {
+    if (active_keyframes_.size() > num_active_keyframes_) {
         RemoveOldKeyframe();
     }
 }
@@ -38,8 +38,8 @@ void Map::RemoveOldKeyframe() {
     auto Twc = current_frame_->Pose().inverse();
     for (auto& kf : active_keyframes_)
     {
-        if (kf == current_frame_) continue;
-        auto dis = (kf.second->Pose * Twc).log().norm();
+        if (kf.second == current_frame_) continue;
+        auto dis = (kf.second->Pose() * Twc).log().norm();
         if (dis > max_dis) {
             max_dis = dis;
             max_kf_id = kf.first;
@@ -61,7 +61,7 @@ void Map::RemoveOldKeyframe() {
     
     LOG(INFO) << "remove keyframe " << frame_to_remove->keyframe_id_;
 
-    active_keyframes.erase(frame_to_remove->keyframe_id_);
+    active_keyframes_.erase(frame_to_remove->keyframe_id_);
     // 删除地图点在该帧的观测
     for (auto feat : frame_to_remove->features_right_) {
         if (feat == nullptr) continue;
@@ -82,7 +82,7 @@ void Map::CleanMap() {
     for (auto iter = active_landmarks_.begin(); iter!=active_landmarks_.end();)
     {
         if (iter->second->observed_times_ == 0) {
-            iter = active_landmarks.erase(iter);// erase返回删除元素之后的迭代器
+            iter = active_landmarks_.erase(iter);// erase返回删除元素之后的迭代_
             cnt_landmark_removed++;
         } else {
             ++iter;

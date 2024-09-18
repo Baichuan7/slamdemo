@@ -25,7 +25,7 @@ void Viewer::AddCurrentFrame(Frame::Ptr current_frame) {
 void Viewer::UpdateMap() {
     std::unique_lock<std::mutex> lck(viewer_data_mutex_);
     assert(map_ != nullptr);
-    active_keyframe_ = map_->GetActiveKeyFrames();
+    active_keyframes_ = map_->GetActiveKeyFrames();
     active_landmarks_ = map_->GetActiveMapPoints();
     map_updated_ = true;
 }
@@ -42,7 +42,7 @@ void Viewer::ThreadLoop() {
     // 定义窗口尺寸 焦距 视口中心 和摄像机的位置和朝向
     pangolin::OpenGlRenderState vis_camera(
         pangolin::ProjectionMatrix(1024, 768, 400, 400, 512, 384, 0.1, 1000),
-        pangolin::ModelViewLookat(0, -5, -10, 0, 0, 0, 0.0, -1.0, 0.0)
+        pangolin::ModelViewLookAt(0, -5, -10, 0, 0, 0, 0.0, -1.0, 0.0)
     );
 
     // 设置视口边界和比例，提供一个3D处理器Handler3D，用来通过鼠标键盘与场景交互V
@@ -56,17 +56,17 @@ void Viewer::ThreadLoop() {
     // 主循环
     while (!pangolin::ShouldQuit() && viewer_running_) {
         // 清除颜色和深度缓冲区 设置背景颜色为白色
-        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT_);
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
         glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
         //开始渲染当前帧
         vis_display.Activate(vis_camera);
         std::unique_lock<std::mutex> lock(viewer_data_mutex_);
         if (current_frame_) {
-            DrawFrame(current_frame, green);
+            DrawFrame(current_frame_, green);
             FollowCurrentFrame(vis_camera);
             cv::Mat img = PlotFrameImage();
             cv::imshow("image", img);
-            cv::WaitKey(1);
+            cv::waitKey(1);
         }
         if (map_) {
             DrawMapPoints();
@@ -121,14 +121,14 @@ void Viewer::DrawFrame(Frame::Ptr frame, const float* color) {
 void Viewer::FollowCurrentFrame(pangolin::OpenGlRenderState& vis_camera) {
     SE3 Twc = current_frame_->Pose().inverse();
     pangolin::OpenGlMatrix m(Twc.matrix());
-    vis_camera.Follow(m, True);
+    vis_camera.Follow(m, true);
 }
 
 // 在图像上可视化特征点
-void Viewer::PlotFrameImage() {
+cv::Mat Viewer::PlotFrameImage() {
     cv::Mat img_out;
     cv::cvtColor(current_frame_->left_img_, img_out, cv::COLOR_GRAY2BGR);
-    for (size_t i = 0; i < current_frame_->features_left_.size(), ++i) {
+    for (size_t i = 0; i < current_frame_->features_left_.size(); ++i) {
         auto feat = current_frame_->features_left_[i];
         cv::circle(img_out, feat->position_.pt, 2, cv::Scalar(0, 250, 0), 2);
     }
@@ -137,8 +137,8 @@ void Viewer::PlotFrameImage() {
 
 void Viewer::DrawMapPoints() {
     const float red[3] = {1.0, 0, 0};
-    for (auto& kf : acitive_keyframes_) {
-        DrawFrame(kf, red);
+    for (auto& kf : active_keyframes_) {
+        DrawFrame(kf.second, red);
     }
 
     glPointSize(2);

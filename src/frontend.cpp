@@ -11,11 +11,11 @@
 
 namespace myslam {
 
-Frontend::Frondend() {
+Frontend::Frontend() {
     gftt_ = 
         cv::GFTTDetector::create(Config::Get<int>("num_features"), 0.01, 20);
     num_features_init_ = Config::Get<int>("num_features_init");
-    num_features= Config::Get<int>("num_features");
+    num_features_ = Config::Get<int>("num_features");
 }
 
 bool Frontend::AddFrame(myslam::Frame::Ptr frame) {
@@ -62,9 +62,9 @@ bool Frontend::Track() {
     }
 
    InsertKeyframe(); 
-   relative_motion_ = current_frame_->Pose() * last_frame_->Pose().Inverse();
+   relative_motion_ = current_frame_->Pose() * last_frame_->Pose().inverse();
 
-   if(viewer_) viewer_->AddCurrentFrame(current_frame);
+   if(viewer_) viewer_->AddCurrentFrame(current_frame_);
    return true;
 }
 
@@ -74,7 +74,7 @@ bool Frontend::Track() {
 / 和地图点
 / */
 bool Frontend::InsertKeyframe() {
-    if (tracking_inliners_ => num_features_needed_for_keyframe_) {
+    if (tracking_inliners_ >= num_features_needed_for_keyframe_) {
         // 这里的插入策略采取跟踪的特征点不够的时候才补关键帧
         return false;
     }
@@ -82,7 +82,7 @@ bool Frontend::InsertKeyframe() {
     current_frame_->SetKeyFrame();
     map_->InsertKeyFrame(current_frame_);
 
-    LOG(INFO) << "Set frame" << current_frame_->id << "as ketframe" 
+    LOG(INFO) << "Set frame " << current_frame_->id_ << " as keyframe " 
             << current_frame_->keyframe_id_;
 
     SetObservationsForKeyFrame();
@@ -102,7 +102,7 @@ bool Frontend::InsertKeyframe() {
 / 这里把mappoint中的observations对应上这里的新feature
 */
 void Frontend::SetObservationsForKeyFrame() {
-    for (auto& feat : current_frame_->features_left) {
+    for (auto& feat : current_frame_->features_left_) {
         auto mp = feat->map_point_.lock();
         if (mp) mp->AddObservation(feat);
     }
@@ -126,13 +126,13 @@ int Frontend::TriangulateNewPoints() {
                             current_frame_->features_left_[i]->position_.pt.y)),
                 camera_right_->pixel2camera(
                     Vec2(current_frame_->features_right_[i]->position_.pt.x,
-                            current_frame_->features_right_[i]->position_.pt.y));
-            }
+                            current_frame_->features_right_[i]->position_.pt.y))
+            };
             Vec3 pworld = Vec3::Zero();
 
             if (triangulation(poses, points, pworld) && pworld[2] > 0) {
                 auto new_map_point = MapPoint::CreateNewMappoint();
-                pworld = curren_pose_Twc * pworld;
+                pworld = current_pose_Twc * pworld;
                 new_map_point->SetPos(pworld);
                 new_map_point->AddObservation(current_frame_->features_left_[i]);
                 new_map_point->AddObservation(current_frame_->features_right_[i]);
@@ -176,7 +176,7 @@ int Frontend::DetectFeatures() {
     cv::Mat mask(current_frame_->left_img_.size(), CV_8UC1, 255);
     for (auto& feat : current_frame_->features_left_) {
         cv::rectangle(mask, feat->position_.pt - cv::Point2f(10, 10),
-                        feat_->position_.pt + cv::Point2f(10, 10), 0, cv::FILLED);
+                        feat->position_.pt + cv::Point2f(10, 10), 0, cv::FILLED);
     }
     std::vector<cv::KeyPoint> keypoints;
     gftt_->detect(current_frame_->left_img_, keypoints, mask);
@@ -188,7 +188,7 @@ int Frontend::DetectFeatures() {
         cnt_detected++;
     }
 
-    LOG(INFO) << "Detected " << cnt_detected << "new features";
+    LOG(INFO) << "Detected " << cnt_detected << " new features";
     return cnt_detected;
 }
 
@@ -202,8 +202,8 @@ int Frontend::FindFeaturesInRight() {
         kps_left.push_back(kp->position_.pt);
         auto mp = kp->map_point_.lock();
         if (mp) {
-            auto px = camera_right_->world2pixel(mp->pos_, current_frame_Pose());
-            kps_right.push_back(kp->positon_.pt);
+            auto px = camera_right_->world2pixel(mp->pos_, current_frame_->Pose());
+            kps_right.push_back(cv::Point2f(px[0], px[1]));
         }
         else {
             kps_right.push_back(kp->position_.pt);
@@ -223,16 +223,16 @@ int Frontend::FindFeaturesInRight() {
         if (status[i]) {
             cv::KeyPoint kp(kps_right[i], 7);
             Feature::Ptr feat(new Feature(current_frame_, kp));
-            feat->is_on_left_image = false;
+            feat->is_on_left_image_ = false;
             current_frame_->features_right_.push_back(feat);
             num_good_pts++;
         }
         else {
-            current_frame_->feature_right_.push_back(nullptr);
+            current_frame_->features_right_.push_back(nullptr);
         }
     }
 
-    LOG(INFO) << "Find " << num_good_pts << "features in the right image.";
+    LOG(INFO) << "Find " << num_good_pts << " features in the right image.";
     return num_good_pts;
 }
 
@@ -271,7 +271,7 @@ int Frontend::TrackLastFrame() {
         cv::OPTFLOW_USE_INITIAL_FLOW
     );
 
-    int num_good_pts = 0,
+    int num_good_pts = 0;
 
     // 在当前帧中添加特征，光流跟踪上的特征都加入current_frame_中
     // 每个特征都对应上地图点
@@ -279,8 +279,8 @@ int Frontend::TrackLastFrame() {
         if (status[i]) {
             cv::KeyPoint kp(kps_current[i], 7);//7是领域大小，用来给描述子指定邻域大小
             Feature::Ptr feature(new Feature(current_frame_, kp));
-            feature->map_point_ = last_frame_->feature_left_[i]->map_point_;
-            current_frame_->feature_left_.push_back(feature);
+            feature->map_point_ = last_frame_->features_left_[i]->map_point_;
+            current_frame_->features_left_.push_back(feature);
             num_good_pts++;
         }
     }
@@ -310,43 +310,43 @@ int Frontend::EstimateCurrentPose () {
 
     VertexPose* vertex_pose = new VertexPose();
     vertex_pose->setId(0);
-    vertex_pose->setEstimate(current_frame->Pose());
+    vertex_pose->setEstimate(current_frame_->Pose());
     optimizer.addVertex(vertex_pose);
 
-    Mat33 = camera_left_->K();
+    Mat33 K = camera_left_->K();
 
-    int index = 0;
+    int index = 1;
     std::vector<EdgeProjectionPoseOnly*> edges;
     std::vector<Feature::Ptr> features;
     for (size_t i = 0; i < current_frame_->features_left_.size(); i++)
     {
-        auto mp = current_frame->feature_left_[i]->map_point_.lock();
+        auto mp = current_frame_->features_left_[i]->map_point_.lock();
         if(mp) {
-            features.push_back(current_frame_->feature_left_[i]);
-            EdgeProjectionPoseOnly* edge = new EdgeProjectionPoseOnly();
+            features.push_back(current_frame_->features_left_[i]);
+            EdgeProjectionPoseOnly* edge = new EdgeProjectionPoseOnly(mp->Pos(), K);
             edge->setId(index);
             edge->setVertex(0, vertex_pose);
-            edge->setMeasurement(current_frame_->feature_left_[i]->position_.pt);
-            edge->setInformation(Eigen::Matrix2d::Indentity());
-            edge->setRobustKernel(new g2o::RObustKernelHuber);
+            edge->setMeasurement(toVec2(current_frame_->features_left_[i]->position_.pt));
+            edge->setInformation(Eigen::Matrix2d::Identity());
+            edge->setRobustKernel(new g2o::RobustKernelHuber);
             edges.push_back(edge);
             optimizer.addEdge(edge);
-            index++
+            index++;
         }
     }
 
     //筛选外点
     // 10次优化后，计算当前当前外点的误差，然后对所有点，检测其卡方（chi2=error*\omega*error)大小普安段是否为外点
     const double chi2_th = 5.991;
-    int cnt_inliner = 0;
-    for (int iteration = 0; iteration < 4; iteration++) {
-        vertex_pose->setEstimation(current_frame_->Pose);
-        optimizer.initialOptimization();
+    int cnt_outlier = 0;
+    for (int iteration = 0; iteration < 4; ++iteration) {
+        vertex_pose->setEstimate(current_frame_->Pose());
+        optimizer.initializeOptimization();
         optimizer.optimize(10);
         cnt_outlier = 0;
         // 外点的边会setevel(1), 可以在optimizer.initializeOptimization(int )中选择优化的范围，不会优化>=int的边
         for(size_t i = 0; i < edges.size(); i++) {
-            auto e = edge[i];
+            auto e = edges[i];
             if (features[i]->is_outlier_) {e->computeError();}
             if (e->chi2() > chi2_th) {
                 features[i]->is_outlier_ = true;
@@ -363,9 +363,9 @@ int Frontend::EstimateCurrentPose () {
     }
 
     LOG(INFO) << "Outlier/Inlier in Pose estimation: " << cnt_outlier << "/" <<
-                features.size - cnt_outlier;
+                features.size() - cnt_outlier;
 
-    current_frame_->SetPose(vertex_pose->estimation());
+    current_frame_->SetPose(vertex_pose->estimate());
 
     LOG(INFO) << "Current pose: \n" << current_frame_->Pose().matrix();
 
@@ -376,12 +376,12 @@ int Frontend::EstimateCurrentPose () {
     for (auto& feat : features)
     {
         if (feat->is_outlier_) {
-            feat->map_point.reset();//注意这是shared_ptr的方法
+            feat->map_point_.reset();//注意这是shared_ptr的方法
             feat->is_outlier_ = false;
         }
     }
         //返回内点数量
-        return feature.size() - cnt_outlier;
+        return features.size() - cnt_outlier;
     }
 
 // 用左右帧进行三角化后建图
@@ -397,8 +397,8 @@ bool Frontend::BuildInitMap() {
                         current_frame_->features_left_[i]->position_.pt.y)),
             camera_right_->pixel2camera(
                 Vec2(current_frame_->features_right_[i]->position_.pt.x,
-                        current_frame_->features_right_[i]->position_.pt.y));
-        }
+                        current_frame_->features_right_[i]->position_.pt.y))
+        };
         Vec3 pworld = Vec3::Zero();
 
         if (triangulation(poses, points, pworld) && pworld[2] > 0) {
@@ -417,7 +417,7 @@ bool Frontend::BuildInitMap() {
     map_->InsertKeyFrame(current_frame_);
     backend_->UpdateMap();
 
-    LOG(INFO) << "Initial map created with " << cnt_init_landmarks << "map points.";
+    LOG(INFO) << "Initial map created with " << cnt_init_landmarks << " map points.";
     return true;
 }
 

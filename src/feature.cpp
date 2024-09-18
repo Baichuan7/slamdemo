@@ -1,6 +1,6 @@
 
 #include "myslam/feature.h"
 
-namesapce myslam {
+namespace myslam {
 
 }

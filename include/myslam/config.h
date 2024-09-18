@@ -14,7 +14,7 @@ private:
     static std::shared_ptr<Config> config_;
     cv::FileStorage file_;
 
-    Config();
+    Config() {}
 public:
     ~Config();
 

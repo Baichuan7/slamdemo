@@ -5,7 +5,7 @@
 
 namespace myslam {
 
-VisualOdometry::VisualOdometry(const string& config_file) : config_file_path_(config_file) {}
+VisualOdometry::VisualOdometry(const std::string& config_file) : config_file_path_(config_file) {}
 
 bool VisualOdometry::Init() {
     // read from config file 
@@ -44,12 +44,12 @@ void VisualOdometry::Run() {
     backend_->Stop();
     viewer_->Close();
 
-    LOG(INFO) << "VO exit."
+    LOG(INFO) << "VO exit.";
 }
 
-void VisualOdometry::Step() {
+bool VisualOdometry::Step() {
     Frame::Ptr new_frame = dataset_->NextFrame();
-    if (new_frame == false ) return false;
+    if (new_frame == nullptr ) return false;
 
     auto t1 = std::chrono::steady_clock::now();
     bool success = frontend_->AddFrame(new_frame);

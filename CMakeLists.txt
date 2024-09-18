@@ -4,7 +4,7 @@ project(myslam) # ${PROJECT_NAME}
 set(CMAKE_BUILD_TYPE Debug)
 
 set(CMAKE_CXX_FLAGS "-std=c++17 -Wall") # 传递给C++编译器的编译标志，c++17标准，启用编译器所有常见警告
-set(CMAKE_CXX_FLAGS_RELEASE "-std=c++17 -03 -fopenmp -pthread")# 在release下的编译标志 -03最高级别优化 -fopenmp启用OpenMP支持（多线程并行编程API) -pthread启用POSIX线程支持
+set(CMAKE_CXX_FLAGS_RELEASE "-std=c++17 -O3 -fopenmp -pthread")# 在release下的编译标志 -03最高级别优化 -fopenmp启用OpenMP支持（多线程并行编程API) -pthread启用POSIX线程支持
 
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules)# list append 用于在列表变量追加元素，CMAKE_MODULE_PATH是查找.cmake模块文件的列表
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
@@ -56,6 +56,7 @@ set(THIRD_PARTY_LIBS
         g2o_core g2o_stuff g2o_types_sba g2o_solver_csparse g2o_csparse_extension
         ${GTEST_BOTH_LIBRARIES}
         ${GLOG_LIBRARIES}
+        ${GFLAGS_LIBRARIES}
         pthread
         ${CSPARSE_LIBRARY})
 

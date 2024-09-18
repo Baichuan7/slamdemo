@@ -41,9 +41,9 @@ bool Dataset::Init() {
         t = K.inverse() * t;
         K = K * 0.5;
 
-        Camera::Ptr new_camera(new Camera(K(0,0), K(1,1), K(0,2), K(1,2), t.norm(), SE3(SO3(), t)));
+        Camera::Ptr new_camera(new Camera(K(0,0), K(1,1), K(0,2), K(1,2), t.norm(), SE3(SO3(), t)));// 这里的SE3（SO3,t））是右值（临时变量），只有函数参数类型是const ref编译器才不会报错
         cameras_.push_back(new_camera);
-        LOG(INFO) << "Camera " << i << " extrinsics: " t.transpose();
+        LOG(INFO) << "Camera " << i << " extrinsics: " << t.transpose();
     }
     fin.close();
     current_image_index_ = 0;

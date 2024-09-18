@@ -1,0 +1,28 @@
+Start testing: Sep 18 10:50 CST
+----------------------------------------------------------
+1/1 Testing: test_triangulation
+1/1 Test: test_triangulation
+Command: "/home/liubaichuan/Work/slamdemo/bin/test_triangulation"
+Directory: /home/liubaichuan/Work/slamdemo/build/test
+"test_triangulation" start time: Sep 18 10:50 CST
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MyslamTest
+[ RUN      ] MyslamTest.Triangulation
+[       OK ] MyslamTest.Triangulation (0 ms)
+[----------] 1 test from MyslamTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_triangulation" end time: Sep 18 10:50 CST
+"test_triangulation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 18 10:50 CST

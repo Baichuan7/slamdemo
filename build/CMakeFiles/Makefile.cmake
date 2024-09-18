@@ -16,6 +16,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/liubaichuan/Work/slamdemo/cmake_modules/FindG2O.cmake"
   "/home/liubaichuan/Work/slamdemo/cmake_modules/FindGlog.cmake"
   "/home/liubaichuan/Work/slamdemo/src/CMakeLists.txt"
+  "/home/liubaichuan/Work/slamdemo/test/CMakeLists.txt"
   "/usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-config-version.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-config.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-nonamespace-targets-release.cmake"
@@ -76,10 +77,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "app/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/myslam.dir/DependInfo.cmake"
   "app/CMakeFiles/run_kitti_stereo.dir/DependInfo.cmake"
+  "test/CMakeFiles/test_triangulation.dir/DependInfo.cmake"
   )

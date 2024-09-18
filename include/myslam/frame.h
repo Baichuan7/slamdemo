@@ -12,7 +12,7 @@ struct MapPoint;
 struct Feature;
 struct Frame {
 public:
-    EIGEN_MAKE_ALIGENED_OPERATOR_NEW
+    EIGEN_MAKE_ALIGNED_OPERATOR_NEW;
     typedef std::shared_ptr<Frame> Ptr;//为什么需要共享指针
 
     unsigned long id_ = 0;

@@ -9,3 +9,7 @@
 /home/liubaichuan/Work/slamdemo/build/app/CMakeFiles/test.dir
 /home/liubaichuan/Work/slamdemo/build/app/CMakeFiles/edit_cache.dir
 /home/liubaichuan/Work/slamdemo/build/app/CMakeFiles/rebuild_cache.dir
+/home/liubaichuan/Work/slamdemo/build/test/CMakeFiles/test_triangulation.dir
+/home/liubaichuan/Work/slamdemo/build/test/CMakeFiles/test.dir
+/home/liubaichuan/Work/slamdemo/build/test/CMakeFiles/edit_cache.dir
+/home/liubaichuan/Work/slamdemo/build/test/CMakeFiles/rebuild_cache.dir

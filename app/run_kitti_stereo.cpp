@@ -5,10 +5,10 @@ DEFINE_string(config_file, "./config/default.yaml", "config file path"
 );
 
 int main (int argv, char** argc) {
-    gflags::ParseCommandLineFlags(&argc, &argv, true);
+    gflags::ParseCommandLineFlags(&argv, &argc, true);
 
     myslam::VisualOdometry::Ptr vo(
-        new VisualOdometry(FLAGS_config_file)
+        new myslam::VisualOdometry(FLAGS_config_file)
     );
     assert(vo->Init() == true);
     vo->Run();
