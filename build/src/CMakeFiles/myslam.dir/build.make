@@ -289,8 +289,7 @@ myslam_EXTERNAL_OBJECTS =
 /home/liubaichuan/Work/slamdemo/lib/libmyslam.so: /usr/local/lib/libpango_scene.so.0.9.2
 /home/liubaichuan/Work/slamdemo/lib/libmyslam.so: /usr/local/lib/libpango_tools.so.0.9.2
 /home/liubaichuan/Work/slamdemo/lib/libmyslam.so: /usr/local/lib/libpango_video.so.0.9.2
-/home/liubaichuan/Work/slamdemo/lib/libmyslam.so: /usr/lib/libgtest.a
-/home/liubaichuan/Work/slamdemo/lib/libmyslam.so: /usr/lib/libgtest_main.a
+/home/liubaichuan/Work/slamdemo/lib/libmyslam.so: /home/liubaichuan/anaconda3/lib/libgtest_main.so.1.11.0
 /home/liubaichuan/Work/slamdemo/lib/libmyslam.so: /usr/lib/x86_64-linux-gnu/libglog.so
 /home/liubaichuan/Work/slamdemo/lib/libmyslam.so: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
 /home/liubaichuan/Work/slamdemo/lib/libmyslam.so: /usr/lib/x86_64-linux-gnu/libcxsparse.so
@@ -326,6 +325,7 @@ myslam_EXTERNAL_OBJECTS =
 /home/liubaichuan/Work/slamdemo/lib/libmyslam.so: /usr/local/lib/libpango_image.so.0.9.2
 /home/liubaichuan/Work/slamdemo/lib/libmyslam.so: /usr/local/lib/libpango_packetstream.so.0.9.2
 /home/liubaichuan/Work/slamdemo/lib/libmyslam.so: /usr/local/lib/libpango_core.so.0.9.2
+/home/liubaichuan/Work/slamdemo/lib/libmyslam.so: /home/liubaichuan/anaconda3/lib/libgtest.so.1.11.0
 /home/liubaichuan/Work/slamdemo/lib/libmyslam.so: src/CMakeFiles/myslam.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/liubaichuan/Work/slamdemo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX shared library /home/liubaichuan/Work/slamdemo/lib/libmyslam.so"
 	cd /home/liubaichuan/Work/slamdemo/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/myslam.dir/link.txt --verbose=$(VERBOSE)

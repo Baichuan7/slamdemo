@@ -12,6 +12,13 @@ src/CMakeFiles/myslam.dir/backend.cpp.o
  /home/liubaichuan/Work/slamdemo/include/myslam/g2o_types.h
  /home/liubaichuan/Work/slamdemo/include/myslam/map.h
  /home/liubaichuan/Work/slamdemo/include/myslam/mappoint.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h
+ /home/liubaichuan/anaconda3/include/glog/export.h
+ /home/liubaichuan/anaconda3/include/glog/log_severity.h
+ /home/liubaichuan/anaconda3/include/glog/logging.h
+ /home/liubaichuan/anaconda3/include/glog/vlog_is_on.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
@@ -397,12 +404,6 @@ src/CMakeFiles/myslam.dir/backend.cpp.o
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
- /usr/include/gflags/gflags.h
- /usr/include/gflags/gflags_declare.h
- /usr/include/gflags/gflags_gflags.h
- /usr/include/glog/log_severity.h
- /usr/include/glog/logging.h
- /usr/include/glog/vlog_is_on.h
  /usr/include/inttypes.h
  /usr/include/libintl.h
  /usr/include/limits.h
@@ -630,6 +631,13 @@ src/CMakeFiles/myslam.dir/camera.cpp.o
  /home/liubaichuan/Work/slamdemo/src/camera.cpp
  /home/liubaichuan/Work/slamdemo/include/myslam/camera.h
  /home/liubaichuan/Work/slamdemo/include/myslam/common_include.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h
+ /home/liubaichuan/anaconda3/include/glog/export.h
+ /home/liubaichuan/anaconda3/include/glog/log_severity.h
+ /home/liubaichuan/anaconda3/include/glog/logging.h
+ /home/liubaichuan/anaconda3/include/glog/vlog_is_on.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
@@ -985,12 +993,6 @@ src/CMakeFiles/myslam.dir/camera.cpp.o
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
- /usr/include/gflags/gflags.h
- /usr/include/gflags/gflags_declare.h
- /usr/include/gflags/gflags_gflags.h
- /usr/include/glog/log_severity.h
- /usr/include/glog/logging.h
- /usr/include/glog/vlog_is_on.h
  /usr/include/inttypes.h
  /usr/include/limits.h
  /usr/include/linux/close_range.h
@@ -1157,6 +1159,13 @@ src/CMakeFiles/myslam.dir/config.cpp.o
  /home/liubaichuan/Work/slamdemo/src/config.cpp
  /home/liubaichuan/Work/slamdemo/include/myslam/common_include.h
  /home/liubaichuan/Work/slamdemo/include/myslam/config.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h
+ /home/liubaichuan/anaconda3/include/glog/export.h
+ /home/liubaichuan/anaconda3/include/glog/log_severity.h
+ /home/liubaichuan/anaconda3/include/glog/logging.h
+ /home/liubaichuan/anaconda3/include/glog/vlog_is_on.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
@@ -1512,12 +1521,6 @@ src/CMakeFiles/myslam.dir/config.cpp.o
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
- /usr/include/gflags/gflags.h
- /usr/include/gflags/gflags_declare.h
- /usr/include/gflags/gflags_gflags.h
- /usr/include/glog/log_severity.h
- /usr/include/glog/logging.h
- /usr/include/glog/vlog_is_on.h
  /usr/include/inttypes.h
  /usr/include/limits.h
  /usr/include/linux/close_range.h
@@ -1686,216 +1689,244 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o
  /home/liubaichuan/Work/slamdemo/include/myslam/common_include.h
  /home/liubaichuan/Work/slamdemo/include/myslam/dataset.h
  /home/liubaichuan/Work/slamdemo/include/myslam/frame.h
+ /home/liubaichuan/anaconda3/include/boost/assert.hpp
+ /home/liubaichuan/anaconda3/include/boost/assert/source_location.hpp
+ /home/liubaichuan/anaconda3/include/boost/config.hpp
+ /home/liubaichuan/anaconda3/include/boost/config/compiler/gcc.hpp
+ /home/liubaichuan/anaconda3/include/boost/config/detail/cxx_composite.hpp
+ /home/liubaichuan/anaconda3/include/boost/config/detail/posix_features.hpp
+ /home/liubaichuan/anaconda3/include/boost/config/detail/select_compiler_config.hpp
+ /home/liubaichuan/anaconda3/include/boost/config/detail/select_platform_config.hpp
+ /home/liubaichuan/anaconda3/include/boost/config/detail/select_stdlib_config.hpp
+ /home/liubaichuan/anaconda3/include/boost/config/detail/suffix.hpp
+ /home/liubaichuan/anaconda3/include/boost/config/helper_macros.hpp
+ /home/liubaichuan/anaconda3/include/boost/config/platform/linux.hpp
+ /home/liubaichuan/anaconda3/include/boost/config/pragma_message.hpp
+ /home/liubaichuan/anaconda3/include/boost/config/stdlib/libstdcpp3.hpp
+ /home/liubaichuan/anaconda3/include/boost/config/user.hpp
+ /home/liubaichuan/anaconda3/include/boost/config/workaround.hpp
+ /home/liubaichuan/anaconda3/include/boost/core/addressof.hpp
+ /home/liubaichuan/anaconda3/include/boost/core/allocator_access.hpp
+ /home/liubaichuan/anaconda3/include/boost/core/checked_delete.hpp
+ /home/liubaichuan/anaconda3/include/boost/core/enable_if.hpp
+ /home/liubaichuan/anaconda3/include/boost/core/explicit_operator_bool.hpp
+ /home/liubaichuan/anaconda3/include/boost/core/ignore_unused.hpp
+ /home/liubaichuan/anaconda3/include/boost/core/pointer_traits.hpp
+ /home/liubaichuan/anaconda3/include/boost/core/swap.hpp
+ /home/liubaichuan/anaconda3/include/boost/cstdint.hpp
+ /home/liubaichuan/anaconda3/include/boost/current_function.hpp
+ /home/liubaichuan/anaconda3/include/boost/detail/workaround.hpp
+ /home/liubaichuan/anaconda3/include/boost/exception/exception.hpp
+ /home/liubaichuan/anaconda3/include/boost/format.hpp
+ /home/liubaichuan/anaconda3/include/boost/format/alt_sstream.hpp
+ /home/liubaichuan/anaconda3/include/boost/format/alt_sstream_impl.hpp
+ /home/liubaichuan/anaconda3/include/boost/format/detail/compat_workarounds.hpp
+ /home/liubaichuan/anaconda3/include/boost/format/detail/config_macros.hpp
+ /home/liubaichuan/anaconda3/include/boost/format/detail/msvc_disambiguater.hpp
+ /home/liubaichuan/anaconda3/include/boost/format/detail/unset_macros.hpp
+ /home/liubaichuan/anaconda3/include/boost/format/detail/workarounds_gcc-2_95.hpp
+ /home/liubaichuan/anaconda3/include/boost/format/detail/workarounds_stlport.hpp
+ /home/liubaichuan/anaconda3/include/boost/format/exceptions.hpp
+ /home/liubaichuan/anaconda3/include/boost/format/feed_args.hpp
+ /home/liubaichuan/anaconda3/include/boost/format/format_class.hpp
+ /home/liubaichuan/anaconda3/include/boost/format/format_fwd.hpp
+ /home/liubaichuan/anaconda3/include/boost/format/format_implementation.hpp
+ /home/liubaichuan/anaconda3/include/boost/format/free_funcs.hpp
+ /home/liubaichuan/anaconda3/include/boost/format/group.hpp
+ /home/liubaichuan/anaconda3/include/boost/format/internals.hpp
+ /home/liubaichuan/anaconda3/include/boost/format/internals_fwd.hpp
+ /home/liubaichuan/anaconda3/include/boost/format/parsing.hpp
+ /home/liubaichuan/anaconda3/include/boost/limits.hpp
+ /home/liubaichuan/anaconda3/include/boost/move/core.hpp
+ /home/liubaichuan/anaconda3/include/boost/move/detail/addressof.hpp
+ /home/liubaichuan/anaconda3/include/boost/move/detail/config_begin.hpp
+ /home/liubaichuan/anaconda3/include/boost/move/detail/config_end.hpp
+ /home/liubaichuan/anaconda3/include/boost/move/detail/meta_utils.hpp
+ /home/liubaichuan/anaconda3/include/boost/move/detail/meta_utils_core.hpp
+ /home/liubaichuan/anaconda3/include/boost/move/detail/type_traits.hpp
+ /home/liubaichuan/anaconda3/include/boost/move/detail/workaround.hpp
+ /home/liubaichuan/anaconda3/include/boost/move/traits.hpp
+ /home/liubaichuan/anaconda3/include/boost/move/utility.hpp
+ /home/liubaichuan/anaconda3/include/boost/move/utility_core.hpp
+ /home/liubaichuan/anaconda3/include/boost/none.hpp
+ /home/liubaichuan/anaconda3/include/boost/none_t.hpp
+ /home/liubaichuan/anaconda3/include/boost/optional.hpp
+ /home/liubaichuan/anaconda3/include/boost/optional/bad_optional_access.hpp
+ /home/liubaichuan/anaconda3/include/boost/optional/detail/optional_aligned_storage.hpp
+ /home/liubaichuan/anaconda3/include/boost/optional/detail/optional_config.hpp
+ /home/liubaichuan/anaconda3/include/boost/optional/detail/optional_factory_support.hpp
+ /home/liubaichuan/anaconda3/include/boost/optional/detail/optional_hash.hpp
+ /home/liubaichuan/anaconda3/include/boost/optional/detail/optional_reference_spec.hpp
+ /home/liubaichuan/anaconda3/include/boost/optional/detail/optional_relops.hpp
+ /home/liubaichuan/anaconda3/include/boost/optional/detail/optional_swap.hpp
+ /home/liubaichuan/anaconda3/include/boost/optional/detail/optional_trivially_copyable_base.hpp
+ /home/liubaichuan/anaconda3/include/boost/optional/optional.hpp
+ /home/liubaichuan/anaconda3/include/boost/optional/optional_fwd.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/arithmetic/add.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/arithmetic/dec.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/arithmetic/detail/is_maximum_number.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/arithmetic/detail/is_minimum_number.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/arithmetic/detail/maximum_number.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/arithmetic/inc.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/arithmetic/limits/dec_256.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/arithmetic/limits/inc_256.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/arithmetic/sub.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/cat.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/comparison/equal.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/comparison/limits/not_equal_256.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/comparison/not_equal.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/config/config.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/config/limits.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/control/detail/limits/while_256.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/control/detail/while.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/control/expr_iif.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/control/if.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/control/iif.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/control/limits/while_256.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/control/while.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/debug/error.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/detail/auto_rec.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/detail/check.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/detail/is_binary.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/detail/limits/auto_rec_256.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/facilities/check_empty.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/facilities/empty.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/facilities/expand.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/facilities/identity.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/facilities/overload.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/list/adt.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/list/detail/fold_left.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/list/detail/fold_right.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/list/detail/limits/fold_left_256.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/list/detail/limits/fold_right_256.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/list/fold_left.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/list/fold_right.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/list/limits/fold_left_256.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/list/reverse.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/logical/and.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/logical/bitand.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/logical/bitor.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/logical/bool.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/logical/compl.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/logical/limits/bool_256.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/logical/not.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/punctuation/comma.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/punctuation/comma_if.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/repetition/enum_binary_params.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/repetition/enum_params.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/repetition/limits/repeat_256.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/repetition/repeat.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/repetition/repeat_from_to.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/tuple/detail/is_single_return.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/tuple/eat.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/tuple/elem.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/tuple/rem.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/variadic/elem.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/variadic/has_opt.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/variadic/limits/elem_64.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/variadic/limits/size_64.hpp
+ /home/liubaichuan/anaconda3/include/boost/preprocessor/variadic/size.hpp
+ /home/liubaichuan/anaconda3/include/boost/shared_ptr.hpp
+ /home/liubaichuan/anaconda3/include/boost/smart_ptr/bad_weak_ptr.hpp
+ /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/local_counted_base.hpp
+ /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/local_sp_deleter.hpp
+ /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/operator_bool.hpp
+ /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/requires_cxx11.hpp
+ /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/shared_count.hpp
+ /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_convertible.hpp
+ /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_counted_base.hpp
+ /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_counted_base_gcc_atomic.hpp
+ /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_counted_impl.hpp
+ /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp
+ /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_has_gcc_intrinsics.hpp
+ /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp
+ /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_noexcept.hpp
+ /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_nullptr_t.hpp
+ /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_thread_pause.hpp
+ /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_thread_sleep.hpp
+ /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_typeinfo_.hpp
+ /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/spinlock.hpp
+ /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp
+ /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/spinlock_pool.hpp
+ /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/yield_k.hpp
+ /home/liubaichuan/anaconda3/include/boost/smart_ptr/shared_ptr.hpp
+ /home/liubaichuan/anaconda3/include/boost/static_assert.hpp
+ /home/liubaichuan/anaconda3/include/boost/throw_exception.hpp
+ /home/liubaichuan/anaconda3/include/boost/type.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/add_lvalue_reference.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/add_pointer.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/add_reference.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/add_rvalue_reference.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/alignment_of.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/conditional.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/conjunction.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/decay.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/declval.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/detail/config.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/detail/is_function_cxx_11.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/detail/yes_no_type.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/disjunction.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/enable_if.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/has_nothrow_assign.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/has_nothrow_constructor.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/has_trivial_move_assign.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/integral_constant.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/intrinsics.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_abstract.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_arithmetic.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_array.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_assignable.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_base_and_derived.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_base_of.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_class.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_complete.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_const.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_constructible.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_convertible.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_default_constructible.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_destructible.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_enum.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_floating_point.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_function.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_integral.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_lvalue_reference.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_member_function_pointer.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_member_pointer.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_nothrow_move_assignable.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_nothrow_move_constructible.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_pod.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_pointer.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_reference.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_rvalue_reference.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_same.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_scalar.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_void.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/is_volatile.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/remove_bounds.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/remove_const.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/remove_cv.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/remove_extent.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/remove_reference.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/type_identity.hpp
+ /home/liubaichuan/anaconda3/include/boost/type_traits/type_with_alignment.hpp
+ /home/liubaichuan/anaconda3/include/boost/utility/base_from_member.hpp
+ /home/liubaichuan/anaconda3/include/boost/utility/compare_pointees.hpp
+ /home/liubaichuan/anaconda3/include/boost/utility/detail/result_of_variadic.hpp
+ /home/liubaichuan/anaconda3/include/boost/utility/enable_if.hpp
+ /home/liubaichuan/anaconda3/include/boost/utility/result_of.hpp
+ /home/liubaichuan/anaconda3/include/boost/version.hpp
+ /home/liubaichuan/anaconda3/include/gflags/gflags.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h
+ /home/liubaichuan/anaconda3/include/glog/export.h
+ /home/liubaichuan/anaconda3/include/glog/log_severity.h
+ /home/liubaichuan/anaconda3/include/glog/logging.h
+ /home/liubaichuan/anaconda3/include/glog/vlog_is_on.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
  /usr/include/assert.h
- /usr/include/boost/assert.hpp
- /usr/include/boost/assert/source_location.hpp
- /usr/include/boost/checked_delete.hpp
- /usr/include/boost/config.hpp
- /usr/include/boost/config/compiler/gcc.hpp
- /usr/include/boost/config/detail/posix_features.hpp
- /usr/include/boost/config/detail/select_compiler_config.hpp
- /usr/include/boost/config/detail/select_platform_config.hpp
- /usr/include/boost/config/detail/select_stdlib_config.hpp
- /usr/include/boost/config/detail/suffix.hpp
- /usr/include/boost/config/helper_macros.hpp
- /usr/include/boost/config/platform/linux.hpp
- /usr/include/boost/config/pragma_message.hpp
- /usr/include/boost/config/stdlib/libstdcpp3.hpp
- /usr/include/boost/config/user.hpp
- /usr/include/boost/config/workaround.hpp
- /usr/include/boost/core/addressof.hpp
- /usr/include/boost/core/allocator_access.hpp
- /usr/include/boost/core/checked_delete.hpp
- /usr/include/boost/core/enable_if.hpp
- /usr/include/boost/core/explicit_operator_bool.hpp
- /usr/include/boost/core/ignore_unused.hpp
- /usr/include/boost/core/pointer_traits.hpp
- /usr/include/boost/core/swap.hpp
- /usr/include/boost/cstdint.hpp
- /usr/include/boost/current_function.hpp
- /usr/include/boost/detail/workaround.hpp
- /usr/include/boost/exception/exception.hpp
- /usr/include/boost/format.hpp
- /usr/include/boost/format/alt_sstream.hpp
- /usr/include/boost/format/alt_sstream_impl.hpp
- /usr/include/boost/format/detail/compat_workarounds.hpp
- /usr/include/boost/format/detail/config_macros.hpp
- /usr/include/boost/format/detail/msvc_disambiguater.hpp
- /usr/include/boost/format/detail/unset_macros.hpp
- /usr/include/boost/format/detail/workarounds_gcc-2_95.hpp
- /usr/include/boost/format/detail/workarounds_stlport.hpp
- /usr/include/boost/format/exceptions.hpp
- /usr/include/boost/format/feed_args.hpp
- /usr/include/boost/format/format_class.hpp
- /usr/include/boost/format/format_fwd.hpp
- /usr/include/boost/format/format_implementation.hpp
- /usr/include/boost/format/free_funcs.hpp
- /usr/include/boost/format/group.hpp
- /usr/include/boost/format/internals.hpp
- /usr/include/boost/format/internals_fwd.hpp
- /usr/include/boost/format/parsing.hpp
- /usr/include/boost/limits.hpp
- /usr/include/boost/move/core.hpp
- /usr/include/boost/move/detail/config_begin.hpp
- /usr/include/boost/move/detail/config_end.hpp
- /usr/include/boost/move/detail/meta_utils.hpp
- /usr/include/boost/move/detail/meta_utils_core.hpp
- /usr/include/boost/move/detail/type_traits.hpp
- /usr/include/boost/move/detail/workaround.hpp
- /usr/include/boost/move/traits.hpp
- /usr/include/boost/move/utility.hpp
- /usr/include/boost/move/utility_core.hpp
- /usr/include/boost/none.hpp
- /usr/include/boost/none_t.hpp
- /usr/include/boost/optional.hpp
- /usr/include/boost/optional/bad_optional_access.hpp
- /usr/include/boost/optional/detail/optional_aligned_storage.hpp
- /usr/include/boost/optional/detail/optional_config.hpp
- /usr/include/boost/optional/detail/optional_factory_support.hpp
- /usr/include/boost/optional/detail/optional_reference_spec.hpp
- /usr/include/boost/optional/detail/optional_relops.hpp
- /usr/include/boost/optional/detail/optional_swap.hpp
- /usr/include/boost/optional/detail/optional_trivially_copyable_base.hpp
- /usr/include/boost/optional/optional.hpp
- /usr/include/boost/optional/optional_fwd.hpp
- /usr/include/boost/preprocessor/arithmetic/add.hpp
- /usr/include/boost/preprocessor/arithmetic/dec.hpp
- /usr/include/boost/preprocessor/arithmetic/inc.hpp
- /usr/include/boost/preprocessor/arithmetic/sub.hpp
- /usr/include/boost/preprocessor/array/data.hpp
- /usr/include/boost/preprocessor/array/elem.hpp
- /usr/include/boost/preprocessor/array/size.hpp
- /usr/include/boost/preprocessor/cat.hpp
- /usr/include/boost/preprocessor/config/config.hpp
- /usr/include/boost/preprocessor/control/detail/while.hpp
- /usr/include/boost/preprocessor/control/expr_iif.hpp
- /usr/include/boost/preprocessor/control/if.hpp
- /usr/include/boost/preprocessor/control/iif.hpp
- /usr/include/boost/preprocessor/control/while.hpp
- /usr/include/boost/preprocessor/debug/error.hpp
- /usr/include/boost/preprocessor/detail/auto_rec.hpp
- /usr/include/boost/preprocessor/detail/check.hpp
- /usr/include/boost/preprocessor/detail/is_binary.hpp
- /usr/include/boost/preprocessor/facilities/empty.hpp
- /usr/include/boost/preprocessor/facilities/expand.hpp
- /usr/include/boost/preprocessor/facilities/intercept.hpp
- /usr/include/boost/preprocessor/facilities/overload.hpp
- /usr/include/boost/preprocessor/iteration/detail/bounds/lower1.hpp
- /usr/include/boost/preprocessor/iteration/detail/bounds/upper1.hpp
- /usr/include/boost/preprocessor/iteration/detail/iter/forward1.hpp
- /usr/include/boost/preprocessor/iteration/iterate.hpp
- /usr/include/boost/preprocessor/list/adt.hpp
- /usr/include/boost/preprocessor/list/detail/fold_left.hpp
- /usr/include/boost/preprocessor/list/detail/fold_right.hpp
- /usr/include/boost/preprocessor/list/fold_left.hpp
- /usr/include/boost/preprocessor/list/fold_right.hpp
- /usr/include/boost/preprocessor/list/reverse.hpp
- /usr/include/boost/preprocessor/logical/bitand.hpp
- /usr/include/boost/preprocessor/logical/bool.hpp
- /usr/include/boost/preprocessor/logical/compl.hpp
- /usr/include/boost/preprocessor/punctuation/comma.hpp
- /usr/include/boost/preprocessor/punctuation/comma_if.hpp
- /usr/include/boost/preprocessor/repetition/enum_binary_params.hpp
- /usr/include/boost/preprocessor/repetition/enum_params.hpp
- /usr/include/boost/preprocessor/repetition/enum_shifted_params.hpp
- /usr/include/boost/preprocessor/repetition/enum_trailing_params.hpp
- /usr/include/boost/preprocessor/repetition/repeat.hpp
- /usr/include/boost/preprocessor/repetition/repeat_from_to.hpp
- /usr/include/boost/preprocessor/slot/detail/def.hpp
- /usr/include/boost/preprocessor/slot/detail/shared.hpp
- /usr/include/boost/preprocessor/slot/slot.hpp
- /usr/include/boost/preprocessor/tuple/detail/is_single_return.hpp
- /usr/include/boost/preprocessor/tuple/eat.hpp
- /usr/include/boost/preprocessor/tuple/elem.hpp
- /usr/include/boost/preprocessor/tuple/rem.hpp
- /usr/include/boost/preprocessor/variadic/elem.hpp
- /usr/include/boost/preprocessor/variadic/size.hpp
- /usr/include/boost/shared_ptr.hpp
- /usr/include/boost/smart_ptr/bad_weak_ptr.hpp
- /usr/include/boost/smart_ptr/detail/local_counted_base.hpp
- /usr/include/boost/smart_ptr/detail/local_sp_deleter.hpp
- /usr/include/boost/smart_ptr/detail/operator_bool.hpp
- /usr/include/boost/smart_ptr/detail/shared_count.hpp
- /usr/include/boost/smart_ptr/detail/sp_convertible.hpp
- /usr/include/boost/smart_ptr/detail/sp_counted_base.hpp
- /usr/include/boost/smart_ptr/detail/sp_counted_base_gcc_atomic.hpp
- /usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp
- /usr/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp
- /usr/include/boost/smart_ptr/detail/sp_has_gcc_intrinsics.hpp
- /usr/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp
- /usr/include/boost/smart_ptr/detail/sp_noexcept.hpp
- /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp
- /usr/include/boost/smart_ptr/detail/sp_thread_pause.hpp
- /usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp
- /usr/include/boost/smart_ptr/detail/sp_typeinfo_.hpp
- /usr/include/boost/smart_ptr/detail/spinlock.hpp
- /usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp
- /usr/include/boost/smart_ptr/detail/spinlock_pool.hpp
- /usr/include/boost/smart_ptr/detail/yield_k.hpp
- /usr/include/boost/smart_ptr/shared_ptr.hpp
- /usr/include/boost/static_assert.hpp
- /usr/include/boost/throw_exception.hpp
- /usr/include/boost/type.hpp
- /usr/include/boost/type_traits/add_pointer.hpp
- /usr/include/boost/type_traits/add_rvalue_reference.hpp
- /usr/include/boost/type_traits/alignment_of.hpp
- /usr/include/boost/type_traits/conditional.hpp
- /usr/include/boost/type_traits/decay.hpp
- /usr/include/boost/type_traits/declval.hpp
- /usr/include/boost/type_traits/detail/config.hpp
- /usr/include/boost/type_traits/detail/is_function_cxx_11.hpp
- /usr/include/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp
- /usr/include/boost/type_traits/detail/yes_no_type.hpp
- /usr/include/boost/type_traits/enable_if.hpp
- /usr/include/boost/type_traits/has_nothrow_assign.hpp
- /usr/include/boost/type_traits/has_nothrow_constructor.hpp
- /usr/include/boost/type_traits/has_trivial_move_assign.hpp
- /usr/include/boost/type_traits/integral_constant.hpp
- /usr/include/boost/type_traits/intrinsics.hpp
- /usr/include/boost/type_traits/is_arithmetic.hpp
- /usr/include/boost/type_traits/is_array.hpp
- /usr/include/boost/type_traits/is_assignable.hpp
- /usr/include/boost/type_traits/is_base_and_derived.hpp
- /usr/include/boost/type_traits/is_base_of.hpp
- /usr/include/boost/type_traits/is_class.hpp
- /usr/include/boost/type_traits/is_complete.hpp
- /usr/include/boost/type_traits/is_const.hpp
- /usr/include/boost/type_traits/is_constructible.hpp
- /usr/include/boost/type_traits/is_default_constructible.hpp
- /usr/include/boost/type_traits/is_destructible.hpp
- /usr/include/boost/type_traits/is_enum.hpp
- /usr/include/boost/type_traits/is_floating_point.hpp
- /usr/include/boost/type_traits/is_function.hpp
- /usr/include/boost/type_traits/is_integral.hpp
- /usr/include/boost/type_traits/is_lvalue_reference.hpp
- /usr/include/boost/type_traits/is_member_function_pointer.hpp
- /usr/include/boost/type_traits/is_member_pointer.hpp
- /usr/include/boost/type_traits/is_nothrow_move_assignable.hpp
- /usr/include/boost/type_traits/is_nothrow_move_constructible.hpp
- /usr/include/boost/type_traits/is_pod.hpp
- /usr/include/boost/type_traits/is_pointer.hpp
- /usr/include/boost/type_traits/is_reference.hpp
- /usr/include/boost/type_traits/is_rvalue_reference.hpp
- /usr/include/boost/type_traits/is_same.hpp
- /usr/include/boost/type_traits/is_scalar.hpp
- /usr/include/boost/type_traits/is_void.hpp
- /usr/include/boost/type_traits/is_volatile.hpp
- /usr/include/boost/type_traits/remove_bounds.hpp
- /usr/include/boost/type_traits/remove_const.hpp
- /usr/include/boost/type_traits/remove_cv.hpp
- /usr/include/boost/type_traits/remove_extent.hpp
- /usr/include/boost/type_traits/remove_reference.hpp
- /usr/include/boost/type_traits/type_identity.hpp
- /usr/include/boost/type_traits/type_with_alignment.hpp
- /usr/include/boost/utility/base_from_member.hpp
- /usr/include/boost/utility/compare_pointees.hpp
- /usr/include/boost/utility/detail/result_of_iterate.hpp
- /usr/include/boost/utility/enable_if.hpp
- /usr/include/boost/utility/result_of.hpp
- /usr/include/boost/version.hpp
  /usr/include/c++/11/algorithm
  /usr/include/c++/11/array
  /usr/include/c++/11/atomic
@@ -2263,12 +2294,6 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
- /usr/include/gflags/gflags.h
- /usr/include/gflags/gflags_declare.h
- /usr/include/gflags/gflags_gflags.h
- /usr/include/glog/log_severity.h
- /usr/include/glog/logging.h
- /usr/include/glog/vlog_is_on.h
  /usr/include/inttypes.h
  /usr/include/libintl.h
  /usr/include/limits.h
@@ -2511,6 +2536,13 @@ src/CMakeFiles/myslam.dir/feature.cpp.o
  /home/liubaichuan/Work/slamdemo/src/feature.cpp
  /home/liubaichuan/Work/slamdemo/include/myslam/common_include.h
  /home/liubaichuan/Work/slamdemo/include/myslam/feature.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h
+ /home/liubaichuan/anaconda3/include/glog/export.h
+ /home/liubaichuan/anaconda3/include/glog/log_severity.h
+ /home/liubaichuan/anaconda3/include/glog/logging.h
+ /home/liubaichuan/anaconda3/include/glog/vlog_is_on.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
@@ -2866,12 +2898,6 @@ src/CMakeFiles/myslam.dir/feature.cpp.o
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
- /usr/include/gflags/gflags.h
- /usr/include/gflags/gflags_declare.h
- /usr/include/gflags/gflags_gflags.h
- /usr/include/glog/log_severity.h
- /usr/include/glog/logging.h
- /usr/include/glog/vlog_is_on.h
  /usr/include/inttypes.h
  /usr/include/limits.h
  /usr/include/linux/close_range.h
@@ -3043,6 +3069,13 @@ src/CMakeFiles/myslam.dir/frame.cpp.o
  /home/liubaichuan/Work/slamdemo/include/myslam/camera.h
  /home/liubaichuan/Work/slamdemo/include/myslam/common_include.h
  /home/liubaichuan/Work/slamdemo/include/myslam/frame.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h
+ /home/liubaichuan/anaconda3/include/glog/export.h
+ /home/liubaichuan/anaconda3/include/glog/log_severity.h
+ /home/liubaichuan/anaconda3/include/glog/logging.h
+ /home/liubaichuan/anaconda3/include/glog/vlog_is_on.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
@@ -3398,12 +3431,6 @@ src/CMakeFiles/myslam.dir/frame.cpp.o
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
- /usr/include/gflags/gflags.h
- /usr/include/gflags/gflags_declare.h
- /usr/include/gflags/gflags_gflags.h
- /usr/include/glog/log_severity.h
- /usr/include/glog/logging.h
- /usr/include/glog/vlog_is_on.h
  /usr/include/inttypes.h
  /usr/include/limits.h
  /usr/include/linux/close_range.h
@@ -3580,6 +3607,13 @@ src/CMakeFiles/myslam.dir/frontend.cpp.o
  /home/liubaichuan/Work/slamdemo/include/myslam/map.h
  /home/liubaichuan/Work/slamdemo/include/myslam/mappoint.h
  /home/liubaichuan/Work/slamdemo/include/myslam/viewer.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h
+ /home/liubaichuan/anaconda3/include/glog/export.h
+ /home/liubaichuan/anaconda3/include/glog/log_severity.h
+ /home/liubaichuan/anaconda3/include/glog/logging.h
+ /home/liubaichuan/anaconda3/include/glog/vlog_is_on.h
  /usr/include/GL/gl.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
@@ -3974,12 +4008,6 @@ src/CMakeFiles/myslam.dir/frontend.cpp.o
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
- /usr/include/gflags/gflags.h
- /usr/include/gflags/gflags_declare.h
- /usr/include/gflags/gflags_gflags.h
- /usr/include/glog/log_severity.h
- /usr/include/glog/logging.h
- /usr/include/glog/vlog_is_on.h
  /usr/include/inttypes.h
  /usr/include/libintl.h
  /usr/include/limits.h
@@ -4349,6 +4377,13 @@ src/CMakeFiles/myslam.dir/map.cpp.o
  /home/liubaichuan/Work/slamdemo/include/myslam/frame.h
  /home/liubaichuan/Work/slamdemo/include/myslam/map.h
  /home/liubaichuan/Work/slamdemo/include/myslam/mappoint.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h
+ /home/liubaichuan/anaconda3/include/glog/export.h
+ /home/liubaichuan/anaconda3/include/glog/log_severity.h
+ /home/liubaichuan/anaconda3/include/glog/logging.h
+ /home/liubaichuan/anaconda3/include/glog/vlog_is_on.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
@@ -4704,12 +4739,6 @@ src/CMakeFiles/myslam.dir/map.cpp.o
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
- /usr/include/gflags/gflags.h
- /usr/include/gflags/gflags_declare.h
- /usr/include/gflags/gflags_gflags.h
- /usr/include/glog/log_severity.h
- /usr/include/glog/logging.h
- /usr/include/glog/vlog_is_on.h
  /usr/include/inttypes.h
  /usr/include/limits.h
  /usr/include/linux/close_range.h
@@ -4881,6 +4910,13 @@ src/CMakeFiles/myslam.dir/mappoint.cpp.o
  /home/liubaichuan/Work/slamdemo/include/myslam/common_include.h
  /home/liubaichuan/Work/slamdemo/include/myslam/feature.h
  /home/liubaichuan/Work/slamdemo/include/myslam/mappoint.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h
+ /home/liubaichuan/anaconda3/include/glog/export.h
+ /home/liubaichuan/anaconda3/include/glog/log_severity.h
+ /home/liubaichuan/anaconda3/include/glog/logging.h
+ /home/liubaichuan/anaconda3/include/glog/vlog_is_on.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
@@ -5236,12 +5272,6 @@ src/CMakeFiles/myslam.dir/mappoint.cpp.o
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
- /usr/include/gflags/gflags.h
- /usr/include/gflags/gflags_declare.h
- /usr/include/gflags/gflags_gflags.h
- /usr/include/glog/log_severity.h
- /usr/include/glog/logging.h
- /usr/include/glog/vlog_is_on.h
  /usr/include/inttypes.h
  /usr/include/limits.h
  /usr/include/linux/close_range.h
@@ -5417,6 +5447,13 @@ src/CMakeFiles/myslam.dir/viewer.cpp.o
  /home/liubaichuan/Work/slamdemo/include/myslam/map.h
  /home/liubaichuan/Work/slamdemo/include/myslam/mappoint.h
  /home/liubaichuan/Work/slamdemo/include/myslam/viewer.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h
+ /home/liubaichuan/anaconda3/include/glog/export.h
+ /home/liubaichuan/anaconda3/include/glog/log_severity.h
+ /home/liubaichuan/anaconda3/include/glog/logging.h
+ /home/liubaichuan/anaconda3/include/glog/vlog_is_on.h
  /usr/include/GL/gl.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
@@ -5797,12 +5834,6 @@ src/CMakeFiles/myslam.dir/viewer.cpp.o
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
- /usr/include/gflags/gflags.h
- /usr/include/gflags/gflags_declare.h
- /usr/include/gflags/gflags_gflags.h
- /usr/include/glog/log_severity.h
- /usr/include/glog/logging.h
- /usr/include/glog/vlog_is_on.h
  /usr/include/inttypes.h
  /usr/include/libintl.h
  /usr/include/limits.h
@@ -6125,6 +6156,13 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o
  /home/liubaichuan/Work/slamdemo/include/myslam/mappoint.h
  /home/liubaichuan/Work/slamdemo/include/myslam/viewer.h
  /home/liubaichuan/Work/slamdemo/include/myslam/visual_odometry.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h
+ /home/liubaichuan/anaconda3/include/glog/export.h
+ /home/liubaichuan/anaconda3/include/glog/log_severity.h
+ /home/liubaichuan/anaconda3/include/glog/logging.h
+ /home/liubaichuan/anaconda3/include/glog/vlog_is_on.h
  /usr/include/GL/gl.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
@@ -6497,12 +6535,6 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
- /usr/include/gflags/gflags.h
- /usr/include/gflags/gflags_declare.h
- /usr/include/gflags/gflags_gflags.h
- /usr/include/glog/log_severity.h
- /usr/include/glog/logging.h
- /usr/include/glog/vlog_is_on.h
  /usr/include/inttypes.h
  /usr/include/limits.h
  /usr/include/linux/close_range.h

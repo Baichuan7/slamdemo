@@ -13,6 +13,13 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o
  /home/liubaichuan/Work/slamdemo/include/myslam/mappoint.h
  /home/liubaichuan/Work/slamdemo/include/myslam/viewer.h
  /home/liubaichuan/Work/slamdemo/include/myslam/visual_odometry.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h
+ /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h
+ /home/liubaichuan/anaconda3/include/glog/export.h
+ /home/liubaichuan/anaconda3/include/glog/log_severity.h
+ /home/liubaichuan/anaconda3/include/glog/logging.h
+ /home/liubaichuan/anaconda3/include/glog/vlog_is_on.h
  /usr/include/GL/gl.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
@@ -385,12 +392,6 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
- /usr/include/gflags/gflags.h
- /usr/include/gflags/gflags_declare.h
- /usr/include/gflags/gflags_gflags.h
- /usr/include/glog/log_severity.h
- /usr/include/glog/logging.h
- /usr/include/glog/vlog_is_on.h
  /usr/include/inttypes.h
  /usr/include/limits.h
  /usr/include/linux/close_range.h

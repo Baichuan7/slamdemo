@@ -4,6 +4,33 @@
 test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichuan/Work/slamdemo/test/test_triangulation.cpp \
   /home/liubaichuan/Work/slamdemo/include/myslam/algorithm.h \
   /home/liubaichuan/Work/slamdemo/include/myslam/common_include.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h \
+  /home/liubaichuan/anaconda3/include/glog/export.h \
+  /home/liubaichuan/anaconda3/include/glog/log_severity.h \
+  /home/liubaichuan/anaconda3/include/glog/logging.h \
+  /home/liubaichuan/anaconda3/include/glog/vlog_is_on.h \
+  /home/liubaichuan/anaconda3/include/gtest/gtest-death-test.h \
+  /home/liubaichuan/anaconda3/include/gtest/gtest-matchers.h \
+  /home/liubaichuan/anaconda3/include/gtest/gtest-message.h \
+  /home/liubaichuan/anaconda3/include/gtest/gtest-param-test.h \
+  /home/liubaichuan/anaconda3/include/gtest/gtest-printers.h \
+  /home/liubaichuan/anaconda3/include/gtest/gtest-test-part.h \
+  /home/liubaichuan/anaconda3/include/gtest/gtest-typed-test.h \
+  /home/liubaichuan/anaconda3/include/gtest/gtest.h \
+  /home/liubaichuan/anaconda3/include/gtest/gtest_pred_impl.h \
+  /home/liubaichuan/anaconda3/include/gtest/gtest_prod.h \
+  /home/liubaichuan/anaconda3/include/gtest/internal/custom/gtest-port.h \
+  /home/liubaichuan/anaconda3/include/gtest/internal/custom/gtest-printers.h \
+  /home/liubaichuan/anaconda3/include/gtest/internal/gtest-death-test-internal.h \
+  /home/liubaichuan/anaconda3/include/gtest/internal/gtest-filepath.h \
+  /home/liubaichuan/anaconda3/include/gtest/internal/gtest-internal.h \
+  /home/liubaichuan/anaconda3/include/gtest/internal/gtest-param-util.h \
+  /home/liubaichuan/anaconda3/include/gtest/internal/gtest-port-arch.h \
+  /home/liubaichuan/anaconda3/include/gtest/internal/gtest-port.h \
+  /home/liubaichuan/anaconda3/include/gtest/internal/gtest-string.h \
+  /home/liubaichuan/anaconda3/include/gtest/internal/gtest-type-util.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -69,6 +96,7 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/bits/predefined_ops.h \
   /usr/include/c++/11/bits/ptr_traits.h \
+  /usr/include/c++/11/bits/quoted_string.h \
   /usr/include/c++/11/bits/random.h \
   /usr/include/c++/11/bits/random.tcc \
   /usr/include/c++/11/bits/range_access.h \
@@ -121,7 +149,6 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
   /usr/include/c++/11/cerrno \
   /usr/include/c++/11/cfloat \
   /usr/include/c++/11/chrono \
-  /usr/include/c++/11/ciso646 \
   /usr/include/c++/11/climits \
   /usr/include/c++/11/clocale \
   /usr/include/c++/11/cmath \
@@ -149,6 +176,7 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
   /usr/include/c++/11/ext/type_traits.h \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/initializer_list \
+  /usr/include/c++/11/iomanip \
   /usr/include/c++/11/ios \
   /usr/include/c++/11/iosfwd \
   /usr/include/c++/11/iostream \
@@ -374,33 +402,6 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
-  /usr/include/gflags/gflags.h \
-  /usr/include/gflags/gflags_declare.h \
-  /usr/include/gflags/gflags_gflags.h \
-  /usr/include/glog/log_severity.h \
-  /usr/include/glog/logging.h \
-  /usr/include/glog/vlog_is_on.h \
-  /usr/include/gtest/gtest-assertion-result.h \
-  /usr/include/gtest/gtest-death-test.h \
-  /usr/include/gtest/gtest-matchers.h \
-  /usr/include/gtest/gtest-message.h \
-  /usr/include/gtest/gtest-param-test.h \
-  /usr/include/gtest/gtest-printers.h \
-  /usr/include/gtest/gtest-test-part.h \
-  /usr/include/gtest/gtest-typed-test.h \
-  /usr/include/gtest/gtest.h \
-  /usr/include/gtest/gtest_pred_impl.h \
-  /usr/include/gtest/gtest_prod.h \
-  /usr/include/gtest/internal/custom/gtest-port.h \
-  /usr/include/gtest/internal/custom/gtest-printers.h \
-  /usr/include/gtest/internal/gtest-death-test-internal.h \
-  /usr/include/gtest/internal/gtest-filepath.h \
-  /usr/include/gtest/internal/gtest-internal.h \
-  /usr/include/gtest/internal/gtest-param-util.h \
-  /usr/include/gtest/internal/gtest-port-arch.h \
-  /usr/include/gtest/internal/gtest-port.h \
-  /usr/include/gtest/internal/gtest-string.h \
-  /usr/include/gtest/internal/gtest-type-util.h \
   /usr/include/inttypes.h \
   /usr/include/libintl.h \
   /usr/include/limits.h \
@@ -641,6 +642,10 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h:
 
+/usr/local/include/opencv4/opencv2/core/traits.hpp:
+
+/usr/local/include/opencv4/opencv2/core/core.hpp:
+
 /usr/local/include/opencv4/opencv2/core/bufferpool.hpp:
 
 /usr/local/include/opencv4/opencv2/core/base.hpp:
@@ -685,45 +690,11 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
 
-/usr/include/eigen3/Eigen/src/Core/Matrix.h:
-
-/usr/include/eigen3/Eigen/src/plugins/ReshapedMethods.h:
-
-/usr/include/eigen3/Eigen/src/Core/Map.h:
-
 /usr/include/eigen3/Eigen/src/Core/ConditionEstimator.h:
 
 /usr/include/c++/11/bits/stl_set.h:
 
-/usr/include/eigen3/Eigen/src/Core/IO.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:
-
-/usr/include/c++/11/debug/debug.h:
-
-/usr/include/eigen3/Eigen/src/Core/MapBase.h:
-
-/usr/include/eigen3/Eigen/src/Core/EigenBase.h:
-
-/usr/include/eigen3/Eigen/src/Core/DiagonalProduct.h:
-
-/usr/include/eigen3/Eigen/Householder:
-
-/usr/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
-
-/usr/include/c++/11/bits/functexcept.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
-
-/usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:
-
-/usr/include/eigen3/Eigen/src/Core/CoreIterators.h:
-
-/usr/include/c++/11/numeric:
+/usr/include/eigen3/Eigen/src/Core/Map.h:
 
 /usr/include/eigen3/Eigen/src/Core/Block.h:
 
@@ -731,11 +702,11 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/eigen3/Eigen/src/Core/Array.h:
 
+/usr/include/eigen3/Eigen/src/plugins/ReshapedMethods.h:
+
+/usr/include/eigen3/Eigen/src/Core/Matrix.h:
+
 /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h:
-
-/usr/include/c++/11/ctime:
-
-/usr/include/eigen3/Eigen/QR:
 
 /usr/include/eigen3/Eigen/LU:
 
@@ -752,6 +723,12 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 /usr/include/c++/11/bits/stl_multimap.h:
 
 /usr/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h:
+
+/usr/include/eigen3/Eigen/Householder:
+
+/home/liubaichuan/anaconda3/include/gtest/gtest_prod.h:
+
+/usr/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h:
 
 /usr/include/c++/11/variant:
 
@@ -772,10 +749,6 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 /usr/local/include/opencv4/opencv2/core/cvdef.h:
 
 /usr/include/c++/11/tr1/legendre_function.tcc:
-
-/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h:
-
-/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:
 
 /usr/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h:
 
@@ -799,8 +772,6 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/c++/11/pstl/glue_algorithm_defs.h:
 
-/usr/include/gflags/gflags_gflags.h:
-
 /usr/local/include/opencv4/opencv2/core/check.hpp:
 
 /usr/include/c++/11/pstl/execution_defs.h:
@@ -823,10 +794,6 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/eigen3/Eigen/src/Core/ReturnByValue.h:
 
-/usr/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h:
-
-/usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h:
-
 /usr/include/c++/11/locale:
 
 /usr/include/ctype.h:
@@ -835,11 +802,15 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/c++/11/istream:
 
-/usr/include/c++/11/iosfwd:
-
-/usr/include/c++/11/initializer_list:
+/usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:
 
 /usr/include/c++/11/ext/type_traits.h:
+
+/usr/include/c++/11/iomanip:
+
+/usr/include/c++/11/cctype:
+
+/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:
 
 /usr/include/eigen3/Eigen/src/plugins/BlockMethods.h:
 
@@ -853,10 +824,6 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/eigen3/Eigen/src/Core/BooleanRedux.h:
 
-/usr/include/c++/11/atomic:
-
-/usr/include/asm-generic/int-ll64.h:
-
 /usr/include/c++/11/bits/stl_algo.h:
 
 /usr/include/c++/11/tr1/modified_bessel_func.tcc:
@@ -865,29 +832,131 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/c++/11/exception:
 
-/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:
+/usr/include/c++/11/debug/debug.h:
 
-/usr/include/eigen3/Eigen/src/Core/DiagonalMatrix.h:
+/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:
 
 /usr/include/c++/11/debug/assertions.h:
 
 /usr/include/c++/11/cxxabi.h:
 
-/usr/include/c++/11/cwctype:
+/home/liubaichuan/anaconda3/include/gtest/internal/gtest-port.h:
 
-/usr/include/gtest/gtest-message.h:
+/usr/include/c++/11/cwctype:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
 
-/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+/home/liubaichuan/anaconda3/include/gflags/gflags_declare.h:
 
-/usr/include/c++/11/cstdint:
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
-/usr/include/c++/11/tr1/gamma.tcc:
+/usr/include/c++/11/cfloat:
 
-/usr/include/c++/11/bits/locale_classes.h:
+/usr/include/eigen3/Eigen/src/Core/Redux.h:
 
-/usr/include/eigen3/Eigen/SVD:
+/usr/include/c++/11/cerrno:
+
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
+/usr/include/c++/11/unordered_map:
+
+/usr/include/c++/11/bits/vector.tcc:
+
+/usr/include/c++/11/bits/unordered_map.h:
+
+/usr/include/c++/11/bits/streambuf_iterator.h:
+
+/usr/include/c++/11/bits/stream_iterator.h:
+
+/usr/include/c++/11/bits/stl_vector.h:
+
+/usr/include/c++/11/cstddef:
+
+/usr/include/c++/11/bits/stl_tempbuf.h:
+
+/usr/include/c++/11/bits/basic_string.tcc:
+
+/usr/include/eigen3/Eigen/src/Core/StableNorm.h:
+
+/usr/include/c++/11/bits/enable_special_members.h:
+
+/usr/include/c++/11/bits/basic_ios.tcc:
+
+/usr/include/c++/11/cwchar:
+
+/usr/include/c++/11/bits/stl_algobase.h:
+
+/usr/include/unistd.h:
+
+/usr/include/x86_64-linux-gnu/bits/statx.h:
+
+/usr/include/c++/11/bits/basic_string.h:
+
+/usr/include/c++/11/bits/shared_ptr_base.h:
+
+/usr/include/c++/11/bits/erase_if.h:
+
+/usr/include/c++/11/bits/ptr_traits.h:
+
+/usr/include/stdint.h:
+
+/usr/include/c++/11/bits/stl_raw_storage_iter.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
+
+/usr/include/eigen3/Eigen/src/Core/Swap.h:
+
+/usr/include/c++/11/bits/basic_ios.h:
+
+/usr/include/c++/11/ostream:
+
+/usr/include/eigen3/Eigen/src/Core/VectorBlock.h:
+
+/usr/include/c++/11/iterator:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/c++/11/bits/range_access.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/c++/11/bits/unique_ptr.h:
+
+/usr/include/c++/11/any:
+
+/home/liubaichuan/anaconda3/include/gtest/internal/custom/gtest-printers.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/c++/11/bits/locale_facets_nonio.h:
+
+/usr/include/assert.h:
+
+/usr/include/c++/11/bits/allocated_ptr.h:
+
+/usr/include/c++/11/bits/stl_tree.h:
+
+/usr/include/c++/11/vector:
+
+/usr/include/c++/11/bits/align.h:
+
+/usr/include/c++/11/climits:
+
+/usr/include/c++/11/new:
+
+/usr/include/c++/11/bits/sstream.tcc:
+
+/usr/include/c++/11/array:
+
+/usr/local/include/opencv4/opencv2/core/version.hpp:
+
+/usr/include/c++/11/tr1/beta_function.tcc:
+
+/usr/include/c++/11/iosfwd:
+
+/usr/include/c++/11/initializer_list:
+
+/usr/include/c++/11/bits/stl_map.h:
 
 /usr/include/c++/11/random:
 
@@ -896,6 +965,258 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 /usr/include/c++/11/bits/list.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/ss_flags.h:
+
+/usr/include/eigen3/Eigen/SVD:
+
+/usr/include/c++/11/bits/locale_classes.h:
+
+/usr/include/asm-generic/posix_types.h:
+
+/usr/include/c++/11/ext/aligned_buffer.h:
+
+/home/liubaichuan/anaconda3/include/gtest/internal/gtest-param-util.h:
+
+/usr/include/c++/11/bits/locale_classes.tcc:
+
+/usr/include/c++/11/cassert:
+
+/usr/local/include/sophus/se3.hpp:
+
+/usr/include/c++/11/tr1/bessel_function.tcc:
+
+/home/liubaichuan/anaconda3/include/glog/vlog_is_on.h:
+
+/usr/include/string.h:
+
+/usr/include/c++/11/bits/atomic_lockfree_defines.h:
+
+/home/liubaichuan/anaconda3/include/glog/export.h:
+
+/usr/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h:
+
+/usr/include/c++/11/bits/stl_uninitialized.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/c++/11/backward/auto_ptr.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
+
+/usr/include/c++/11/tr1/ell_integral.tcc:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/include/c++/11/bits/atomic_base.h:
+
+/usr/include/c++/11/bits/random.tcc:
+
+/home/liubaichuan/anaconda3/include/gtest/gtest-test-part.h:
+
+/usr/include/asm-generic/types.h:
+
+/usr/include/c++/11/bits/concept_check.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/eigen3/Eigen/src/Core/Assign.h:
+
+/home/liubaichuan/Work/slamdemo/include/myslam/algorithm.h:
+
+/usr/include/c++/11/clocale:
+
+/usr/include/c++/11/ext/numeric_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigstack.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
+
+/usr/include/c++/11/tuple:
+
+/home/liubaichuan/anaconda3/include/gtest/gtest.h:
+
+/usr/include/c++/11/tr1/hypergeometric.tcc:
+
+/usr/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h:
+
+/usr/include/c++/11/bits/localefwd.h:
+
+/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:
+
+/usr/include/c++/11/bits/stl_function.h:
+
+/usr/include/c++/11/bits/memoryfwd.h:
+
+/usr/include/c++/11/bits/string_view.tcc:
+
+/usr/include/c++/11/bits/hash_bytes.h:
+
+/usr/include/c++/11/bits/move.h:
+
+/usr/include/alloca.h:
+
+/home/liubaichuan/Work/slamdemo/include/myslam/common_include.h:
+
+/home/liubaichuan/anaconda3/include/glog/log_severity.h:
+
+/usr/include/c++/11/bits/std_thread.h:
+
+/usr/include/endian.h:
+
+/usr/include/c++/11/bits/cpp_type_traits.h:
+
+/usr/include/c++/11/bits/streambuf.tcc:
+
+/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
+
+/home/liubaichuan/anaconda3/include/gtest/gtest_pred_impl.h:
+
+/home/liubaichuan/anaconda3/include/gtest/gtest-param-test.h:
+
+/usr/include/c++/11/bits/nested_exception.h:
+
+/usr/include/c++/11/functional:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/c++/11/bits/specfun.h:
+
+/usr/include/c++/11/bits/uniform_int_dist.h:
+
+/usr/include/eigen3/Eigen/src/Cholesky/LLT.h:
+
+/usr/include/c++/11/cmath:
+
+/usr/include/c++/11/bits/allocator.h:
+
+/usr/include/c++/11/bits/hashtable.h:
+
+/usr/include/c++/11/bits/invoke.h:
+
+/usr/include/eigen3/Eigen/Cholesky:
+
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/usr/include/c++/11/cstdint:
+
+/home/liubaichuan/anaconda3/include/gflags/gflags.h:
+
+/home/liubaichuan/anaconda3/include/gtest/internal/gtest-string.h:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/c++/11/bits/node_handle.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/c++/11/algorithm:
+
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:
+
+/usr/include/eigen3/Eigen/src/misc/RealSvd2x2.h:
+
+/usr/include/c++/11/backward/binders.h:
+
+/home/liubaichuan/anaconda3/include/gtest/internal/gtest-filepath.h:
+
+/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
+
+/home/liubaichuan/anaconda3/include/gtest/gtest-death-test.h:
+
+/home/liubaichuan/anaconda3/include/glog/logging.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:
+
+/usr/include/eigen3/Eigen/src/Core/functors/StlFunctors.h:
+
+/home/liubaichuan/anaconda3/include/gtest/internal/gtest-type-util.h:
+
+/usr/include/c++/11/bits/stl_pair.h:
+
+/usr/include/c++/11/bits/stl_bvector.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/BlasUtil.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/c++/11/bits/functional_hash.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h:
+
+/usr/include/c++/11/list:
+
+/usr/include/c++/11/ctime:
+
+/home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h:
+
+/usr/include/c++/11/ext/alloc_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/usr/include/c++/11/bits/random.h:
+
+/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:
+
+/usr/include/eigen3/Eigen/src/Core/ArithmeticSequence.h:
+
+/usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h:
+
+/usr/include/c++/11/bits/cxxabi_init_exception.h:
+
+/usr/include/eigen3/Eigen/src/LU/arch/InverseSize4.h:
+
+/usr/include/c++/11/pstl/glue_numeric_defs.h:
+
+/usr/include/eigen3/Eigen/src/Core/BandMatrix.h:
+
+/usr/include/c++/11/bits/exception.h:
+
+/usr/include/c++/11/bits/locale_facets.h:
+
+/usr/include/c++/11/bits/istream.tcc:
+
+/usr/include/eigen3/Eigen/src/Core/Diagonal.h:
+
+/usr/include/c++/11/map:
+
+/usr/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h:
+
+/usr/include/c++/11/iostream:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/asm-generic/int-ll64.h:
+
+/usr/include/c++/11/atomic:
+
+/usr/include/eigen3/Eigen/QR:
+
+/home/liubaichuan/Work/slamdemo/test/test_triangulation.cpp:
+
+/usr/include/c++/11/bits/exception_defines.h:
+
+/usr/include/c++/11/bits/stl_heap.h:
+
+/usr/include/c++/11/bits/std_abs.h:
+
+/usr/local/include/opencv4/opencv2/core/hal/interface.h:
+
+/usr/include/c++/11/bits/stl_multiset.h:
+
+/usr/include/c++/11/streambuf:
+
+/usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h:
+
+/usr/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
+
+/usr/include/c++/11/bits/hashtable_policy.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
@@ -909,9 +1230,9 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
 
-/usr/include/c++/11/bits/hashtable.h:
+/usr/include/c++/11/tr1/gamma.tcc:
 
-/usr/include/c++/11/streambuf:
+/usr/include/c++/11/tr1/poly_hermite.tcc:
 
 /usr/include/c++/11/bits/locale_facets.tcc:
 
@@ -921,237 +1242,9 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
-/usr/include/c++/11/bits/shared_ptr_base.h:
+/usr/include/c++/11/bits/stringfwd.h:
 
-/usr/include/c++/11/bits/basic_string.h:
-
-/usr/include/eigen3/Eigen/src/Core/MathFunctions.h:
-
-/usr/include/linux/limits.h:
-
-/usr/include/eigen3/Eigen/src/LU/arch/InverseSize4.h:
-
-/usr/include/c++/11/pstl/glue_numeric_defs.h:
-
-/usr/include/c++/11/bits/locale_facets.h:
-
-/usr/include/c++/11/bits/istream.tcc:
-
-/usr/include/eigen3/Eigen/src/Core/Diagonal.h:
-
-/usr/include/c++/11/bits/erase_if.h:
-
-/usr/include/c++/11/bits/ptr_traits.h:
-
-/usr/include/stdint.h:
-
-/usr/include/c++/11/bits/stl_raw_storage_iter.h:
-
-/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:
-
-/home/liubaichuan/Work/slamdemo/include/myslam/algorithm.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/eigen3/Eigen/src/Core/Assign.h:
-
-/usr/include/c++/11/clocale:
-
-/usr/include/c++/11/cmath:
-
-/usr/include/c++/11/bits/allocator.h:
-
-/usr/include/c++/11/bits/stl_heap.h:
-
-/usr/include/c++/11/bits/std_abs.h:
-
-/usr/local/include/opencv4/opencv2/core/hal/interface.h:
-
-/usr/include/c++/11/bits/stl_multiset.h:
-
-/usr/include/c++/11/ext/alloc_traits.h:
-
-/usr/include/x86_64-linux-gnu/bits/sched.h:
-
-/usr/include/c++/11/bits/random.h:
-
-/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:
-
-/usr/include/endian.h:
-
-/usr/include/c++/11/bits/cpp_type_traits.h:
-
-/usr/include/c++/11/bits/std_thread.h:
-
-/usr/include/c++/11/bits/stl_map.h:
-
-/usr/include/c++/11/bits/concept_check.h:
-
-/usr/include/asm-generic/types.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
-
-/usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h:
-
-/usr/include/c++/11/list:
-
-/usr/include/gtest/internal/gtest-port-arch.h:
-
-/usr/include/c++/11/ext/aligned_buffer.h:
-
-/usr/include/c++/11/bits/locale_classes.tcc:
-
-/usr/include/asm-generic/posix_types.h:
-
-/usr/include/c++/11/bits/enable_special_members.h:
-
-/usr/include/c++/11/bits/basic_ios.tcc:
-
-/usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h:
-
-/usr/include/eigen3/Eigen/src/Core/ArithmeticSequence.h:
-
-/usr/include/c++/11/bits/basic_string.tcc:
-
-/usr/include/eigen3/Eigen/src/Core/StableNorm.h:
-
-/usr/include/c++/11/cwchar:
-
-/usr/include/c++/11/bits/stl_algobase.h:
-
-/usr/include/unistd.h:
-
-/usr/include/x86_64-linux-gnu/bits/statx.h:
-
-/usr/include/c++/11/tr1/hypergeometric.tcc:
-
-/usr/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h:
-
-/usr/include/gtest/gtest-param-test.h:
-
-/usr/include/c++/11/bits/localefwd.h:
-
-/usr/include/c++/11/bits/functional_hash.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
-
-/usr/include/math.h:
-
-/usr/include/c++/11/bits/exception_ptr.h:
-
-/usr/include/c++/11/bits/charconv.h:
-
-/usr/include/c++/11/functional:
-
-/usr/include/c++/11/bits/exception.h:
-
-/usr/include/eigen3/Eigen/src/Core/BandMatrix.h:
-
-/usr/include/eigen3/Eigen/src/Core/IndexedView.h:
-
-/usr/include/c++/11/ciso646:
-
-/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
-
-/usr/include/c++/11/bits/specfun.h:
-
-/usr/include/c++/11/bits/algorithmfwd.h:
-
-/usr/include/c++/11/bits/cxxabi_forced.h:
-
-/usr/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
-
-/usr/include/c++/11/tr1/poly_hermite.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
-
-/usr/include/c++/11/tuple:
-
-/usr/include/c++/11/bits/stl_tree.h:
-
-/usr/include/eigen3/Eigen/src/Core/DenseStorage.h:
-
-/usr/include/eigen3/Eigen/Cholesky:
-
-/usr/include/c++/11/bits/invoke.h:
-
-/usr/include/c++/11/any:
-
-/usr/include/c++/11/bits/unique_ptr.h:
-
-/usr/include/c++/11/bits/vector.tcc:
-
-/usr/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h:
-
-/usr/include/c++/11/bits/exception_defines.h:
-
-/usr/include/c++/11/bits/stl_bvector.h:
-
-/usr/include/eigen3/Eigen/src/Core/util/BlasUtil.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigstack.h:
-
-/usr/include/c++/11/ext/numeric_traits.h:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/c++/11/iostream:
-
-/usr/include/c++/11/bits/node_handle.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
-/usr/include/c++/11/algorithm:
-
-/usr/include/c++/11/backward/binders.h:
-
-/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
-
-/usr/include/c++/11/vector:
-
-/usr/include/c++/11/bits/align.h:
-
-/usr/include/c++/11/bits/locale_facets_nonio.h:
-
-/usr/include/c++/11/bits/hashtable_policy.h:
-
-/usr/include/assert.h:
-
-/usr/include/c++/11/bits/allocated_ptr.h:
-
-/usr/include/eigen3/Eigen/src/Core/Inverse.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
-
-/usr/include/c++/11/tr1/ell_integral.tcc:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
-/usr/include/eigen3/Eigen/src/Cholesky/LLT.h:
-
-/usr/include/c++/11/bits/uniform_int_dist.h:
-
-/usr/include/c++/11/bits/atomic_base.h:
-
-/usr/include/c++/11/bits/random.tcc:
-
-/usr/include/c++/11/bits/unordered_map.h:
-
-/usr/include/c++/11/bits/move.h:
-
-/usr/include/c++/11/bits/hash_bytes.h:
+/home/liubaichuan/anaconda3/include/gtest/internal/gtest-death-test-internal.h:
 
 /usr/include/c++/11/bits/stl_relops.h:
 
@@ -1159,41 +1252,15 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/limits.h:
 
-/usr/include/c++/11/ostream:
+/home/liubaichuan/anaconda3/include/gtest/gtest-matchers.h:
 
-/usr/include/eigen3/Eigen/src/Core/VectorBlock.h:
+/usr/include/c++/11/bits/ostream_insert.h:
 
-/usr/include/c++/11/iterator:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/usr/include/c++/11/bits/nested_exception.h:
-
-/usr/include/c++/11/bits/stream_iterator.h:
-
-/usr/local/include/opencv4/opencv2/core/version.hpp:
-
-/usr/include/c++/11/tr1/beta_function.tcc:
-
-/usr/include/c++/11/array:
-
-/usr/include/c++/11/map:
-
-/usr/include/c++/11/cstddef:
-
-/usr/include/c++/11/bits/stl_vector.h:
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /usr/include/c++/11/bits/shared_ptr_atomic.h:
 
 /usr/include/c++/11/bits/parse_numbers.h:
-
-/usr/include/alloca.h:
-
-/home/liubaichuan/Work/slamdemo/include/myslam/common_include.h:
-
-/usr/include/c++/11/bits/string_view.tcc:
-
-/usr/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h:
 
 /usr/include/c++/11/tr1/special_function_util.h:
 
@@ -1205,15 +1272,19 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/c++/11/bits/predefined_ops.h:
 
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/c++/11/bits/quoted_string.h:
+
+/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
+
 /usr/include/c++/11/bits/refwrap.h:
 
 /usr/include/linux/stddef.h:
 
-/usr/include/c++/11/bits/sstream.tcc:
+/usr/include/c++/11/numeric:
 
-/usr/include/c++/11/new:
-
-/usr/include/c++/11/climits:
+/usr/include/eigen3/Eigen/src/Core/CoreIterators.h:
 
 /usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:
 
@@ -1221,9 +1292,9 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/eigen3/Eigen/src/LU/FullPivLU.h:
 
-/usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:
+/home/liubaichuan/anaconda3/include/gtest/internal/gtest-internal.h:
 
-/usr/include/c++/11/bits/stl_tempbuf.h:
+/usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:
 
 /usr/include/c++/11/tr1/poly_laguerre.tcc:
 
@@ -1233,29 +1304,7 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/c++/11/bit:
 
-/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:
-
-/usr/include/c++/11/bits/stl_iterator_base_types.h:
-
 /usr/include/c++/11/tr1/exp_integral.tcc:
-
-/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:
-
-/usr/include/c++/11/bits/stl_function.h:
-
-/usr/include/c++/11/bits/memoryfwd.h:
-
-/usr/include/c++/11/bits/stl_pair.h:
-
-/usr/include/gtest/gtest-typed-test.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/usr/include/c++/11/backward/auto_ptr.h:
-
-/usr/include/c++/11/bits/stl_uninitialized.h:
 
 /usr/include/c++/11/bits/stl_list.h:
 
@@ -1269,69 +1318,73 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
-/usr/local/include/sophus/se3.hpp:
+/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:
 
-/usr/include/c++/11/tr1/bessel_function.tcc:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
 
-/usr/include/c++/11/bits/atomic_lockfree_defines.h:
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
-/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
+/usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
 
-/usr/include/c++/11/bits/streambuf.tcc:
+/usr/include/c++/11/bits/algorithmfwd.h:
 
-/usr/include/string.h:
+/usr/include/c++/11/bits/cxxabi_forced.h:
 
-/usr/include/c++/11/bits/streambuf_iterator.h:
+/usr/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
 
-/usr/include/c++/11/bits/stringfwd.h:
+/usr/include/c++/11/bits/stl_iterator_base_types.h:
 
-/usr/include/c++/11/bits/cxxabi_init_exception.h:
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:
 
-/usr/include/c++/11/cassert:
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h:
+
+/usr/include/eigen3/Eigen/src/Core/DiagonalMatrix.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/math.h:
+
+/usr/include/c++/11/bits/charconv.h:
+
+/usr/include/c++/11/bits/exception_ptr.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
+
+/usr/include/eigen3/Eigen/src/Core/DiagonalProduct.h:
+
+/usr/include/eigen3/Eigen/src/Core/EigenBase.h:
 
 /usr/include/eigen3/Eigen/src/Core/GeneralProduct.h:
 
-/usr/include/c++/11/unordered_map:
+/usr/include/eigen3/Eigen/src/Core/IO.h:
 
-/usr/include/c++/11/cctype:
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
-/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:
+/usr/include/eigen3/Eigen/src/Core/IndexedView.h:
 
-/usr/include/c++/11/cerrno:
+/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
+/usr/include/eigen3/Eigen/src/Core/Inverse.h:
 
-/usr/include/c++/11/bits/basic_ios.h:
+/usr/include/eigen3/Eigen/src/Core/MapBase.h:
 
-/usr/include/eigen3/Eigen/src/Core/Swap.h:
+/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h:
 
-/usr/include/c++/11/cfloat:
+/usr/include/linux/limits.h:
 
-/usr/include/eigen3/Eigen/src/Core/Redux.h:
+/usr/include/eigen3/Eigen/src/Core/MathFunctions.h:
 
-/usr/include/c++/11/bits/range_access.h:
+/usr/include/c++/11/bits/functexcept.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/c++/11/bits/ostream_insert.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:
 
 /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/NoAlias.h:
-
-/usr/local/include/opencv4/opencv2/core/traits.hpp:
-
-/usr/local/include/opencv4/opencv2/core/core.hpp:
-
-/usr/include/gtest/gtest-assertion-result.h:
-
-/usr/include/gtest/internal/gtest-string.h:
 
 /usr/include/eigen3/Eigen/src/Core/NumTraits.h:
 
@@ -1341,9 +1394,9 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:
 
-/usr/include/x86_64-linux-gnu/bits/statx-generic.h:
-
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/statx-generic.h:
 
 /usr/include/wchar.h:
 
@@ -1355,8 +1408,6 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h:
 
-/usr/include/gtest/internal/gtest-internal.h:
-
 /usr/include/c++/11/bits/locale_conv.h:
 
 /usr/include/eigen3/Eigen/src/Core/Random.h:
@@ -1367,13 +1418,17 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/eigen3/Eigen/src/Core/Replicate.h:
 
+/usr/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h:
+
+/usr/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h:
+
+/usr/include/x86_64-linux-gnu/asm/types.h:
+
 /usr/include/eigen3/Eigen/src/Core/Reverse.h:
 
 /usr/include/eigen3/Eigen/src/Core/Select.h:
 
 /usr/include/eigen3/Eigen/src/Core/SelfAdjointView.h:
-
-/usr/include/gtest/internal/gtest-param-util.h:
 
 /usr/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h:
 
@@ -1431,8 +1486,6 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h:
 
-/usr/include/eigen3/Eigen/src/Core/functors/StlFunctors.h:
-
 /usr/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h:
 
 /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h:
@@ -1449,6 +1502,12 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h:
 
+/usr/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h:
+
 /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h:
 
 /usr/include/eigen3/Eigen/src/Jacobi/Jacobi.h:
@@ -1459,10 +1518,6 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
-/usr/include/eigen3/Eigen/src/misc/RealSvd2x2.h:
-
-/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:
-
 /usr/include/stdc-predef.h:
 
 /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h:
@@ -1470,10 +1525,6 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:
 
 /usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:
-
-/usr/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h:
-
-/usr/include/gtest/gtest-printers.h:
 
 /usr/include/eigen3/Eigen/src/Core/util/Constants.h:
 
@@ -1488,6 +1539,8 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 /usr/local/include/opencv4/opencv2/core/saturate.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
+
+/home/liubaichuan/anaconda3/include/gtest/internal/custom/gtest-port.h:
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
@@ -1504,6 +1557,8 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
 
 /usr/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h:
+
+/home/liubaichuan/anaconda3/include/gtest/internal/gtest-port-arch.h:
 
 /usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:
 
@@ -1523,8 +1578,6 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h:
 
-/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:
-
 /usr/include/c++/11/bits/codecvt.h:
 
 /usr/include/eigen3/Eigen/src/Geometry/RotationBase.h:
@@ -1534,6 +1587,10 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 /usr/include/c++/11/sstream:
 
 /usr/include/eigen3/Eigen/src/Geometry/Umeyama.h:
+
+/usr/include/c++/11/cstdio:
+
+/usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h:
 
 /usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h:
 
@@ -1583,52 +1640,6 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/features.h:
 
-/usr/include/gflags/gflags_declare.h:
-
-/usr/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h:
-
-/usr/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h:
-
-/usr/include/x86_64-linux-gnu/asm/types.h:
-
-/usr/include/glog/log_severity.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h:
-
-/usr/include/glog/logging.h:
-
-/usr/include/gtest/gtest-death-test.h:
-
-/usr/include/gtest/gtest.h:
-
-/usr/include/c++/11/cstdio:
-
-/usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h:
-
-/usr/include/gtest/gtest_pred_impl.h:
-
-/usr/include/gtest/gtest_prod.h:
-
-/usr/include/gtest/internal/custom/gtest-port.h:
-
-/usr/include/gtest/internal/custom/gtest-printers.h:
-
-/usr/include/gtest/internal/gtest-death-test-internal.h:
-
-/home/liubaichuan/Work/slamdemo/test/test_triangulation.cpp:
-
-/usr/include/gtest/internal/gtest-filepath.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
-
-/usr/include/gtest/internal/gtest-type-util.h:
-
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
-
-/usr/include/gtest/internal/gtest-port.h:
-
 /usr/include/inttypes.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
@@ -1648,6 +1659,8 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 /usr/include/linux/stat.h:
 
 /usr/include/linux/types.h:
+
+/home/liubaichuan/anaconda3/include/gtest/gtest-message.h:
 
 /usr/include/locale.h:
 
@@ -1685,7 +1698,7 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/x86_64-linux-gnu/bits/confname.h:
 
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
+/home/liubaichuan/anaconda3/include/gtest/gtest-typed-test.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
@@ -1695,19 +1708,21 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/c++/11/complex:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
-/usr/include/glog/vlog_is_on.h:
-
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/home/liubaichuan/anaconda3/include/gtest/gtest-printers.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
@@ -1721,11 +1736,11 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/x86_64-linux-gnu/bits/sigcontext.h:
 
+/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
+
 /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
-
-/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
 
 /usr/include/c++/11/bits/stl_iterator.h:
 
@@ -1752,10 +1767,6 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 /usr/include/x86_64-linux-gnu/bits/signal_ext.h:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/gtest/gtest-test-part.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
@@ -1791,8 +1802,6 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/x86_64-linux-gnu/bits/struct_stat.h:
 
-/usr/include/gtest/gtest-matchers.h:
-
 /usr/include/signal.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
@@ -1805,12 +1814,6 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
-/usr/include/gflags/gflags.h:
-
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:

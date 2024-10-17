@@ -524,16 +524,20 @@ src/CMakeFiles/myslam.dir/viewer.cpp.o: \
  /usr/local/include/opencv4/opencv2/core/optim.hpp \
  /usr/local/include/opencv4/opencv2/core/ovx.hpp \
  /usr/local/include/opencv4/opencv2/core/cvdef.h \
- /usr/include/glog/logging.h /usr/include/unistd.h \
+ /home/liubaichuan/anaconda3/include/glog/logging.h /usr/include/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /usr/include/linux/close_range.h /usr/include/gflags/gflags.h \
- /usr/include/gflags/gflags_declare.h /usr/include/gflags/gflags_gflags.h \
- /usr/include/glog/log_severity.h /usr/include/glog/vlog_is_on.h \
+ /usr/include/linux/close_range.h \
+ /home/liubaichuan/anaconda3/include/glog/export.h \
+ /home/liubaichuan/anaconda3/include/gflags/gflags.h \
+ /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h \
+ /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h \
+ /home/liubaichuan/anaconda3/include/glog/log_severity.h \
+ /home/liubaichuan/anaconda3/include/glog/vlog_is_on.h \
  /home/liubaichuan/Work/slamdemo/include/myslam/frame.h \
  /home/liubaichuan/Work/slamdemo/include/myslam/camera.h \
  /home/liubaichuan/Work/slamdemo/include/myslam/map.h \

@@ -25,6 +25,7 @@ public:
 
     FrontendStatus GetFrontendStatus() const { return frontend_->GetStatus(); }
 
+    std::vector<float> vTimesTrack = {};
 private:
     bool inited_ = false;
     std::string config_file_path_;

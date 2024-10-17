@@ -92,8 +92,6 @@ test_triangulation_EXTERNAL_OBJECTS =
 
 /home/liubaichuan/Work/slamdemo/bin/test_triangulation: test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o
 /home/liubaichuan/Work/slamdemo/bin/test_triangulation: test/CMakeFiles/test_triangulation.dir/build.make
-/home/liubaichuan/Work/slamdemo/bin/test_triangulation: /usr/lib/libgtest.a
-/home/liubaichuan/Work/slamdemo/bin/test_triangulation: /usr/lib/libgtest_main.a
 /home/liubaichuan/Work/slamdemo/bin/test_triangulation: /usr/lib/x86_64-linux-gnu/libglog.so
 /home/liubaichuan/Work/slamdemo/bin/test_triangulation: /usr/lib/x86_64-linux-gnu/libcxsparse.so
 /home/liubaichuan/Work/slamdemo/bin/test_triangulation: /home/liubaichuan/Work/slamdemo/lib/libmyslam.so
@@ -166,8 +164,8 @@ test_triangulation_EXTERNAL_OBJECTS =
 /home/liubaichuan/Work/slamdemo/bin/test_triangulation: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 /home/liubaichuan/Work/slamdemo/bin/test_triangulation: /usr/lib/x86_64-linux-gnu/libepoxy.so
 /home/liubaichuan/Work/slamdemo/bin/test_triangulation: /usr/local/lib/libtinyobj.so.0.9.2
-/home/liubaichuan/Work/slamdemo/bin/test_triangulation: /usr/lib/libgtest.a
-/home/liubaichuan/Work/slamdemo/bin/test_triangulation: /usr/lib/libgtest_main.a
+/home/liubaichuan/Work/slamdemo/bin/test_triangulation: /home/liubaichuan/anaconda3/lib/libgtest_main.so.1.11.0
+/home/liubaichuan/Work/slamdemo/bin/test_triangulation: /home/liubaichuan/anaconda3/lib/libgtest.so.1.11.0
 /home/liubaichuan/Work/slamdemo/bin/test_triangulation: /usr/lib/x86_64-linux-gnu/libglog.so
 /home/liubaichuan/Work/slamdemo/bin/test_triangulation: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
 /home/liubaichuan/Work/slamdemo/bin/test_triangulation: /usr/lib/x86_64-linux-gnu/libcxsparse.so

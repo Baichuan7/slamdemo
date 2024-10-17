@@ -130,8 +130,7 @@ run_kitti_stereo_EXTERNAL_OBJECTS =
 /home/liubaichuan/Work/slamdemo/bin/run_kitti_stereo: /usr/local/lib/libpango_scene.so.0.9.2
 /home/liubaichuan/Work/slamdemo/bin/run_kitti_stereo: /usr/local/lib/libpango_tools.so.0.9.2
 /home/liubaichuan/Work/slamdemo/bin/run_kitti_stereo: /usr/local/lib/libpango_video.so.0.9.2
-/home/liubaichuan/Work/slamdemo/bin/run_kitti_stereo: /usr/lib/libgtest.a
-/home/liubaichuan/Work/slamdemo/bin/run_kitti_stereo: /usr/lib/libgtest_main.a
+/home/liubaichuan/Work/slamdemo/bin/run_kitti_stereo: /home/liubaichuan/anaconda3/lib/libgtest_main.so.1.11.0
 /home/liubaichuan/Work/slamdemo/bin/run_kitti_stereo: /usr/lib/x86_64-linux-gnu/libglog.so
 /home/liubaichuan/Work/slamdemo/bin/run_kitti_stereo: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
 /home/liubaichuan/Work/slamdemo/bin/run_kitti_stereo: /usr/lib/x86_64-linux-gnu/libcxsparse.so
@@ -167,6 +166,7 @@ run_kitti_stereo_EXTERNAL_OBJECTS =
 /home/liubaichuan/Work/slamdemo/bin/run_kitti_stereo: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 /home/liubaichuan/Work/slamdemo/bin/run_kitti_stereo: /usr/lib/x86_64-linux-gnu/libepoxy.so
 /home/liubaichuan/Work/slamdemo/bin/run_kitti_stereo: /usr/local/lib/libtinyobj.so.0.9.2
+/home/liubaichuan/Work/slamdemo/bin/run_kitti_stereo: /home/liubaichuan/anaconda3/lib/libgtest.so.1.11.0
 /home/liubaichuan/Work/slamdemo/bin/run_kitti_stereo: app/CMakeFiles/run_kitti_stereo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/liubaichuan/Work/slamdemo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/liubaichuan/Work/slamdemo/bin/run_kitti_stereo"
 	cd /home/liubaichuan/Work/slamdemo/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/run_kitti_stereo.dir/link.txt --verbose=$(VERBOSE)

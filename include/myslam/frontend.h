@@ -7,6 +7,7 @@
 #include "myslam/common_include.h"
 #include "myslam/map.h"
 #include "myslam/frame.h"
+// frame.h里面有camera.h实际上已经包含了
 
 
 namespace myslam {

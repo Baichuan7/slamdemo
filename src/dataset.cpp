@@ -65,6 +65,7 @@ Frame::Ptr Dataset::NextFrame() {
         cv::imread((fmt % dataset_path_ % 1 % current_image_index_).str(),
                     cv::IMREAD_GRAYSCALE);
 
+    // 如果读完数据集 会在这里发送停止信号
     if (image_left.data == nullptr || image_right.data == nullptr) {
         LOG(WARNING) << "cannot find image at index" << current_image_index_;
         return nullptr;

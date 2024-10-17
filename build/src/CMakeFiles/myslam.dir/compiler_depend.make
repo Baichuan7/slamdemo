@@ -11,6 +11,13 @@ src/CMakeFiles/myslam.dir/backend.cpp.o: /home/liubaichuan/Work/slamdemo/src/bac
   /home/liubaichuan/Work/slamdemo/include/myslam/g2o_types.h \
   /home/liubaichuan/Work/slamdemo/include/myslam/map.h \
   /home/liubaichuan/Work/slamdemo/include/myslam/mappoint.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h \
+  /home/liubaichuan/anaconda3/include/glog/export.h \
+  /home/liubaichuan/anaconda3/include/glog/log_severity.h \
+  /home/liubaichuan/anaconda3/include/glog/logging.h \
+  /home/liubaichuan/anaconda3/include/glog/vlog_is_on.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -396,12 +403,6 @@ src/CMakeFiles/myslam.dir/backend.cpp.o: /home/liubaichuan/Work/slamdemo/src/bac
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
-  /usr/include/gflags/gflags.h \
-  /usr/include/gflags/gflags_declare.h \
-  /usr/include/gflags/gflags_gflags.h \
-  /usr/include/glog/log_severity.h \
-  /usr/include/glog/logging.h \
-  /usr/include/glog/vlog_is_on.h \
   /usr/include/inttypes.h \
   /usr/include/libintl.h \
   /usr/include/limits.h \
@@ -628,6 +629,13 @@ src/CMakeFiles/myslam.dir/backend.cpp.o: /home/liubaichuan/Work/slamdemo/src/bac
 src/CMakeFiles/myslam.dir/camera.cpp.o: /home/liubaichuan/Work/slamdemo/src/camera.cpp \
   /home/liubaichuan/Work/slamdemo/include/myslam/camera.h \
   /home/liubaichuan/Work/slamdemo/include/myslam/common_include.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h \
+  /home/liubaichuan/anaconda3/include/glog/export.h \
+  /home/liubaichuan/anaconda3/include/glog/log_severity.h \
+  /home/liubaichuan/anaconda3/include/glog/logging.h \
+  /home/liubaichuan/anaconda3/include/glog/vlog_is_on.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -983,12 +991,6 @@ src/CMakeFiles/myslam.dir/camera.cpp.o: /home/liubaichuan/Work/slamdemo/src/came
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
-  /usr/include/gflags/gflags.h \
-  /usr/include/gflags/gflags_declare.h \
-  /usr/include/gflags/gflags_gflags.h \
-  /usr/include/glog/log_severity.h \
-  /usr/include/glog/logging.h \
-  /usr/include/glog/vlog_is_on.h \
   /usr/include/inttypes.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
@@ -1154,6 +1156,13 @@ src/CMakeFiles/myslam.dir/camera.cpp.o: /home/liubaichuan/Work/slamdemo/src/came
 src/CMakeFiles/myslam.dir/config.cpp.o: /home/liubaichuan/Work/slamdemo/src/config.cpp \
   /home/liubaichuan/Work/slamdemo/include/myslam/common_include.h \
   /home/liubaichuan/Work/slamdemo/include/myslam/config.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h \
+  /home/liubaichuan/anaconda3/include/glog/export.h \
+  /home/liubaichuan/anaconda3/include/glog/log_severity.h \
+  /home/liubaichuan/anaconda3/include/glog/logging.h \
+  /home/liubaichuan/anaconda3/include/glog/vlog_is_on.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -1509,12 +1518,6 @@ src/CMakeFiles/myslam.dir/config.cpp.o: /home/liubaichuan/Work/slamdemo/src/conf
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
-  /usr/include/gflags/gflags.h \
-  /usr/include/gflags/gflags_declare.h \
-  /usr/include/gflags/gflags_gflags.h \
-  /usr/include/glog/log_severity.h \
-  /usr/include/glog/logging.h \
-  /usr/include/glog/vlog_is_on.h \
   /usr/include/inttypes.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
@@ -1682,216 +1685,244 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: /home/liubaichuan/Work/slamdemo/src/dat
   /home/liubaichuan/Work/slamdemo/include/myslam/common_include.h \
   /home/liubaichuan/Work/slamdemo/include/myslam/dataset.h \
   /home/liubaichuan/Work/slamdemo/include/myslam/frame.h \
+  /home/liubaichuan/anaconda3/include/boost/assert.hpp \
+  /home/liubaichuan/anaconda3/include/boost/assert/source_location.hpp \
+  /home/liubaichuan/anaconda3/include/boost/config.hpp \
+  /home/liubaichuan/anaconda3/include/boost/config/compiler/gcc.hpp \
+  /home/liubaichuan/anaconda3/include/boost/config/detail/cxx_composite.hpp \
+  /home/liubaichuan/anaconda3/include/boost/config/detail/posix_features.hpp \
+  /home/liubaichuan/anaconda3/include/boost/config/detail/select_compiler_config.hpp \
+  /home/liubaichuan/anaconda3/include/boost/config/detail/select_platform_config.hpp \
+  /home/liubaichuan/anaconda3/include/boost/config/detail/select_stdlib_config.hpp \
+  /home/liubaichuan/anaconda3/include/boost/config/detail/suffix.hpp \
+  /home/liubaichuan/anaconda3/include/boost/config/helper_macros.hpp \
+  /home/liubaichuan/anaconda3/include/boost/config/platform/linux.hpp \
+  /home/liubaichuan/anaconda3/include/boost/config/pragma_message.hpp \
+  /home/liubaichuan/anaconda3/include/boost/config/stdlib/libstdcpp3.hpp \
+  /home/liubaichuan/anaconda3/include/boost/config/user.hpp \
+  /home/liubaichuan/anaconda3/include/boost/config/workaround.hpp \
+  /home/liubaichuan/anaconda3/include/boost/core/addressof.hpp \
+  /home/liubaichuan/anaconda3/include/boost/core/allocator_access.hpp \
+  /home/liubaichuan/anaconda3/include/boost/core/checked_delete.hpp \
+  /home/liubaichuan/anaconda3/include/boost/core/enable_if.hpp \
+  /home/liubaichuan/anaconda3/include/boost/core/explicit_operator_bool.hpp \
+  /home/liubaichuan/anaconda3/include/boost/core/ignore_unused.hpp \
+  /home/liubaichuan/anaconda3/include/boost/core/pointer_traits.hpp \
+  /home/liubaichuan/anaconda3/include/boost/core/swap.hpp \
+  /home/liubaichuan/anaconda3/include/boost/cstdint.hpp \
+  /home/liubaichuan/anaconda3/include/boost/current_function.hpp \
+  /home/liubaichuan/anaconda3/include/boost/detail/workaround.hpp \
+  /home/liubaichuan/anaconda3/include/boost/exception/exception.hpp \
+  /home/liubaichuan/anaconda3/include/boost/format.hpp \
+  /home/liubaichuan/anaconda3/include/boost/format/alt_sstream.hpp \
+  /home/liubaichuan/anaconda3/include/boost/format/alt_sstream_impl.hpp \
+  /home/liubaichuan/anaconda3/include/boost/format/detail/compat_workarounds.hpp \
+  /home/liubaichuan/anaconda3/include/boost/format/detail/config_macros.hpp \
+  /home/liubaichuan/anaconda3/include/boost/format/detail/msvc_disambiguater.hpp \
+  /home/liubaichuan/anaconda3/include/boost/format/detail/unset_macros.hpp \
+  /home/liubaichuan/anaconda3/include/boost/format/detail/workarounds_gcc-2_95.hpp \
+  /home/liubaichuan/anaconda3/include/boost/format/detail/workarounds_stlport.hpp \
+  /home/liubaichuan/anaconda3/include/boost/format/exceptions.hpp \
+  /home/liubaichuan/anaconda3/include/boost/format/feed_args.hpp \
+  /home/liubaichuan/anaconda3/include/boost/format/format_class.hpp \
+  /home/liubaichuan/anaconda3/include/boost/format/format_fwd.hpp \
+  /home/liubaichuan/anaconda3/include/boost/format/format_implementation.hpp \
+  /home/liubaichuan/anaconda3/include/boost/format/free_funcs.hpp \
+  /home/liubaichuan/anaconda3/include/boost/format/group.hpp \
+  /home/liubaichuan/anaconda3/include/boost/format/internals.hpp \
+  /home/liubaichuan/anaconda3/include/boost/format/internals_fwd.hpp \
+  /home/liubaichuan/anaconda3/include/boost/format/parsing.hpp \
+  /home/liubaichuan/anaconda3/include/boost/limits.hpp \
+  /home/liubaichuan/anaconda3/include/boost/move/core.hpp \
+  /home/liubaichuan/anaconda3/include/boost/move/detail/addressof.hpp \
+  /home/liubaichuan/anaconda3/include/boost/move/detail/config_begin.hpp \
+  /home/liubaichuan/anaconda3/include/boost/move/detail/config_end.hpp \
+  /home/liubaichuan/anaconda3/include/boost/move/detail/meta_utils.hpp \
+  /home/liubaichuan/anaconda3/include/boost/move/detail/meta_utils_core.hpp \
+  /home/liubaichuan/anaconda3/include/boost/move/detail/type_traits.hpp \
+  /home/liubaichuan/anaconda3/include/boost/move/detail/workaround.hpp \
+  /home/liubaichuan/anaconda3/include/boost/move/traits.hpp \
+  /home/liubaichuan/anaconda3/include/boost/move/utility.hpp \
+  /home/liubaichuan/anaconda3/include/boost/move/utility_core.hpp \
+  /home/liubaichuan/anaconda3/include/boost/none.hpp \
+  /home/liubaichuan/anaconda3/include/boost/none_t.hpp \
+  /home/liubaichuan/anaconda3/include/boost/optional.hpp \
+  /home/liubaichuan/anaconda3/include/boost/optional/bad_optional_access.hpp \
+  /home/liubaichuan/anaconda3/include/boost/optional/detail/optional_aligned_storage.hpp \
+  /home/liubaichuan/anaconda3/include/boost/optional/detail/optional_config.hpp \
+  /home/liubaichuan/anaconda3/include/boost/optional/detail/optional_factory_support.hpp \
+  /home/liubaichuan/anaconda3/include/boost/optional/detail/optional_hash.hpp \
+  /home/liubaichuan/anaconda3/include/boost/optional/detail/optional_reference_spec.hpp \
+  /home/liubaichuan/anaconda3/include/boost/optional/detail/optional_relops.hpp \
+  /home/liubaichuan/anaconda3/include/boost/optional/detail/optional_swap.hpp \
+  /home/liubaichuan/anaconda3/include/boost/optional/detail/optional_trivially_copyable_base.hpp \
+  /home/liubaichuan/anaconda3/include/boost/optional/optional.hpp \
+  /home/liubaichuan/anaconda3/include/boost/optional/optional_fwd.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/arithmetic/add.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/arithmetic/dec.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/arithmetic/detail/is_maximum_number.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/arithmetic/detail/is_minimum_number.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/arithmetic/detail/maximum_number.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/arithmetic/inc.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/arithmetic/limits/dec_256.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/arithmetic/limits/inc_256.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/arithmetic/sub.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/cat.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/comparison/equal.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/comparison/limits/not_equal_256.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/comparison/not_equal.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/config/config.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/config/limits.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/control/detail/limits/while_256.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/control/detail/while.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/control/expr_iif.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/control/if.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/control/iif.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/control/limits/while_256.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/control/while.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/debug/error.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/detail/auto_rec.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/detail/check.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/detail/is_binary.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/detail/limits/auto_rec_256.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/facilities/check_empty.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/facilities/empty.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/facilities/expand.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/facilities/identity.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/facilities/overload.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/list/adt.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/list/detail/fold_left.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/list/detail/fold_right.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/list/detail/limits/fold_left_256.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/list/detail/limits/fold_right_256.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/list/fold_left.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/list/fold_right.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/list/limits/fold_left_256.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/list/reverse.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/logical/and.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/logical/bitand.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/logical/bitor.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/logical/bool.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/logical/compl.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/logical/limits/bool_256.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/logical/not.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/punctuation/comma.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/punctuation/comma_if.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/repetition/enum_binary_params.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/repetition/enum_params.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/repetition/limits/repeat_256.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/repetition/repeat.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/repetition/repeat_from_to.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/tuple/detail/is_single_return.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/tuple/eat.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/tuple/elem.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/tuple/rem.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/variadic/elem.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/variadic/has_opt.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/variadic/limits/elem_64.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/variadic/limits/size_64.hpp \
+  /home/liubaichuan/anaconda3/include/boost/preprocessor/variadic/size.hpp \
+  /home/liubaichuan/anaconda3/include/boost/shared_ptr.hpp \
+  /home/liubaichuan/anaconda3/include/boost/smart_ptr/bad_weak_ptr.hpp \
+  /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/local_counted_base.hpp \
+  /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/local_sp_deleter.hpp \
+  /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/operator_bool.hpp \
+  /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/requires_cxx11.hpp \
+  /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/shared_count.hpp \
+  /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_convertible.hpp \
+  /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_counted_base.hpp \
+  /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_counted_base_gcc_atomic.hpp \
+  /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_counted_impl.hpp \
+  /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp \
+  /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_has_gcc_intrinsics.hpp \
+  /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp \
+  /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_noexcept.hpp \
+  /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
+  /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_thread_pause.hpp \
+  /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_thread_sleep.hpp \
+  /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_typeinfo_.hpp \
+  /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/spinlock.hpp \
+  /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp \
+  /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/spinlock_pool.hpp \
+  /home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/yield_k.hpp \
+  /home/liubaichuan/anaconda3/include/boost/smart_ptr/shared_ptr.hpp \
+  /home/liubaichuan/anaconda3/include/boost/static_assert.hpp \
+  /home/liubaichuan/anaconda3/include/boost/throw_exception.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/add_lvalue_reference.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/add_pointer.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/add_reference.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/add_rvalue_reference.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/alignment_of.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/conditional.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/conjunction.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/decay.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/declval.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/detail/config.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/detail/is_function_cxx_11.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/detail/yes_no_type.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/disjunction.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/enable_if.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/has_nothrow_assign.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/has_nothrow_constructor.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/has_trivial_move_assign.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/integral_constant.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/intrinsics.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_abstract.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_arithmetic.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_array.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_assignable.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_base_and_derived.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_base_of.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_class.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_complete.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_const.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_constructible.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_convertible.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_default_constructible.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_destructible.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_enum.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_floating_point.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_function.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_integral.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_lvalue_reference.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_member_function_pointer.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_member_pointer.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_nothrow_move_assignable.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_nothrow_move_constructible.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_pod.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_pointer.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_reference.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_rvalue_reference.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_same.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_scalar.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_void.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/is_volatile.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/remove_bounds.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/remove_const.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/remove_cv.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/remove_extent.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/remove_reference.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/type_identity.hpp \
+  /home/liubaichuan/anaconda3/include/boost/type_traits/type_with_alignment.hpp \
+  /home/liubaichuan/anaconda3/include/boost/utility/base_from_member.hpp \
+  /home/liubaichuan/anaconda3/include/boost/utility/compare_pointees.hpp \
+  /home/liubaichuan/anaconda3/include/boost/utility/detail/result_of_variadic.hpp \
+  /home/liubaichuan/anaconda3/include/boost/utility/enable_if.hpp \
+  /home/liubaichuan/anaconda3/include/boost/utility/result_of.hpp \
+  /home/liubaichuan/anaconda3/include/boost/version.hpp \
+  /home/liubaichuan/anaconda3/include/gflags/gflags.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h \
+  /home/liubaichuan/anaconda3/include/glog/export.h \
+  /home/liubaichuan/anaconda3/include/glog/log_severity.h \
+  /home/liubaichuan/anaconda3/include/glog/logging.h \
+  /home/liubaichuan/anaconda3/include/glog/vlog_is_on.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \
-  /usr/include/boost/assert.hpp \
-  /usr/include/boost/assert/source_location.hpp \
-  /usr/include/boost/checked_delete.hpp \
-  /usr/include/boost/config.hpp \
-  /usr/include/boost/config/compiler/gcc.hpp \
-  /usr/include/boost/config/detail/posix_features.hpp \
-  /usr/include/boost/config/detail/select_compiler_config.hpp \
-  /usr/include/boost/config/detail/select_platform_config.hpp \
-  /usr/include/boost/config/detail/select_stdlib_config.hpp \
-  /usr/include/boost/config/detail/suffix.hpp \
-  /usr/include/boost/config/helper_macros.hpp \
-  /usr/include/boost/config/platform/linux.hpp \
-  /usr/include/boost/config/pragma_message.hpp \
-  /usr/include/boost/config/stdlib/libstdcpp3.hpp \
-  /usr/include/boost/config/user.hpp \
-  /usr/include/boost/config/workaround.hpp \
-  /usr/include/boost/core/addressof.hpp \
-  /usr/include/boost/core/allocator_access.hpp \
-  /usr/include/boost/core/checked_delete.hpp \
-  /usr/include/boost/core/enable_if.hpp \
-  /usr/include/boost/core/explicit_operator_bool.hpp \
-  /usr/include/boost/core/ignore_unused.hpp \
-  /usr/include/boost/core/pointer_traits.hpp \
-  /usr/include/boost/core/swap.hpp \
-  /usr/include/boost/cstdint.hpp \
-  /usr/include/boost/current_function.hpp \
-  /usr/include/boost/detail/workaround.hpp \
-  /usr/include/boost/exception/exception.hpp \
-  /usr/include/boost/format.hpp \
-  /usr/include/boost/format/alt_sstream.hpp \
-  /usr/include/boost/format/alt_sstream_impl.hpp \
-  /usr/include/boost/format/detail/compat_workarounds.hpp \
-  /usr/include/boost/format/detail/config_macros.hpp \
-  /usr/include/boost/format/detail/msvc_disambiguater.hpp \
-  /usr/include/boost/format/detail/unset_macros.hpp \
-  /usr/include/boost/format/detail/workarounds_gcc-2_95.hpp \
-  /usr/include/boost/format/detail/workarounds_stlport.hpp \
-  /usr/include/boost/format/exceptions.hpp \
-  /usr/include/boost/format/feed_args.hpp \
-  /usr/include/boost/format/format_class.hpp \
-  /usr/include/boost/format/format_fwd.hpp \
-  /usr/include/boost/format/format_implementation.hpp \
-  /usr/include/boost/format/free_funcs.hpp \
-  /usr/include/boost/format/group.hpp \
-  /usr/include/boost/format/internals.hpp \
-  /usr/include/boost/format/internals_fwd.hpp \
-  /usr/include/boost/format/parsing.hpp \
-  /usr/include/boost/limits.hpp \
-  /usr/include/boost/move/core.hpp \
-  /usr/include/boost/move/detail/config_begin.hpp \
-  /usr/include/boost/move/detail/config_end.hpp \
-  /usr/include/boost/move/detail/meta_utils.hpp \
-  /usr/include/boost/move/detail/meta_utils_core.hpp \
-  /usr/include/boost/move/detail/type_traits.hpp \
-  /usr/include/boost/move/detail/workaround.hpp \
-  /usr/include/boost/move/traits.hpp \
-  /usr/include/boost/move/utility.hpp \
-  /usr/include/boost/move/utility_core.hpp \
-  /usr/include/boost/none.hpp \
-  /usr/include/boost/none_t.hpp \
-  /usr/include/boost/optional.hpp \
-  /usr/include/boost/optional/bad_optional_access.hpp \
-  /usr/include/boost/optional/detail/optional_aligned_storage.hpp \
-  /usr/include/boost/optional/detail/optional_config.hpp \
-  /usr/include/boost/optional/detail/optional_factory_support.hpp \
-  /usr/include/boost/optional/detail/optional_reference_spec.hpp \
-  /usr/include/boost/optional/detail/optional_relops.hpp \
-  /usr/include/boost/optional/detail/optional_swap.hpp \
-  /usr/include/boost/optional/detail/optional_trivially_copyable_base.hpp \
-  /usr/include/boost/optional/optional.hpp \
-  /usr/include/boost/optional/optional_fwd.hpp \
-  /usr/include/boost/preprocessor/arithmetic/add.hpp \
-  /usr/include/boost/preprocessor/arithmetic/dec.hpp \
-  /usr/include/boost/preprocessor/arithmetic/inc.hpp \
-  /usr/include/boost/preprocessor/arithmetic/sub.hpp \
-  /usr/include/boost/preprocessor/array/data.hpp \
-  /usr/include/boost/preprocessor/array/elem.hpp \
-  /usr/include/boost/preprocessor/array/size.hpp \
-  /usr/include/boost/preprocessor/cat.hpp \
-  /usr/include/boost/preprocessor/config/config.hpp \
-  /usr/include/boost/preprocessor/control/detail/while.hpp \
-  /usr/include/boost/preprocessor/control/expr_iif.hpp \
-  /usr/include/boost/preprocessor/control/if.hpp \
-  /usr/include/boost/preprocessor/control/iif.hpp \
-  /usr/include/boost/preprocessor/control/while.hpp \
-  /usr/include/boost/preprocessor/debug/error.hpp \
-  /usr/include/boost/preprocessor/detail/auto_rec.hpp \
-  /usr/include/boost/preprocessor/detail/check.hpp \
-  /usr/include/boost/preprocessor/detail/is_binary.hpp \
-  /usr/include/boost/preprocessor/facilities/empty.hpp \
-  /usr/include/boost/preprocessor/facilities/expand.hpp \
-  /usr/include/boost/preprocessor/facilities/intercept.hpp \
-  /usr/include/boost/preprocessor/facilities/overload.hpp \
-  /usr/include/boost/preprocessor/iteration/detail/bounds/lower1.hpp \
-  /usr/include/boost/preprocessor/iteration/detail/bounds/upper1.hpp \
-  /usr/include/boost/preprocessor/iteration/detail/iter/forward1.hpp \
-  /usr/include/boost/preprocessor/iteration/iterate.hpp \
-  /usr/include/boost/preprocessor/list/adt.hpp \
-  /usr/include/boost/preprocessor/list/detail/fold_left.hpp \
-  /usr/include/boost/preprocessor/list/detail/fold_right.hpp \
-  /usr/include/boost/preprocessor/list/fold_left.hpp \
-  /usr/include/boost/preprocessor/list/fold_right.hpp \
-  /usr/include/boost/preprocessor/list/reverse.hpp \
-  /usr/include/boost/preprocessor/logical/bitand.hpp \
-  /usr/include/boost/preprocessor/logical/bool.hpp \
-  /usr/include/boost/preprocessor/logical/compl.hpp \
-  /usr/include/boost/preprocessor/punctuation/comma.hpp \
-  /usr/include/boost/preprocessor/punctuation/comma_if.hpp \
-  /usr/include/boost/preprocessor/repetition/enum_binary_params.hpp \
-  /usr/include/boost/preprocessor/repetition/enum_params.hpp \
-  /usr/include/boost/preprocessor/repetition/enum_shifted_params.hpp \
-  /usr/include/boost/preprocessor/repetition/enum_trailing_params.hpp \
-  /usr/include/boost/preprocessor/repetition/repeat.hpp \
-  /usr/include/boost/preprocessor/repetition/repeat_from_to.hpp \
-  /usr/include/boost/preprocessor/slot/detail/def.hpp \
-  /usr/include/boost/preprocessor/slot/detail/shared.hpp \
-  /usr/include/boost/preprocessor/slot/slot.hpp \
-  /usr/include/boost/preprocessor/tuple/detail/is_single_return.hpp \
-  /usr/include/boost/preprocessor/tuple/eat.hpp \
-  /usr/include/boost/preprocessor/tuple/elem.hpp \
-  /usr/include/boost/preprocessor/tuple/rem.hpp \
-  /usr/include/boost/preprocessor/variadic/elem.hpp \
-  /usr/include/boost/preprocessor/variadic/size.hpp \
-  /usr/include/boost/shared_ptr.hpp \
-  /usr/include/boost/smart_ptr/bad_weak_ptr.hpp \
-  /usr/include/boost/smart_ptr/detail/local_counted_base.hpp \
-  /usr/include/boost/smart_ptr/detail/local_sp_deleter.hpp \
-  /usr/include/boost/smart_ptr/detail/operator_bool.hpp \
-  /usr/include/boost/smart_ptr/detail/shared_count.hpp \
-  /usr/include/boost/smart_ptr/detail/sp_convertible.hpp \
-  /usr/include/boost/smart_ptr/detail/sp_counted_base.hpp \
-  /usr/include/boost/smart_ptr/detail/sp_counted_base_gcc_atomic.hpp \
-  /usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp \
-  /usr/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp \
-  /usr/include/boost/smart_ptr/detail/sp_has_gcc_intrinsics.hpp \
-  /usr/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp \
-  /usr/include/boost/smart_ptr/detail/sp_noexcept.hpp \
-  /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
-  /usr/include/boost/smart_ptr/detail/sp_thread_pause.hpp \
-  /usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp \
-  /usr/include/boost/smart_ptr/detail/sp_typeinfo_.hpp \
-  /usr/include/boost/smart_ptr/detail/spinlock.hpp \
-  /usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp \
-  /usr/include/boost/smart_ptr/detail/spinlock_pool.hpp \
-  /usr/include/boost/smart_ptr/detail/yield_k.hpp \
-  /usr/include/boost/smart_ptr/shared_ptr.hpp \
-  /usr/include/boost/static_assert.hpp \
-  /usr/include/boost/throw_exception.hpp \
-  /usr/include/boost/type.hpp \
-  /usr/include/boost/type_traits/add_pointer.hpp \
-  /usr/include/boost/type_traits/add_rvalue_reference.hpp \
-  /usr/include/boost/type_traits/alignment_of.hpp \
-  /usr/include/boost/type_traits/conditional.hpp \
-  /usr/include/boost/type_traits/decay.hpp \
-  /usr/include/boost/type_traits/declval.hpp \
-  /usr/include/boost/type_traits/detail/config.hpp \
-  /usr/include/boost/type_traits/detail/is_function_cxx_11.hpp \
-  /usr/include/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp \
-  /usr/include/boost/type_traits/detail/yes_no_type.hpp \
-  /usr/include/boost/type_traits/enable_if.hpp \
-  /usr/include/boost/type_traits/has_nothrow_assign.hpp \
-  /usr/include/boost/type_traits/has_nothrow_constructor.hpp \
-  /usr/include/boost/type_traits/has_trivial_move_assign.hpp \
-  /usr/include/boost/type_traits/integral_constant.hpp \
-  /usr/include/boost/type_traits/intrinsics.hpp \
-  /usr/include/boost/type_traits/is_arithmetic.hpp \
-  /usr/include/boost/type_traits/is_array.hpp \
-  /usr/include/boost/type_traits/is_assignable.hpp \
-  /usr/include/boost/type_traits/is_base_and_derived.hpp \
-  /usr/include/boost/type_traits/is_base_of.hpp \
-  /usr/include/boost/type_traits/is_class.hpp \
-  /usr/include/boost/type_traits/is_complete.hpp \
-  /usr/include/boost/type_traits/is_const.hpp \
-  /usr/include/boost/type_traits/is_constructible.hpp \
-  /usr/include/boost/type_traits/is_default_constructible.hpp \
-  /usr/include/boost/type_traits/is_destructible.hpp \
-  /usr/include/boost/type_traits/is_enum.hpp \
-  /usr/include/boost/type_traits/is_floating_point.hpp \
-  /usr/include/boost/type_traits/is_function.hpp \
-  /usr/include/boost/type_traits/is_integral.hpp \
-  /usr/include/boost/type_traits/is_lvalue_reference.hpp \
-  /usr/include/boost/type_traits/is_member_function_pointer.hpp \
-  /usr/include/boost/type_traits/is_member_pointer.hpp \
-  /usr/include/boost/type_traits/is_nothrow_move_assignable.hpp \
-  /usr/include/boost/type_traits/is_nothrow_move_constructible.hpp \
-  /usr/include/boost/type_traits/is_pod.hpp \
-  /usr/include/boost/type_traits/is_pointer.hpp \
-  /usr/include/boost/type_traits/is_reference.hpp \
-  /usr/include/boost/type_traits/is_rvalue_reference.hpp \
-  /usr/include/boost/type_traits/is_same.hpp \
-  /usr/include/boost/type_traits/is_scalar.hpp \
-  /usr/include/boost/type_traits/is_void.hpp \
-  /usr/include/boost/type_traits/is_volatile.hpp \
-  /usr/include/boost/type_traits/remove_bounds.hpp \
-  /usr/include/boost/type_traits/remove_const.hpp \
-  /usr/include/boost/type_traits/remove_cv.hpp \
-  /usr/include/boost/type_traits/remove_extent.hpp \
-  /usr/include/boost/type_traits/remove_reference.hpp \
-  /usr/include/boost/type_traits/type_identity.hpp \
-  /usr/include/boost/type_traits/type_with_alignment.hpp \
-  /usr/include/boost/utility/base_from_member.hpp \
-  /usr/include/boost/utility/compare_pointees.hpp \
-  /usr/include/boost/utility/detail/result_of_iterate.hpp \
-  /usr/include/boost/utility/enable_if.hpp \
-  /usr/include/boost/utility/result_of.hpp \
-  /usr/include/boost/version.hpp \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/array \
   /usr/include/c++/11/atomic \
@@ -2259,12 +2290,6 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: /home/liubaichuan/Work/slamdemo/src/dat
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
-  /usr/include/gflags/gflags.h \
-  /usr/include/gflags/gflags_declare.h \
-  /usr/include/gflags/gflags_gflags.h \
-  /usr/include/glog/log_severity.h \
-  /usr/include/glog/logging.h \
-  /usr/include/glog/vlog_is_on.h \
   /usr/include/inttypes.h \
   /usr/include/libintl.h \
   /usr/include/limits.h \
@@ -2506,6 +2531,13 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: /home/liubaichuan/Work/slamdemo/src/dat
 src/CMakeFiles/myslam.dir/feature.cpp.o: /home/liubaichuan/Work/slamdemo/src/feature.cpp \
   /home/liubaichuan/Work/slamdemo/include/myslam/common_include.h \
   /home/liubaichuan/Work/slamdemo/include/myslam/feature.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h \
+  /home/liubaichuan/anaconda3/include/glog/export.h \
+  /home/liubaichuan/anaconda3/include/glog/log_severity.h \
+  /home/liubaichuan/anaconda3/include/glog/logging.h \
+  /home/liubaichuan/anaconda3/include/glog/vlog_is_on.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -2861,12 +2893,6 @@ src/CMakeFiles/myslam.dir/feature.cpp.o: /home/liubaichuan/Work/slamdemo/src/fea
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
-  /usr/include/gflags/gflags.h \
-  /usr/include/gflags/gflags_declare.h \
-  /usr/include/gflags/gflags_gflags.h \
-  /usr/include/glog/log_severity.h \
-  /usr/include/glog/logging.h \
-  /usr/include/glog/vlog_is_on.h \
   /usr/include/inttypes.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
@@ -3037,6 +3063,13 @@ src/CMakeFiles/myslam.dir/frame.cpp.o: /home/liubaichuan/Work/slamdemo/src/frame
   /home/liubaichuan/Work/slamdemo/include/myslam/camera.h \
   /home/liubaichuan/Work/slamdemo/include/myslam/common_include.h \
   /home/liubaichuan/Work/slamdemo/include/myslam/frame.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h \
+  /home/liubaichuan/anaconda3/include/glog/export.h \
+  /home/liubaichuan/anaconda3/include/glog/log_severity.h \
+  /home/liubaichuan/anaconda3/include/glog/logging.h \
+  /home/liubaichuan/anaconda3/include/glog/vlog_is_on.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -3392,12 +3425,6 @@ src/CMakeFiles/myslam.dir/frame.cpp.o: /home/liubaichuan/Work/slamdemo/src/frame
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
-  /usr/include/gflags/gflags.h \
-  /usr/include/gflags/gflags_declare.h \
-  /usr/include/gflags/gflags_gflags.h \
-  /usr/include/glog/log_severity.h \
-  /usr/include/glog/logging.h \
-  /usr/include/glog/vlog_is_on.h \
   /usr/include/inttypes.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
@@ -3573,6 +3600,13 @@ src/CMakeFiles/myslam.dir/frontend.cpp.o: /home/liubaichuan/Work/slamdemo/src/fr
   /home/liubaichuan/Work/slamdemo/include/myslam/map.h \
   /home/liubaichuan/Work/slamdemo/include/myslam/mappoint.h \
   /home/liubaichuan/Work/slamdemo/include/myslam/viewer.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h \
+  /home/liubaichuan/anaconda3/include/glog/export.h \
+  /home/liubaichuan/anaconda3/include/glog/log_severity.h \
+  /home/liubaichuan/anaconda3/include/glog/logging.h \
+  /home/liubaichuan/anaconda3/include/glog/vlog_is_on.h \
   /usr/include/GL/gl.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -3967,12 +4001,6 @@ src/CMakeFiles/myslam.dir/frontend.cpp.o: /home/liubaichuan/Work/slamdemo/src/fr
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
-  /usr/include/gflags/gflags.h \
-  /usr/include/gflags/gflags_declare.h \
-  /usr/include/gflags/gflags_gflags.h \
-  /usr/include/glog/log_severity.h \
-  /usr/include/glog/logging.h \
-  /usr/include/glog/vlog_is_on.h \
   /usr/include/inttypes.h \
   /usr/include/libintl.h \
   /usr/include/limits.h \
@@ -4341,6 +4369,13 @@ src/CMakeFiles/myslam.dir/map.cpp.o: /home/liubaichuan/Work/slamdemo/src/map.cpp
   /home/liubaichuan/Work/slamdemo/include/myslam/frame.h \
   /home/liubaichuan/Work/slamdemo/include/myslam/map.h \
   /home/liubaichuan/Work/slamdemo/include/myslam/mappoint.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h \
+  /home/liubaichuan/anaconda3/include/glog/export.h \
+  /home/liubaichuan/anaconda3/include/glog/log_severity.h \
+  /home/liubaichuan/anaconda3/include/glog/logging.h \
+  /home/liubaichuan/anaconda3/include/glog/vlog_is_on.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -4696,12 +4731,6 @@ src/CMakeFiles/myslam.dir/map.cpp.o: /home/liubaichuan/Work/slamdemo/src/map.cpp
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
-  /usr/include/gflags/gflags.h \
-  /usr/include/gflags/gflags_declare.h \
-  /usr/include/gflags/gflags_gflags.h \
-  /usr/include/glog/log_severity.h \
-  /usr/include/glog/logging.h \
-  /usr/include/glog/vlog_is_on.h \
   /usr/include/inttypes.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
@@ -4872,6 +4901,13 @@ src/CMakeFiles/myslam.dir/mappoint.cpp.o: /home/liubaichuan/Work/slamdemo/src/ma
   /home/liubaichuan/Work/slamdemo/include/myslam/common_include.h \
   /home/liubaichuan/Work/slamdemo/include/myslam/feature.h \
   /home/liubaichuan/Work/slamdemo/include/myslam/mappoint.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h \
+  /home/liubaichuan/anaconda3/include/glog/export.h \
+  /home/liubaichuan/anaconda3/include/glog/log_severity.h \
+  /home/liubaichuan/anaconda3/include/glog/logging.h \
+  /home/liubaichuan/anaconda3/include/glog/vlog_is_on.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -5227,12 +5263,6 @@ src/CMakeFiles/myslam.dir/mappoint.cpp.o: /home/liubaichuan/Work/slamdemo/src/ma
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
-  /usr/include/gflags/gflags.h \
-  /usr/include/gflags/gflags_declare.h \
-  /usr/include/gflags/gflags_gflags.h \
-  /usr/include/glog/log_severity.h \
-  /usr/include/glog/logging.h \
-  /usr/include/glog/vlog_is_on.h \
   /usr/include/inttypes.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
@@ -5407,6 +5437,13 @@ src/CMakeFiles/myslam.dir/viewer.cpp.o: /home/liubaichuan/Work/slamdemo/src/view
   /home/liubaichuan/Work/slamdemo/include/myslam/map.h \
   /home/liubaichuan/Work/slamdemo/include/myslam/mappoint.h \
   /home/liubaichuan/Work/slamdemo/include/myslam/viewer.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h \
+  /home/liubaichuan/anaconda3/include/glog/export.h \
+  /home/liubaichuan/anaconda3/include/glog/log_severity.h \
+  /home/liubaichuan/anaconda3/include/glog/logging.h \
+  /home/liubaichuan/anaconda3/include/glog/vlog_is_on.h \
   /usr/include/GL/gl.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -5787,12 +5824,6 @@ src/CMakeFiles/myslam.dir/viewer.cpp.o: /home/liubaichuan/Work/slamdemo/src/view
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
-  /usr/include/gflags/gflags.h \
-  /usr/include/gflags/gflags_declare.h \
-  /usr/include/gflags/gflags_gflags.h \
-  /usr/include/glog/log_severity.h \
-  /usr/include/glog/logging.h \
-  /usr/include/glog/vlog_is_on.h \
   /usr/include/inttypes.h \
   /usr/include/libintl.h \
   /usr/include/limits.h \
@@ -6114,6 +6145,13 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
   /home/liubaichuan/Work/slamdemo/include/myslam/mappoint.h \
   /home/liubaichuan/Work/slamdemo/include/myslam/viewer.h \
   /home/liubaichuan/Work/slamdemo/include/myslam/visual_odometry.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h \
+  /home/liubaichuan/anaconda3/include/glog/export.h \
+  /home/liubaichuan/anaconda3/include/glog/log_severity.h \
+  /home/liubaichuan/anaconda3/include/glog/logging.h \
+  /home/liubaichuan/anaconda3/include/glog/vlog_is_on.h \
   /usr/include/GL/gl.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -6486,12 +6524,6 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
-  /usr/include/gflags/gflags.h \
-  /usr/include/gflags/gflags_declare.h \
-  /usr/include/gflags/gflags_gflags.h \
-  /usr/include/glog/log_severity.h \
-  /usr/include/glog/logging.h \
-  /usr/include/glog/vlog_is_on.h \
   /usr/include/inttypes.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
@@ -6738,11 +6770,9 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/local/include/pangolin/windowing/handler_bitsets.h:
 
-/usr/local/include/pangolin/video/video_exception.h:
+/usr/local/include/pangolin/video/video_output_interface.h:
 
 /usr/local/include/pangolin/video/video.h:
-
-/usr/local/include/pangolin/video/stream_info.h:
 
 /usr/local/include/pangolin/video/video_output.h:
 
@@ -6750,19 +6780,13 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/local/include/pangolin/var/varstate.h:
 
-/usr/local/include/pangolin/var/varextra.h:
-
-/usr/local/include/pangolin/utils/uri.h:
-
-/usr/local/include/pangolin/utils/signal_slot.h:
-
 /usr/local/include/pangolin/utils/range.h:
+
+/usr/local/include/pangolin/utils/params.h:
 
 /usr/local/include/pangolin/utils/log.h:
 
-/usr/local/include/pangolin/utils/format_string.h:
-
-/usr/local/include/pangolin/utils/file_extension.h:
+/usr/local/include/pangolin/utils/file_utils.h:
 
 /usr/local/include/pangolin/utils/bitmask.h:
 
@@ -6770,13 +6794,9 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/local/include/pangolin/plot/plotter.h:
 
-/usr/local/include/pangolin/pangolin.h:
-
 /usr/local/include/pangolin/image/pixel_format.h:
 
 /usr/local/include/pangolin/image/memcpy.h:
-
-/usr/local/include/pangolin/image/managed_image.h:
 
 /usr/local/include/pangolin/image/image.h:
 
@@ -6786,13 +6806,13 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/local/include/pangolin/gl/glplatform.h:
 
+/usr/local/include/pangolin/gl/glpixformat.h:
+
 /usr/local/include/pangolin/gl/glpangoglu.h:
 
 /usr/local/include/pangolin/gl/glchar.h:
 
 /usr/local/include/pangolin/gl/gl.h:
-
-/usr/local/include/pangolin/gl/colour.h:
 
 /usr/local/include/pangolin/display/widgets.h:
 
@@ -6804,13 +6824,7 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/c++/11/any:
 
-/home/liubaichuan/Work/slamdemo/include/myslam/frontend.h:
-
 /home/liubaichuan/Work/slamdemo/src/frontend.cpp:
-
-/home/liubaichuan/Work/slamdemo/src/frame.cpp:
-
-/home/liubaichuan/Work/slamdemo/src/feature.cpp:
 
 /usr/local/include/opencv4/opencv2/videoio.hpp:
 
@@ -6832,6 +6846,8 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/local/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp:
 
+/usr/local/include/opencv4/opencv2/stitching/detail/blenders.hpp:
+
 /usr/local/include/opencv4/opencv2/photo.hpp:
 
 /usr/local/include/opencv4/opencv2/opencv.hpp:
@@ -6846,15 +6862,13 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/local/include/opencv4/opencv2/flann/saving.h:
 
-/usr/local/include/opencv4/opencv2/flann/random.h:
+/usr/local/include/opencv4/opencv2/flann/nn_index.h:
 
 /usr/local/include/opencv4/opencv2/flann/lsh_table.h:
 
-/usr/local/include/pangolin/gl/opengl_render_state.h:
-
-/usr/local/include/opencv4/opencv2/flann/linear_index.h:
-
 /usr/local/include/opencv4/opencv2/flann/kmeans_index.h:
+
+/usr/local/include/opencv4/opencv2/flann/kdtree_single_index.h:
 
 /usr/local/include/opencv4/opencv2/flann/index_testing.h:
 
@@ -6862,13 +6876,11 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/local/include/opencv4/opencv2/flann/heap.h:
 
-/usr/local/include/opencv4/opencv2/flann/dynamic_bitset.h:
-
 /usr/local/include/opencv4/opencv2/flann/autotuned_index.h:
 
-/usr/local/include/opencv4/opencv2/flann/all_indices.h:
-
 /usr/local/include/opencv4/opencv2/dnn/version.hpp:
+
+/usr/local/include/opencv4/opencv2/dnn/utils/inference_engine.hpp:
 
 /usr/local/include/opencv4/opencv2/dnn/layer.hpp:
 
@@ -6876,11 +6888,17 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/local/include/opencv4/opencv2/dnn/dnn.hpp:
 
+/usr/local/include/opencv4/opencv2/dnn/dict.hpp:
+
 /usr/local/include/opencv4/opencv2/dnn.hpp:
+
+/usr/local/include/opencv4/opencv2/core/cuda.inl.hpp:
 
 /usr/local/include/pangolin/var/varwrapper.h:
 
 /usr/local/include/opencv4/opencv2/core/cuda.hpp:
+
+/usr/local/include/opencv4/opencv2/core/async.hpp:
 
 /usr/local/include/opencv4/opencv2/flann/general.h:
 
@@ -6890,287 +6908,303 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/c++/11/queue:
 
-/usr/include/boost/version.hpp:
+/home/liubaichuan/anaconda3/include/boost/utility/result_of.hpp:
 
-/usr/include/boost/utility/enable_if.hpp:
+/usr/local/include/pangolin/utils/format_string.h:
 
-/usr/include/boost/utility/compare_pointees.hpp:
+/home/liubaichuan/anaconda3/include/boost/utility/detail/result_of_variadic.hpp:
 
-/usr/include/boost/type_traits/type_with_alignment.hpp:
+/home/liubaichuan/anaconda3/include/boost/utility/base_from_member.hpp:
 
-/usr/include/boost/type_traits/type_identity.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/type_with_alignment.hpp:
 
-/usr/include/boost/type_traits/remove_bounds.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/type_identity.hpp:
 
-/usr/include/boost/type_traits/is_volatile.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/remove_extent.hpp:
 
-/usr/include/boost/type_traits/is_void.hpp:
+/usr/local/include/pangolin/utils/file_extension.h:
 
-/usr/include/boost/type_traits/is_scalar.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/remove_const.hpp:
 
-/usr/include/boost/type_traits/is_pointer.hpp:
+/home/liubaichuan/Work/slamdemo/src/frame.cpp:
 
-/usr/include/boost/type_traits/is_nothrow_move_assignable.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_void.hpp:
 
-/usr/local/include/opencv4/opencv2/dnn/utils/inference_engine.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_scalar.hpp:
 
-/usr/include/boost/type_traits/is_member_pointer.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_same.hpp:
 
-/usr/include/boost/type_traits/is_lvalue_reference.hpp:
+/usr/local/include/pangolin/var/varextra.h:
 
-/usr/include/boost/type_traits/is_integral.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_reference.hpp:
 
-/usr/include/boost/type_traits/is_function.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_pointer.hpp:
 
-/usr/include/boost/type_traits/is_floating_point.hpp:
+/usr/local/include/pangolin/utils/uri.h:
 
-/usr/include/boost/type_traits/is_enum.hpp:
+/usr/local/include/pangolin/utils/signal_slot.h:
 
-/usr/include/boost/type_traits/is_constructible.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_pod.hpp:
 
-/usr/include/boost/type_traits/is_const.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_nothrow_move_constructible.hpp:
 
-/usr/local/include/opencv4/opencv2/dnn/dict.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_integral.hpp:
 
-/usr/include/boost/type_traits/is_class.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_function.hpp:
 
-/usr/local/include/pangolin/utils/params.h:
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_default_constructible.hpp:
 
-/usr/include/boost/type_traits/is_base_of.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_const.hpp:
 
-/usr/include/boost/type_traits/intrinsics.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_complete.hpp:
 
-/usr/include/boost/type_traits/has_trivial_move_assign.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_base_of.hpp:
 
-/usr/include/boost/type_traits/has_nothrow_constructor.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_base_and_derived.hpp:
 
-/usr/include/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_array.hpp:
 
-/usr/include/boost/type_traits/detail/is_function_cxx_11.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_arithmetic.hpp:
 
-/usr/include/boost/type_traits/decay.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/intrinsics.hpp:
 
-/usr/include/boost/type_traits/alignment_of.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/has_nothrow_constructor.hpp:
 
-/usr/include/boost/type_traits/add_rvalue_reference.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/enable_if.hpp:
 
-/usr/include/boost/type.hpp:
+/usr/local/include/pangolin/video/video_exception.h:
 
-/usr/include/boost/throw_exception.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/detail/yes_no_type.hpp:
 
-/usr/local/include/pangolin/utils/file_utils.h:
+/home/liubaichuan/anaconda3/include/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp:
 
-/usr/include/boost/static_assert.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/detail/config.hpp:
 
-/usr/include/boost/smart_ptr/shared_ptr.hpp:
+/home/liubaichuan/Work/slamdemo/include/myslam/frontend.h:
 
-/usr/include/boost/smart_ptr/detail/yield_k.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/decay.hpp:
 
-/usr/local/include/pangolin/video/video_output_interface.h:
+/home/liubaichuan/anaconda3/include/boost/type_traits/conjunction.hpp:
 
-/usr/include/boost/smart_ptr/detail/sp_typeinfo_.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/add_pointer.hpp:
 
-/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/add_lvalue_reference.hpp:
 
-/usr/include/boost/smart_ptr/detail/sp_thread_pause.hpp:
+/home/liubaichuan/anaconda3/include/boost/type.hpp:
 
-/usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp:
+/home/liubaichuan/anaconda3/include/boost/throw_exception.hpp:
 
-/usr/include/boost/smart_ptr/detail/sp_noexcept.hpp:
+/usr/local/include/pangolin/pangolin.h:
 
-/usr/include/boost/smart_ptr/detail/sp_has_gcc_intrinsics.hpp:
+/home/liubaichuan/anaconda3/include/boost/static_assert.hpp:
 
-/usr/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp:
+/home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/spinlock_pool.hpp:
 
-/usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp:
+/home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:
 
-/usr/include/boost/smart_ptr/detail/sp_counted_base_gcc_atomic.hpp:
+/usr/local/include/pangolin/gl/opengl_render_state.h:
 
-/usr/include/boost/smart_ptr/detail/sp_counted_base.hpp:
+/usr/local/include/opencv4/opencv2/flann/linear_index.h:
 
-/usr/include/boost/smart_ptr/detail/shared_count.hpp:
+/home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:
 
-/usr/local/include/opencv4/opencv2/stitching/detail/blenders.hpp:
+/home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_nullptr_t.hpp:
 
-/usr/include/boost/preprocessor/variadic/elem.hpp:
+/home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp:
 
-/usr/include/boost/preprocessor/tuple/elem.hpp:
+/home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_counted_impl.hpp:
 
-/usr/include/boost/preprocessor/tuple/eat.hpp:
+/home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_counted_base.hpp:
 
-/usr/include/boost/preprocessor/slot/detail/shared.hpp:
+/home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_convertible.hpp:
 
-/usr/include/boost/preprocessor/repetition/repeat_from_to.hpp:
+/home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/requires_cxx11.hpp:
 
-/usr/include/boost/preprocessor/repetition/repeat.hpp:
+/home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/operator_bool.hpp:
 
-/usr/local/include/pangolin/gl/glpixformat.h:
+/home/liubaichuan/anaconda3/include/boost/shared_ptr.hpp:
 
-/usr/include/boost/smart_ptr/detail/operator_bool.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/variadic/size.hpp:
 
-/usr/include/boost/preprocessor/repetition/enum_trailing_params.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/variadic/limits/elem_64.hpp:
 
-/usr/include/boost/preprocessor/repetition/enum_shifted_params.hpp:
+/usr/local/include/pangolin/image/managed_image.h:
 
-/usr/include/boost/preprocessor/repetition/enum_binary_params.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/punctuation/comma_if.hpp:
 
-/usr/include/boost/preprocessor/punctuation/comma.hpp:
+/usr/local/include/opencv4/opencv2/flann/random.h:
 
-/usr/include/boost/preprocessor/logical/bool.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/logical/not.hpp:
 
-/usr/include/boost/type_traits/is_member_function_pointer.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/logical/limits/bool_256.hpp:
 
-/usr/include/boost/preprocessor/logical/bitand.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/logical/bitor.hpp:
 
-/usr/local/include/opencv4/opencv2/core/async.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/logical/and.hpp:
 
-/usr/include/boost/preprocessor/list/detail/fold_left.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/list/limits/fold_left_256.hpp:
 
-/usr/include/boost/preprocessor/iteration/iterate.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/list/detail/fold_right.hpp:
 
-/usr/include/boost/preprocessor/facilities/overload.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/list/adt.hpp:
 
-/usr/include/boost/preprocessor/facilities/intercept.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/facilities/identity.hpp:
 
-/usr/include/boost/preprocessor/facilities/expand.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/detail/limits/auto_rec_256.hpp:
 
-/usr/include/boost/preprocessor/debug/error.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/detail/is_binary.hpp:
 
-/usr/include/boost/preprocessor/control/while.hpp:
+/home/liubaichuan/Work/slamdemo/src/feature.cpp:
 
-/usr/include/boost/preprocessor/control/detail/while.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/control/while.hpp:
 
-/usr/include/boost/preprocessor/config/config.hpp:
-
-/usr/include/boost/preprocessor/cat.hpp:
-
-/usr/include/boost/preprocessor/array/size.hpp:
-
-/usr/include/boost/preprocessor/arithmetic/sub.hpp:
-
-/usr/include/boost/preprocessor/arithmetic/dec.hpp:
-
-/usr/include/boost/optional/optional_fwd.hpp:
-
-/usr/include/boost/smart_ptr/detail/local_sp_deleter.hpp:
-
-/usr/include/boost/optional/detail/optional_config.hpp:
-
-/usr/include/boost/optional/bad_optional_access.hpp:
-
-/usr/include/boost/optional.hpp:
-
-/usr/include/boost/none_t.hpp:
-
-/usr/include/boost/preprocessor/list/adt.hpp:
-
-/usr/include/boost/none.hpp:
-
-/usr/include/boost/type_traits/remove_reference.hpp:
-
-/usr/include/boost/preprocessor/array/data.hpp:
-
-/usr/include/boost/move/traits.hpp:
-
-/usr/include/boost/move/detail/type_traits.hpp:
-
-/usr/include/boost/smart_ptr/detail/spinlock.hpp:
-
-/usr/include/boost/preprocessor/tuple/detail/is_single_return.hpp:
-
-/usr/include/boost/move/core.hpp:
-
-/usr/include/boost/limits.hpp:
-
-/usr/include/boost/type_traits/is_reference.hpp:
-
-/usr/include/boost/format/internals_fwd.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/control/detail/while.hpp:
 
 /usr/local/include/opencv4/opencv2/flann/matrix.h:
 
-/usr/include/boost/format/internals.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/config/limits.hpp:
 
-/usr/include/boost/optional/detail/optional_relops.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/comparison/not_equal.hpp:
 
-/usr/include/boost/format/group.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/arithmetic/limits/dec_256.hpp:
 
-/usr/include/boost/format/format_implementation.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/arithmetic/detail/maximum_number.hpp:
 
-/usr/local/include/opencv4/opencv2/flann/kdtree_single_index.h:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/arithmetic/detail/is_minimum_number.hpp:
 
-/usr/include/boost/preprocessor/list/fold_right.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/arithmetic/detail/is_maximum_number.hpp:
 
-/usr/include/boost/format/format_fwd.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/arithmetic/dec.hpp:
 
-/usr/include/boost/format/format_class.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/arithmetic/add.hpp:
 
-/usr/include/boost/format/feed_args.hpp:
+/usr/local/include/pangolin/gl/colour.h:
 
-/usr/local/include/opencv4/opencv2/core/cuda.inl.hpp:
+/home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_thread_pause.hpp:
 
-/usr/include/boost/format/exceptions.hpp:
+/home/liubaichuan/anaconda3/include/boost/optional/optional_fwd.hpp:
 
-/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:
+/home/liubaichuan/anaconda3/include/boost/optional/optional.hpp:
 
-/usr/include/boost/format/detail/workarounds_stlport.hpp:
+/home/liubaichuan/anaconda3/include/boost/optional/detail/optional_trivially_copyable_base.hpp:
 
-/usr/include/boost/format/detail/unset_macros.hpp:
+/home/liubaichuan/anaconda3/include/boost/optional/bad_optional_access.hpp:
 
-/usr/include/boost/format/detail/compat_workarounds.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/remove_reference.hpp:
 
-/usr/include/boost/format.hpp:
+/home/liubaichuan/anaconda3/include/boost/none_t.hpp:
 
-/usr/include/boost/detail/workaround.hpp:
+/home/liubaichuan/anaconda3/include/boost/none.hpp:
 
-/usr/include/boost/cstdint.hpp:
+/home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_counted_base_gcc_atomic.hpp:
 
-/usr/include/boost/core/swap.hpp:
+/home/liubaichuan/anaconda3/include/boost/move/utility.hpp:
 
-/usr/include/boost/format/free_funcs.hpp:
+/home/liubaichuan/anaconda3/include/boost/move/detail/type_traits.hpp:
 
-/usr/include/boost/core/pointer_traits.hpp:
+/home/liubaichuan/anaconda3/include/boost/move/detail/meta_utils_core.hpp:
 
-/usr/include/boost/core/allocator_access.hpp:
+/home/liubaichuan/anaconda3/include/boost/move/detail/meta_utils.hpp:
 
-/usr/include/boost/core/addressof.hpp:
+/home/liubaichuan/anaconda3/include/boost/optional/detail/optional_aligned_storage.hpp:
 
-/usr/include/boost/config/workaround.hpp:
+/home/liubaichuan/anaconda3/include/boost/move/detail/config_begin.hpp:
 
-/usr/include/boost/config/user.hpp:
+/home/liubaichuan/anaconda3/include/boost/move/core.hpp:
 
-/usr/include/boost/config/stdlib/libstdcpp3.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/detail/auto_rec.hpp:
 
-/usr/include/boost/smart_ptr/detail/sp_convertible.hpp:
+/home/liubaichuan/anaconda3/include/boost/limits.hpp:
 
-/usr/include/boost/config/platform/linux.hpp:
+/home/liubaichuan/anaconda3/include/boost/format/group.hpp:
 
-/usr/include/boost/config/helper_macros.hpp:
+/home/liubaichuan/anaconda3/include/boost/format/free_funcs.hpp:
 
-/usr/include/boost/config/detail/suffix.hpp:
+/home/liubaichuan/anaconda3/include/boost/format/format_fwd.hpp:
 
-/usr/include/boost/config/detail/select_stdlib_config.hpp:
+/home/liubaichuan/anaconda3/include/boost/format/format_class.hpp:
 
-/usr/include/boost/config/detail/select_platform_config.hpp:
+/usr/local/include/pangolin/video/stream_info.h:
 
-/usr/local/include/opencv4/opencv2/flann/nn_index.h:
+/home/liubaichuan/anaconda3/include/boost/format/feed_args.hpp:
 
-/usr/include/boost/type_traits/enable_if.hpp:
+/home/liubaichuan/anaconda3/include/boost/format/exceptions.hpp:
 
-/usr/include/boost/config/compiler/gcc.hpp:
+/usr/local/include/opencv4/opencv2/flann/dynamic_bitset.h:
 
-/usr/include/boost/config.hpp:
+/home/liubaichuan/anaconda3/include/boost/format/detail/workarounds_stlport.hpp:
 
-/usr/include/boost/checked_delete.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/tuple/rem.hpp:
 
-/usr/include/boost/assert/source_location.hpp:
+/home/liubaichuan/anaconda3/include/boost/format/detail/workarounds_gcc-2_95.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/format/detail/unset_macros.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/preprocessor/comparison/equal.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/format/detail/msvc_disambiguater.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/format/detail/compat_workarounds.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/format/alt_sstream.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/format.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/exception/exception.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/type_traits/remove_cv.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/preprocessor/list/detail/fold_left.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/current_function.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/cstdint.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/type_traits/has_nothrow_assign.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/core/pointer_traits.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/core/ignore_unused.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_typeinfo_.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/core/explicit_operator_bool.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/core/checked_delete.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/core/addressof.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/type_traits/alignment_of.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/core/swap.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/config/workaround.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/config/stdlib/libstdcpp3.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/config/detail/suffix.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/config/detail/select_stdlib_config.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/config/detail/select_platform_config.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/config/detail/cxx_composite.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/assert/source_location.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/assert.hpp:
 
 /home/liubaichuan/Work/slamdemo/src/dataset.cpp:
 
 /usr/local/include/pangolin/plot/datalog.h:
 
+/home/liubaichuan/anaconda3/include/boost/preprocessor/logical/bool.hpp:
+
 /home/liubaichuan/Work/slamdemo/src/config.cpp:
 
 /usr/local/include/sophus/so2.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/type_traits/declval.hpp:
 
 /usr/local/include/opencv4/opencv2/opencv_modules.hpp:
 
@@ -7188,7 +7222,11 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/local/include/opencv4/opencv2/core/operations.hpp:
 
+/home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_has_gcc_intrinsics.hpp:
+
 /usr/local/include/opencv4/opencv2/core/neon_utils.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/move/detail/config_end.hpp:
 
 /usr/local/include/opencv4/opencv2/core/matx.hpp:
 
@@ -7210,7 +7248,11 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/local/include/opencv4/opencv2/core/core.hpp:
 
+/home/liubaichuan/anaconda3/include/boost/type_traits/disjunction.hpp:
+
 /usr/local/include/opencv4/opencv2/core.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_class.hpp:
 
 /usr/local/include/g2o/stuff/tuple_tools.h:
 
@@ -7218,13 +7260,13 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/local/include/g2o/stuff/timeutil.h:
 
+/home/liubaichuan/anaconda3/include/boost/preprocessor/cat.hpp:
+
 /usr/local/include/sophus/rotation_matrix.hpp:
 
 /usr/local/include/g2o/stuff/sparse_helper.h:
 
 /usr/local/include/g2o/stuff/property.h:
-
-/usr/include/boost/utility/detail/result_of_iterate.hpp:
 
 /usr/local/include/g2o/stuff/macros.h:
 
@@ -7236,17 +7278,15 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/local/include/g2o/solvers/csparse/linear_solver_csparse.h:
 
-/usr/include/boost/format/parsing.hpp:
-
 /usr/local/include/g2o/solvers/csparse/g2o_csparse_api.h:
-
-/usr/include/boost/smart_ptr/bad_weak_ptr.hpp:
 
 /usr/local/include/g2o/core/sparse_optimizer.h:
 
 /usr/local/include/g2o/core/sparse_block_matrix_diagonal.h:
 
 /usr/local/include/pangolin/gl/glsl.h:
+
+/home/liubaichuan/anaconda3/include/boost/type_traits/add_rvalue_reference.hpp:
 
 /usr/local/include/g2o/core/sparse_block_matrix.hpp:
 
@@ -7266,17 +7306,15 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/local/include/g2o/core/optimization_algorithm_with_hessian.h:
 
-/usr/include/boost/optional/detail/optional_factory_support.hpp:
+/home/liubaichuan/anaconda3/include/boost/config/compiler/gcc.hpp:
 
 /usr/local/include/opencv4/opencv2/core/bufferpool.hpp:
 
 /usr/local/include/g2o/core/optimization_algorithm_levenberg.h:
 
-/usr/include/boost/move/detail/meta_utils.hpp:
-
 /usr/local/include/g2o/core/optimization_algorithm_gauss_newton.h:
 
-/usr/include/boost/core/enable_if.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_rvalue_reference.hpp:
 
 /usr/local/include/g2o/core/optimizable_graph.h:
 
@@ -7288,31 +7326,29 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/local/include/g2o/core/g2o_core_api.h:
 
+/home/liubaichuan/anaconda3/include/boost/preprocessor/list/detail/limits/fold_right_256.hpp:
+
 /usr/local/include/g2o/core/block_solver.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/preprocessor/facilities/empty.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/optional/detail/optional_relops.hpp:
 
 /usr/local/include/g2o/core/block_solver.h:
 
+/home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/yield_k.hpp:
+
 /usr/local/include/g2o/core/batch_stats.h:
 
-/usr/local/include/g2o/core/base_vertex.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/list/fold_left.hpp:
 
-/usr/include/boost/move/detail/config_begin.hpp:
+/usr/local/include/g2o/core/base_vertex.hpp:
 
 /usr/local/include/g2o/core/base_vertex.h:
 
 /usr/local/include/g2o/core/base_unary_edge.h:
 
-/usr/include/eigen3/Eigen/src/Core/EigenBase.h:
-
-/usr/include/eigen3/Eigen/src/Core/DiagonalProduct.h:
-
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-/usr/include/boost/type_traits/is_base_and_derived.hpp:
-
 /usr/include/eigen3/Eigen/Householder:
-
-/usr/include/boost/type_traits/has_nothrow_assign.hpp:
 
 /usr/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h:
 
@@ -7334,11 +7370,15 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/eigen3/Eigen/src/Core/Map.h:
 
-/usr/include/boost/optional/detail/optional_aligned_storage.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_enum.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/config/platform/linux.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/Block.h:
 
 /usr/local/include/pangolin/var/var.h:
+
+/home/liubaichuan/anaconda3/include/boost/config/detail/select_compiler_config.hpp:
 
 /usr/include/c++/11/bits/locale_facets_nonio.tcc:
 
@@ -7346,17 +7386,15 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h:
 
-/usr/include/c++/11/ctime:
-
 /usr/include/eigen3/Eigen/SVD:
+
+/home/liubaichuan/anaconda3/include/boost/preprocessor/repetition/repeat.hpp:
 
 /usr/include/c++/11/bits/locale_classes.h:
 
 /usr/include/eigen3/Eigen/LU:
 
 /usr/local/include/opencv4/opencv2/flann/result_set.h:
-
-/usr/include/boost/preprocessor/list/reverse.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/Transpositions.h:
 
@@ -7366,9 +7404,13 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/eigen3/Eigen/Geometry:
 
+/home/liubaichuan/anaconda3/include/boost/format/format_implementation.hpp:
+
 /usr/include/c++/11/bits/stl_multimap.h:
 
 /usr/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h:
+
+/home/liubaichuan/anaconda3/include/boost/preprocessor/control/if.hpp:
 
 /usr/include/eigen3/Eigen/Dense:
 
@@ -7376,9 +7418,11 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/c++/11/ios:
 
-/usr/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/control/expr_iif.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/CommaInitializer.h:
+
+/home/liubaichuan/anaconda3/include/boost/preprocessor/punctuation/comma.hpp:
 
 /usr/include/c++/11/type_traits:
 
@@ -7387,6 +7431,8 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
 
 /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h:
+
+/home/liubaichuan/anaconda3/include/boost/preprocessor/facilities/expand.hpp:
 
 /usr/local/include/opencv4/opencv2/core/cvdef.h:
 
@@ -7404,9 +7450,9 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/c++/11/thread:
 
-/usr/include/c++/11/ratio:
+/home/liubaichuan/anaconda3/include/boost/version.hpp:
 
-/usr/include/boost/type_traits/is_pod.hpp:
+/usr/include/c++/11/ratio:
 
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
@@ -7422,13 +7468,13 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/c++/11/stack:
 
-/usr/include/gflags/gflags_gflags.h:
-
-/usr/include/boost/preprocessor/iteration/detail/iter/forward1.hpp:
-
 /usr/local/include/opencv4/opencv2/core/check.hpp:
 
 /usr/include/c++/11/pstl/execution_defs.h:
+
+/home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_noexcept.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/preprocessor/variadic/has_opt.hpp:
 
 /usr/include/c++/11/mutex:
 
@@ -7446,15 +7492,19 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/c++/11/iosfwd:
 
+/home/liubaichuan/anaconda3/include/boost/preprocessor/list/fold_right.hpp:
+
 /usr/include/c++/11/initializer_list:
 
 /usr/local/include/pangolin/gl/gl.hpp:
 
+/home/liubaichuan/anaconda3/include/boost/preprocessor/detail/check.hpp:
+
 /usr/include/c++/11/ext/type_traits.h:
 
-/usr/include/boost/shared_ptr.hpp:
-
 /usr/include/c++/11/iomanip:
+
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_nothrow_move_assignable.hpp:
 
 /usr/include/c++/11/cctype:
 
@@ -7468,7 +7518,7 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/c++/11/bits/unique_lock.h:
 
-/usr/include/boost/type_traits/is_same.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/control/limits/while_256.hpp:
 
 /usr/include/c++/11/ext/concurrence.h:
 
@@ -7492,6 +7542,8 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/local/include/opencv4/opencv2/flann.hpp:
 
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_member_pointer.hpp:
+
 /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
 
 /usr/include/c++/11/exception:
@@ -7500,17 +7552,23 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/c++/11/debug/debug.h:
 
-/usr/include/eigen3/Eigen/src/Core/DiagonalMatrix.h:
-
 /usr/include/c++/11/debug/assertions.h:
 
 /usr/include/c++/11/cwctype:
 
+/home/liubaichuan/anaconda3/include/boost/smart_ptr/bad_weak_ptr.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/home/liubaichuan/anaconda3/include/boost/core/allocator_access.hpp:
 
 /usr/include/c++/11/cstdint:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/home/liubaichuan/anaconda3/include/boost/preprocessor/repetition/enum_params.hpp:
+
+/home/liubaichuan/anaconda3/include/gflags/gflags_declare.h:
 
 /usr/include/c++/11/chrono:
 
@@ -7518,11 +7576,309 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
-/usr/include/c++/11/tr1/gamma.tcc:
+/usr/include/c++/11/cfloat:
 
-/usr/include/boost/preprocessor/tuple/rem.hpp:
+/home/liubaichuan/Work/slamdemo/src/backend.cpp:
 
-/usr/include/c++/11/random:
+/usr/include/eigen3/Eigen/src/Core/Redux.h:
+
+/usr/include/c++/11/cerrno:
+
+/usr/local/include/opencv4/opencv2/flann/sampling.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
+/usr/include/c++/11/unordered_map:
+
+/usr/include/eigen3/Eigen/Core:
+
+/usr/include/c++/11/bits/shared_ptr.h:
+
+/home/liubaichuan/anaconda3/include/boost/config/user.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/ReturnByValue.h:
+
+/usr/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h:
+
+/usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h:
+
+/usr/include/c++/11/locale:
+
+/home/liubaichuan/anaconda3/include/boost/type_traits/integral_constant.hpp:
+
+/usr/local/include/g2o/core/dynamic_aligned_buffer.hpp:
+
+/usr/include/ctype.h:
+
+/usr/include/c++/11/bitset:
+
+/usr/include/c++/11/condition_variable:
+
+/usr/include/c++/11/optional:
+
+/usr/local/include/pangolin/utils/type_convert.h:
+
+/usr/include/c++/11/bits/vector.tcc:
+
+/home/liubaichuan/anaconda3/include/boost/smart_ptr/shared_ptr.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h:
+
+/usr/local/include/sigslot/signal.hpp:
+
+/usr/include/eigen3/Eigen/Cholesky:
+
+/usr/include/c++/11/bits/invoke.h:
+
+/usr/include/c++/11/bits/hashtable.h:
+
+/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:
+
+/home/liubaichuan/Work/slamdemo/include/myslam/dataset.h:
+
+/usr/include/c++/11/cmath:
+
+/usr/local/include/opencv4/opencv2/flann/logger.h:
+
+/home/liubaichuan/anaconda3/include/boost/config.hpp:
+
+/usr/include/c++/11/bits/allocator.h:
+
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_convertible.hpp:
+
+/usr/local/include/sophus/common.hpp:
+
+/home/liubaichuan/Work/slamdemo/include/myslam/camera.h:
+
+/home/liubaichuan/anaconda3/include/boost/type_traits/add_reference.hpp:
+
+/home/liubaichuan/Work/slamdemo/include/myslam/algorithm.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/eigen3/Eigen/src/Core/Assign.h:
+
+/usr/include/c++/11/clocale:
+
+/usr/include/c++/11/streambuf:
+
+/usr/include/c++/11/bits/locale_facets.h:
+
+/usr/local/include/opencv4/opencv2/core/cuda_types.hpp:
+
+/usr/include/c++/11/bits/istream.tcc:
+
+/usr/include/eigen3/Eigen/src/Core/Diagonal.h:
+
+/usr/include/c++/11/bits/enable_special_members.h:
+
+/home/liubaichuan/anaconda3/include/boost/detail/workaround.hpp:
+
+/usr/local/include/g2o/autodiff/memory.h:
+
+/usr/include/c++/11/bits/basic_ios.tcc:
+
+/usr/include/c++/11/bits/std_thread.h:
+
+/usr/include/c++/11/bits/stl_map.h:
+
+/usr/local/include/pangolin/gl/glstate.h:
+
+/usr/include/c++/11/bits/basic_string.tcc:
+
+/home/liubaichuan/anaconda3/include/boost/preprocessor/tuple/elem.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/StableNorm.h:
+
+/usr/local/include/pangolin/gl/glsl.hpp:
+
+/usr/include/c++/11/cwchar:
+
+/home/liubaichuan/anaconda3/include/boost/preprocessor/config/config.hpp:
+
+/usr/include/c++/11/bits/stl_algobase.h:
+
+/usr/include/unistd.h:
+
+/home/liubaichuan/anaconda3/include/boost/preprocessor/facilities/check_empty.hpp:
+
+/usr/include/c++/11/bits/functional_hash.h:
+
+/home/liubaichuan/anaconda3/include/boost/format/alt_sstream_impl.hpp:
+
+/usr/local/include/opencv4/opencv2/features2d.hpp:
+
+/usr/include/eigen3/Eigen/src/Cholesky/LDLT.h:
+
+/usr/include/c++/11/bits/stl_raw_storage_iter.h:
+
+/usr/local/include/pangolin/utils/true_false_toggle.h:
+
+/usr/include/c++/11/bits/unordered_map.h:
+
+/usr/include/eigen3/Eigen/src/Cholesky/LLT.h:
+
+/usr/include/c++/11/bits/uniform_int_dist.h:
+
+/usr/include/c++/11/ext/numeric_traits.h:
+
+/usr/include/c++/11/bits/random.tcc:
+
+/usr/include/c++/11/bits/atomic_base.h:
+
+/usr/include/c++/11/bits/locale_facets_nonio.h:
+
+/usr/include/c++/11/tuple:
+
+/usr/local/include/g2o/core/hyper_graph.h:
+
+/usr/include/c++/11/bits/stl_tree.h:
+
+/usr/include/c++/11/map:
+
+/usr/include/c++/11/cstddef:
+
+/usr/include/c++/11/bits/stl_vector.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/c++/11/bits/range_access.h:
+
+/usr/include/c++/11/iterator:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/c++/11/ctime:
+
+/home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h:
+
+/usr/include/c++/11/bits/concept_check.h:
+
+/usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/local/include/opencv4/opencv2/flann/all_indices.h:
+
+/home/liubaichuan/anaconda3/include/boost/type_traits/detail/is_function_cxx_11.hpp:
+
+/home/liubaichuan/anaconda3/include/glog/export.h:
+
+/usr/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h:
+
+/usr/include/c++/11/atomic:
+
+/usr/local/include/opencv4/opencv2/stitching/detail/camera.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/local_sp_deleter.hpp:
+
+/usr/include/eigen3/Eigen/QR:
+
+/home/liubaichuan/anaconda3/include/boost/preprocessor/arithmetic/inc.hpp:
+
+/usr/include/c++/11/bits/exception_defines.h:
+
+/home/liubaichuan/anaconda3/include/boost/core/enable_if.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
+
+/home/liubaichuan/Work/slamdemo/include/myslam/viewer.h:
+
+/usr/include/c++/11/bits/stl_heap.h:
+
+/usr/include/c++/11/bits/std_abs.h:
+
+/usr/local/include/opencv4/opencv2/core/hal/interface.h:
+
+/usr/include/c++/11/bits/stl_multiset.h:
+
+/usr/include/c++/11/fstream:
+
+/usr/include/c++/11/ext/alloc_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/home/liubaichuan/anaconda3/include/boost/move/detail/workaround.hpp:
+
+/usr/include/c++/11/bits/random.h:
+
+/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:
+
+/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:
+
+/usr/include/c++/11/bits/stl_function.h:
+
+/home/liubaichuan/anaconda3/include/boost/optional.hpp:
+
+/usr/include/c++/11/bits/memoryfwd.h:
+
+/usr/include/c++/11/bits/node_handle.h:
+
+/home/liubaichuan/Work/slamdemo/include/myslam/g2o_types.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/c++/11/bits/exception.h:
+
+/usr/include/eigen3/Eigen/src/Core/BandMatrix.h:
+
+/home/liubaichuan/anaconda3/include/boost/optional/detail/optional_config.hpp:
+
+/usr/include/c++/11/bits/hashtable_policy.h:
+
+/usr/include/assert.h:
+
+/usr/include/c++/11/bits/allocated_ptr.h:
+
+/usr/include/eigen3/Eigen/src/plugins/ReshapedMethods.h:
+
+/usr/include/epoxy/gl.h:
+
+/usr/include/eigen3/Eigen/src/Core/Matrix.h:
+
+/usr/local/include/pangolin/display/display.hpp:
+
+/usr/include/c++/11/bits/erase_if.h:
+
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_floating_point.hpp:
+
+/usr/include/c++/11/bits/ptr_traits.h:
+
+/usr/include/c++/11/bits/cpp_type_traits.h:
+
+/usr/include/endian.h:
+
+/usr/include/stdint.h:
+
+/home/liubaichuan/anaconda3/include/boost/preprocessor/list/reverse.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/Reshaped.h:
+
+/usr/local/include/opencv4/opencv2/flann/kdtree_index.h:
+
+/usr/include/c++/11/bits/ios_base.h:
+
+/home/liubaichuan/Work/slamdemo/src/viewer.cpp:
+
+/usr/include/c++/11/bits/basic_string.h:
+
+/home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp:
+
+/usr/include/c++/11/bits/shared_ptr_base.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/home/liubaichuan/anaconda3/include/glog/logging.h:
+
+/usr/local/include/pangolin/var/varvaluet.h:
+
+/home/liubaichuan/Work/slamdemo/include/myslam/map.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:
+
+/usr/include/c++/11/bits/stl_tempbuf.h:
 
 /usr/include/c++/11/climits:
 
@@ -7536,253 +7892,19 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/c++/11/array:
 
-/usr/include/eigen3/Eigen/src/Core/DenseStorage.h:
+/usr/include/c++/11/random:
 
-/usr/local/include/sigslot/signal.hpp:
-
-/usr/include/eigen3/Eigen/Cholesky:
-
-/usr/include/c++/11/bits/invoke.h:
-
-/usr/include/boost/core/checked_delete.hpp:
-
-/usr/include/c++/11/bits/hashtable.h:
-
-/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:
-
-/home/liubaichuan/Work/slamdemo/include/myslam/dataset.h:
-
-/usr/include/c++/11/cmath:
-
-/usr/local/include/sophus/common.hpp:
-
-/home/liubaichuan/Work/slamdemo/include/myslam/camera.h:
-
-/usr/local/include/opencv4/opencv2/flann/logger.h:
-
-/usr/include/c++/11/bits/allocator.h:
-
-/usr/include/boost/format/alt_sstream.hpp:
-
-/home/liubaichuan/Work/slamdemo/include/myslam/algorithm.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/eigen3/Eigen/src/Core/Assign.h:
-
-/usr/include/c++/11/clocale:
-
-/usr/include/c++/11/streambuf:
-
-/usr/include/c++/11/bits/locale_facets.tcc:
-
-/usr/include/c++/11/bits/this_thread_sleep.h:
-
-/usr/local/include/opencv4/opencv2/flann/allocator.h:
-
-/usr/local/include/sophus/so3.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/c++/11/bits/shared_ptr_base.h:
-
-/home/liubaichuan/Work/slamdemo/src/viewer.cpp:
-
-/usr/include/c++/11/bits/basic_string.h:
-
-/usr/include/c++/11/bits/locale_facets.h:
-
-/usr/local/include/opencv4/opencv2/core/cuda_types.hpp:
-
-/usr/include/c++/11/bits/istream.tcc:
-
-/usr/include/eigen3/Eigen/src/Core/Diagonal.h:
-
-/usr/include/c++/11/map:
-
-/usr/include/c++/11/cstddef:
-
-/usr/include/c++/11/bits/stl_vector.h:
-
-/usr/include/boost/preprocessor/arithmetic/add.hpp:
-
-/usr/include/boost/config/detail/posix_features.hpp:
-
-/usr/include/c++/11/iterator:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/usr/include/boost/preprocessor/control/iif.hpp:
-
-/usr/include/c++/11/bits/enable_special_members.h:
-
-/usr/include/c++/11/bits/std_thread.h:
-
-/usr/include/c++/11/bits/stl_map.h:
-
-/usr/include/c++/11/bits/concept_check.h:
-
-/usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/c++/11/ext/aligned_buffer.h:
-
-/usr/include/c++/11/bits/locale_classes.tcc:
-
-/usr/local/include/pangolin/gl/glstate.h:
-
-/usr/include/c++/11/bits/basic_string.tcc:
-
-/usr/include/eigen3/Eigen/src/Core/StableNorm.h:
-
-/usr/local/include/pangolin/gl/glsl.hpp:
-
-/usr/include/c++/11/cwchar:
-
-/usr/include/c++/11/bits/stl_algobase.h:
-
-/usr/include/boost/exception/exception.hpp:
-
-/usr/include/unistd.h:
-
-/usr/include/c++/11/bits/functional_hash.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
-
-/usr/include/math.h:
-
-/usr/include/c++/11/bits/exception_ptr.h:
-
-/usr/include/c++/11/bits/charconv.h:
-
-/usr/local/include/opencv4/opencv2/features2d.hpp:
-
-/usr/include/eigen3/Eigen/src/Cholesky/LDLT.h:
-
-/usr/include/boost/optional/detail/optional_reference_spec.hpp:
-
-/usr/include/c++/11/bits/stl_raw_storage_iter.h:
-
-/usr/include/c++/11/functional:
-
-/usr/include/c++/11/bits/exception.h:
-
-/usr/include/eigen3/Eigen/src/Core/BandMatrix.h:
-
-/usr/include/c++/11/bits/specfun.h:
-
-/usr/include/c++/11/tr1/poly_hermite.tcc:
-
-/usr/include/c++/11/tuple:
-
-/usr/local/include/g2o/core/hyper_graph.h:
-
-/usr/include/c++/11/bits/stl_tree.h:
-
-/usr/local/include/pangolin/utils/true_false_toggle.h:
-
-/usr/include/boost/type_traits/is_arithmetic.hpp:
-
-/usr/include/c++/11/bits/unordered_map.h:
-
-/usr/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h:
-
-/usr/include/c++/11/atomic:
-
-/usr/local/include/opencv4/opencv2/stitching/detail/camera.hpp:
-
-/usr/include/eigen3/Eigen/QR:
-
-/usr/include/c++/11/bits/exception_defines.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
-
-/home/liubaichuan/Work/slamdemo/include/myslam/viewer.h:
-
-/usr/include/c++/11/bits/stl_heap.h:
-
-/usr/include/c++/11/bits/std_abs.h:
-
-/usr/include/boost/type_traits/is_rvalue_reference.hpp:
-
-/usr/local/include/opencv4/opencv2/core/hal/interface.h:
-
-/usr/include/c++/11/bits/stl_multiset.h:
-
-/usr/include/c++/11/bits/list.tcc:
+/home/liubaichuan/anaconda3/include/boost/format/detail/config_macros.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 
-/usr/include/c++/11/fstream:
+/usr/include/c++/11/bits/list.tcc:
 
-/usr/include/c++/11/ext/alloc_traits.h:
-
-/usr/include/x86_64-linux-gnu/bits/sched.h:
-
-/usr/local/include/opencv4/opencv2/flann/miniflann.hpp:
-
-/usr/include/c++/11/bits/algorithmfwd.h:
-
-/usr/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
-
-/usr/include/c++/11/bits/cxxabi_forced.h:
-
-/usr/include/c++/11/bits/random.h:
-
-/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:
-
-/usr/include/boost/preprocessor/list/detail/fold_right.hpp:
-
-/usr/include/c++/11/ext/numeric_traits.h:
-
-/usr/include/c++/11/bits/random.tcc:
-
-/usr/include/c++/11/bits/atomic_base.h:
-
-/usr/include/c++/11/bits/node_handle.h:
-
-/home/liubaichuan/Work/slamdemo/include/myslam/g2o_types.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
-/usr/local/include/pangolin/display/display.hpp:
-
-/usr/include/c++/11/bits/erase_if.h:
-
-/usr/include/c++/11/bits/ptr_traits.h:
-
-/usr/include/c++/11/bits/cpp_type_traits.h:
-
-/usr/include/endian.h:
-
-/usr/include/stdint.h:
-
-/usr/include/boost/core/ignore_unused.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
-
-/usr/include/c++/11/tr1/ell_integral.tcc:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
-/usr/include/eigen3/Eigen/src/Core/Reshaped.h:
-
-/usr/local/include/opencv4/opencv2/flann/kdtree_index.h:
-
-/usr/include/c++/11/bits/ios_base.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/c++/11/bits/stl_tempbuf.h:
+/home/liubaichuan/anaconda3/include/boost/format/parsing.hpp:
 
 /usr/include/c++/11/bits/move.h:
+
+/home/liubaichuan/anaconda3/include/boost/preprocessor/arithmetic/limits/inc_256.hpp:
 
 /usr/include/c++/11/bits/hash_bytes.h:
 
@@ -7798,61 +7920,95 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/c++/11/bits/unique_ptr.h:
 
+/home/liubaichuan/anaconda3/include/glog/vlog_is_on.h:
+
+/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/11/bits/streambuf.tcc:
+
+/usr/include/string.h:
+
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_lvalue_reference.hpp:
+
+/usr/include/c++/11/tr1/hypergeometric.tcc:
+
+/usr/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h:
+
+/usr/include/c++/11/bits/localefwd.h:
+
+/usr/local/include/g2o/core/sparse_block_matrix_ccs.h:
+
+/usr/include/c++/11/vector:
+
+/home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/spinlock.hpp:
+
+/usr/include/c++/11/bits/align.h:
+
+/usr/include/c++/11/functional:
+
+/usr/include/c++/11/bits/specfun.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
+
+/usr/include/c++/11/tr1/ell_integral.tcc:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h:
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h:
+
+/usr/include/c++/11/bits/fstream.tcc:
+
 /usr/include/c++/11/algorithm:
 
 /usr/include/c++/11/bits/deque.tcc:
 
 /usr/include/c++/11/backward/binders.h:
 
-/usr/local/include/g2o/core/sparse_block_matrix_ccs.h:
+/usr/include/c++/11/tr1/gamma.tcc:
 
-/usr/include/c++/11/vector:
+/usr/include/c++/11/ext/aligned_buffer.h:
 
-/usr/include/c++/11/bits/align.h:
+/usr/include/c++/11/bits/locale_classes.tcc:
 
-/usr/include/eigen3/Eigen/src/plugins/ReshapedMethods.h:
+/usr/include/c++/11/cassert:
 
-/usr/include/epoxy/gl.h:
+/usr/local/include/opencv4/opencv2/flann/miniflann.hpp:
 
-/usr/include/eigen3/Eigen/src/Core/Matrix.h:
+/usr/include/c++/11/bits/algorithmfwd.h:
 
-/usr/include/boost/type_traits/is_destructible.hpp:
+/usr/include/c++/11/bits/cxxabi_forced.h:
 
-/usr/include/c++/11/bits/hashtable_policy.h:
+/usr/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
 
-/usr/include/assert.h:
+/usr/include/c++/11/tr1/poly_hermite.tcc:
 
-/usr/include/c++/11/bits/allocated_ptr.h:
+/usr/include/c++/11/bits/locale_facets.tcc:
 
-/usr/include/c++/11/bits/locale_facets_nonio.h:
+/usr/include/c++/11/bits/this_thread_sleep.h:
 
-/usr/include/eigen3/Eigen/src/Cholesky/LLT.h:
+/usr/local/include/opencv4/opencv2/flann/allocator.h:
 
-/usr/include/c++/11/bits/uniform_int_dist.h:
+/usr/local/include/sophus/so3.hpp:
 
-/usr/include/c++/11/tr1/hypergeometric.tcc:
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
-/usr/include/boost/type_traits/remove_cv.hpp:
-
-/usr/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h:
-
-/usr/include/c++/11/bits/localefwd.h:
+/usr/include/c++/11/bits/stl_pair.h:
 
 /usr/include/c++/11/bits/nested_exception.h:
 
 /usr/local/include/pangolin/video/video_input.h:
 
-/usr/include/boost/type_traits/is_array.hpp:
+/home/liubaichuan/anaconda3/include/boost/config/detail/posix_features.hpp:
 
 /usr/include/c++/11/bits/stl_stack.h:
 
-/usr/local/include/g2o/core/dynamic_aligned_buffer.hpp:
-
-/usr/include/ctype.h:
-
-/usr/include/c++/11/locale:
-
 /usr/include/c++/11/bits/stream_iterator.h:
+
+/home/liubaichuan/anaconda3/include/gflags/gflags.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
 
@@ -7864,9 +8020,17 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/c++/11/bits/parse_numbers.h:
 
+/home/liubaichuan/anaconda3/include/glog/log_severity.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
+
 /usr/include/alloca.h:
 
 /home/liubaichuan/Work/slamdemo/include/myslam/common_include.h:
+
+/home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/shared_count.hpp:
 
 /usr/local/include/g2o/core/base_fixed_sized_edge.h:
 
@@ -7876,29 +8040,9 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/local/include/opencv4/opencv2/imgproc.hpp:
 
-/usr/include/boost/format/detail/workarounds_gcc-2_95.hpp:
-
 /usr/include/c++/11/bits/string_view.tcc:
 
 /usr/include/c++/11/tr1/exp_integral.tcc:
-
-/usr/include/eigen3/Eigen/Core:
-
-/usr/include/c++/11/bits/shared_ptr.h:
-
-/usr/include/eigen3/Eigen/src/Core/ReturnByValue.h:
-
-/usr/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h:
-
-/usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h:
-
-/usr/include/boost/move/detail/config_end.hpp:
-
-/usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h:
-
-/usr/include/c++/11/bits/fstream.tcc:
-
-/usr/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h:
 
 /usr/include/c++/11/math.h:
 
@@ -7914,9 +8058,11 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/c++/11/bits/postypes.h:
 
-/usr/include/boost/preprocessor/slot/slot.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/home/liubaichuan/anaconda3/include/boost/preprocessor/variadic/limits/size_64.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/preprocessor/repetition/limits/repeat_256.hpp:
 
 /usr/include/c++/11/bits/stl_deque.h:
 
@@ -7936,19 +8082,11 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/c++/11/bits/quoted_string.h:
 
-/usr/include/c++/11/bitset:
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_constructible.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/preprocessor/control/detail/limits/while_256.hpp:
 
 /usr/include/c++/11/bits/refwrap.h:
-
-/usr/include/c++/11/condition_variable:
-
-/usr/include/c++/11/optional:
-
-/usr/local/include/pangolin/utils/type_convert.h:
-
-/usr/include/boost/type_traits/detail/config.hpp:
-
-/usr/include/c++/11/bits/vector.tcc:
 
 /usr/include/c++/11/pstl/pstl_config.h:
 
@@ -7966,10 +8104,6 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/c++/11/bit:
 
-/usr/include/boost/preprocessor/list/fold_left.hpp:
-
-/usr/include/boost/config/pragma_message.hpp:
-
 /usr/local/include/g2o/stuff/misc.h:
 
 /usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:
@@ -7984,23 +8118,11 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
-/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:
-
-/usr/include/c++/11/bits/stl_function.h:
-
-/usr/include/c++/11/bits/memoryfwd.h:
-
-/usr/include/c++/11/bits/stl_pair.h:
 
 /home/liubaichuan/Work/slamdemo/src/camera.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/include/boost/assert.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
@@ -8016,9 +8138,7 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
-/usr/include/boost/type_traits/is_complete.hpp:
-
-/usr/include/boost/preprocessor/detail/auto_rec.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/comparison/limits/not_equal_256.hpp:
 
 /usr/include/c++/11/string_view:
 
@@ -8030,35 +8150,31 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
 
-/usr/include/boost/type_traits/declval.hpp:
-
 /usr/local/include/sophus/se3.hpp:
 
 /usr/include/c++/11/tr1/bessel_function.tcc:
 
+/home/liubaichuan/anaconda3/include/boost/optional/detail/optional_factory_support.hpp:
+
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
-
-/usr/include/boost/preprocessor/control/if.hpp:
-
-/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
-
-/usr/include/c++/11/bits/streambuf.tcc:
-
-/usr/include/string.h:
 
 /usr/include/c++/11/bits/streambuf_iterator.h:
 
+/home/liubaichuan/anaconda3/include/boost/move/traits.hpp:
+
 /home/liubaichuan/Work/slamdemo/include/myslam/backend.h:
+
+/home/liubaichuan/anaconda3/include/boost/type_traits/conditional.hpp:
 
 /usr/include/c++/11/bits/locale_conv.h:
 
 /usr/include/eigen3/Eigen/src/Core/Random.h:
 
-/usr/include/boost/type_traits/remove_const.hpp:
+/home/liubaichuan/anaconda3/include/boost/utility/enable_if.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/config/pragma_message.hpp:
 
 /usr/include/c++/11/bits/stringfwd.h:
-
-/usr/include/boost/move/detail/workaround.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/ArithmeticSequence.h:
 
@@ -8066,33 +8182,25 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/c++/11/bits/cxxabi_init_exception.h:
 
-/usr/include/c++/11/cassert:
+/usr/include/eigen3/Eigen/src/Core/DiagonalMatrix.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/math.h:
+
+/usr/include/c++/11/bits/charconv.h:
+
+/usr/include/c++/11/bits/exception_ptr.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
+
+/usr/include/eigen3/Eigen/src/Core/DiagonalProduct.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/eigen3/Eigen/src/Core/EigenBase.h:
 
 /usr/include/eigen3/Eigen/src/Core/GeneralProduct.h:
-
-/usr/include/c++/11/unordered_map:
-
-/usr/include/boost/preprocessor/facilities/empty.hpp:
-
-/usr/include/c++/11/bits/basic_ios.tcc:
-
-/usr/local/include/g2o/autodiff/memory.h:
-
-/usr/include/c++/11/cerrno:
-
-/usr/local/include/opencv4/opencv2/flann/sampling.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
-
-/usr/include/c++/11/cfloat:
-
-/home/liubaichuan/Work/slamdemo/src/backend.cpp:
-
-/usr/include/eigen3/Eigen/src/Core/Redux.h:
-
-/usr/include/c++/11/bits/range_access.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
 /usr/include/eigen3/Eigen/src/Core/IO.h:
 
@@ -8102,15 +8210,21 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/eigen3/Eigen/src/Core/IndexedView.h:
 
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_assignable.hpp:
+
 /usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
 
-/usr/include/boost/optional/optional.hpp:
+/home/liubaichuan/anaconda3/include/boost/utility/compare_pointees.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/Inverse.h:
 
 /usr/include/eigen3/Eigen/src/Core/MapBase.h:
 
 /usr/local/include/opencv4/opencv2/flann/lsh_index.h:
+
+/home/liubaichuan/anaconda3/include/boost/preprocessor/repetition/repeat_from_to.hpp:
+
+/home/liubaichuan/anaconda3/include/boost/preprocessor/debug/error.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:
 
@@ -8119,8 +8233,6 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 /usr/include/linux/limits.h:
 
 /usr/include/eigen3/Eigen/src/Core/MathFunctions.h:
-
-/usr/include/boost/utility/result_of.hpp:
 
 /usr/include/c++/11/bits/functexcept.h:
 
@@ -8140,11 +8252,19 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/eigen3/Eigen/src/Core/NumTraits.h:
 
+/usr/local/include/opencv4/opencv2/flann/config.h:
+
+/usr/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h:
+
+/usr/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h:
+
 /usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h:
 
 /usr/local/include/opencv4/opencv2/core/utility.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:
+
+/home/liubaichuan/anaconda3/include/boost/format/internals.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
@@ -8166,27 +8286,23 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/eigen3/Eigen/src/Core/Ref.h:
 
-/usr/include/boost/move/detail/meta_utils_core.hpp:
-
 /usr/include/eigen3/Eigen/src/Core/Replicate.h:
 
 /usr/include/eigen3/Eigen/src/Core/Reverse.h:
 
 /usr/include/eigen3/Eigen/src/Core/Select.h:
 
+/home/liubaichuan/anaconda3/include/boost/config/helper_macros.hpp:
+
 /usr/include/eigen3/Eigen/src/Core/SelfAdjointView.h:
 
 /usr/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h:
-
-/usr/include/boost/current_function.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/Solve.h:
 
 /usr/local/include/g2o/core/parameter.h:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-/usr/include/boost/type_traits/is_default_constructible.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/SolverBase.h:
 
@@ -8204,11 +8320,7 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/eigen3/Eigen/src/Core/Transpose.h:
 
-/usr/include/boost/optional/detail/optional_trivially_copyable_base.hpp:
-
 /usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h:
-
-/usr/include/boost/preprocessor/repetition/enum_params.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h:
 
@@ -8217,6 +8329,8 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 /usr/include/c++/11/pstl/glue_numeric_defs.h:
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h:
+
+/home/liubaichuan/anaconda3/include/boost/preprocessor/repetition/enum_binary_params.hpp:
 
 /usr/include/c++/11/ext/new_allocator.h:
 
@@ -8248,17 +8362,17 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h:
 
-/usr/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h:
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_member_function_pointer.hpp:
 
-/usr/include/boost/type_traits/integral_constant.hpp:
+/usr/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h:
 
 /usr/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h:
 
 /usr/include/eigen3/Eigen/src/Core/functors/StlFunctors.h:
 
-/usr/include/boost/preprocessor/punctuation/comma_if.hpp:
-
 /usr/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h:
+
+/home/liubaichuan/anaconda3/include/boost/optional/detail/optional_hash.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h:
 
@@ -8266,13 +8380,11 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h:
 
-/usr/include/boost/core/explicit_operator_bool.hpp:
+/home/liubaichuan/anaconda3/include/boost/optional/detail/optional_swap.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:
 
 /usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h:
-
-/usr/include/boost/preprocessor/variadic/size.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
 
@@ -8280,19 +8392,23 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h:
 
+/home/liubaichuan/anaconda3/include/boost/format/internals_fwd.hpp:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h:
+
 /usr/local/include/opencv4/opencv2/core/version.hpp:
 
 /usr/include/c++/11/tr1/beta_function.tcc:
 
 /usr/local/include/g2o/core/base_binary_edge.h:
 
-/usr/include/boost/format/alt_sstream_impl.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/logical/bitand.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h:
 
 /usr/include/c++/11/cstdarg:
-
-/usr/include/boost/config/detail/select_compiler_config.hpp:
 
 /usr/include/eigen3/Eigen/src/Jacobi/Jacobi.h:
 
@@ -8312,9 +8428,9 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h:
 
-/usr/include/boost/utility/base_from_member.hpp:
-
 /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:
+
+/home/liubaichuan/anaconda3/include/boost/preprocessor/facilities/overload.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:
 
@@ -8328,8 +8444,6 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/eigen3/Eigen/src/Core/util/IntegralConstant.h:
 
-/usr/include/boost/preprocessor/detail/is_binary.hpp:
-
 /usr/local/include/opencv4/opencv2/core/saturate.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
@@ -8338,7 +8452,7 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/eigen3/Eigen/src/Core/util/MKL_support.h:
 
-/usr/include/boost/preprocessor/logical/compl.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/remove_bounds.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/util/Macros.h:
 
@@ -8349,8 +8463,6 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 /usr/include/eigen3/Eigen/src/Core/util/Meta.h:
 
 /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h:
-
-/usr/include/boost/format/detail/config_macros.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h:
 
@@ -8370,8 +8482,6 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
-/usr/include/boost/move/utility_core.hpp:
-
 /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h:
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
@@ -8383,6 +8493,8 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/home/liubaichuan/anaconda3/include/boost/preprocessor/tuple/detail/is_single_return.hpp:
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h:
 
@@ -8396,11 +8508,7 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h:
 
-/usr/include/boost/move/utility.hpp:
-
 /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h:
-
-/usr/include/boost/type_traits/is_assignable.hpp:
 
 /usr/include/eigen3/Eigen/src/Geometry/AngleAxis.h:
 
@@ -8414,17 +8522,11 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h:
 
-/usr/local/include/pangolin/var/varvaluet.h:
-
-/home/liubaichuan/Work/slamdemo/include/myslam/map.h:
-
-/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/tuple/eat.hpp:
 
 /usr/include/c++/11/bits/codecvt.h:
 
 /usr/include/eigen3/Eigen/src/Geometry/RotationBase.h:
-
-/usr/include/boost/preprocessor/detail/check.hpp:
 
 /usr/include/eigen3/Eigen/src/Geometry/Scaling.h:
 
@@ -8470,35 +8572,21 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/eigen3/Eigen/src/misc/Kernel.h:
 
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_volatile.hpp:
+
 /usr/include/c++/11/bits/alloc_traits.h:
 
 /usr/include/errno.h:
 
 /usr/local/include/pangolin/utils/simple_math.h:
 
-/usr/include/boost/preprocessor/iteration/detail/bounds/upper1.hpp:
-
 /usr/include/eigen3/Eigen/src/Geometry/Hyperplane.h:
 
 /usr/include/features.h:
 
-/usr/include/gflags/gflags_declare.h:
-
-/usr/local/include/opencv4/opencv2/flann/config.h:
-
-/usr/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h:
-
-/usr/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h:
-
-/usr/include/glog/log_severity.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h:
-
-/usr/include/glog/logging.h:
-
 /usr/include/inttypes.h:
+
+/home/liubaichuan/anaconda3/include/boost/move/detail/addressof.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
@@ -8519,6 +8607,8 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 /usr/include/strings.h:
 
 /usr/include/time.h:
+
+/home/liubaichuan/anaconda3/include/boost/move/utility_core.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
@@ -8542,6 +8632,8 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
+/home/liubaichuan/anaconda3/include/boost/smart_ptr/detail/local_counted_base.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
@@ -8550,13 +8642,9 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
-/usr/include/boost/smart_ptr/detail/local_counted_base.hpp:
-
 /usr/include/c++/11/complex:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
-
-/usr/include/glog/vlog_is_on.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
@@ -8566,17 +8654,15 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
-/usr/include/boost/preprocessor/slot/detail/def.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
-/usr/include/boost/preprocessor/arithmetic/inc.hpp:
-
 /usr/include/c++/11/bits/stl_iterator.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_destructible.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
@@ -8585,6 +8671,8 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/local/include/pangolin/gl/gltext.h:
+
+/home/liubaichuan/anaconda3/include/boost/type_traits/is_abstract.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h:
 
@@ -8608,8 +8696,6 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
-/usr/include/boost/type_traits/conditional.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
@@ -8619,8 +8705,6 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /usr/local/include/opencv4/opencv2/core/affine.hpp:
-
-/usr/include/boost/preprocessor/control/expr_iif.hpp:
 
 /usr/include/c++/11/bits/std_function.h:
 
@@ -8642,47 +8726,45 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
-/usr/include/gflags/gflags.h:
-
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
 
-/usr/include/boost/preprocessor/iteration/detail/bounds/lower1.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/list/detail/limits/fold_left_256.hpp:
 
-/usr/include/boost/optional/detail/optional_swap.hpp:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/control/iif.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
 
-/usr/include/boost/type_traits/add_pointer.hpp:
+/home/liubaichuan/anaconda3/include/boost/optional/detail/optional_reference_spec.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
 
 /home/liubaichuan/Work/slamdemo/src/map.cpp:
 
+/home/liubaichuan/anaconda3/include/boost/preprocessor/variadic/elem.hpp:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
+
+/home/liubaichuan/anaconda3/include/boost/preprocessor/arithmetic/sub.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
 
-/usr/include/c++/11/bits/basic_ios.h:
+/home/liubaichuan/anaconda3/include/boost/preprocessor/logical/compl.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/Swap.h:
+
+/usr/include/c++/11/bits/basic_ios.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
 
 /usr/include/c++/11/string:
 
 /usr/local/include/g2o/core/base_edge.h:
-
-/usr/include/boost/type_traits/detail/yes_no_type.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:
 
@@ -8692,11 +8774,7 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h:
 
-/usr/include/boost/type_traits/remove_extent.hpp:
-
 /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
-
-/usr/include/boost/preprocessor/array/elem.hpp:
 
 /usr/include/c++/11/list:
 
@@ -8704,9 +8782,7 @@ src/CMakeFiles/myslam.dir/visual_odometry.cpp.o: /home/liubaichuan/Work/slamdemo
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
-/usr/include/boost/type_traits/is_nothrow_move_constructible.hpp:
-
-/usr/include/boost/format/detail/msvc_disambiguater.hpp:
+/home/liubaichuan/anaconda3/include/boost/type_traits/has_trivial_move_assign.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h:
 

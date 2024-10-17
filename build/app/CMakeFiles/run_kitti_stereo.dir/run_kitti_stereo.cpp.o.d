@@ -1,6 +1,7 @@
 app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: \
  /home/liubaichuan/Work/slamdemo/app/run_kitti_stereo.cpp \
- /usr/include/stdc-predef.h /usr/include/gflags/gflags.h \
+ /usr/include/stdc-predef.h \
+ /home/liubaichuan/anaconda3/include/gflags/gflags.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -132,8 +133,9 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: \
  /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
- /usr/include/c++/11/bits/vector.tcc /usr/include/gflags/gflags_declare.h \
- /usr/include/gflags/gflags_gflags.h \
+ /usr/include/c++/11/bits/vector.tcc \
+ /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h \
+ /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h \
  /home/liubaichuan/Work/slamdemo/include/myslam/visual_odometry.h \
  /home/liubaichuan/Work/slamdemo/include/myslam/frontend.h \
  /usr/local/include/opencv4/opencv2/features2d.hpp \
@@ -461,15 +463,18 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: \
  /usr/include/c++/11/pstl/glue_numeric_defs.h \
  /usr/local/include/sophus/so2.hpp /usr/include/eigen3/Eigen/LU \
  /usr/local/include/opencv4/opencv2/core/core.hpp \
- /usr/include/glog/logging.h /usr/include/unistd.h \
+ /home/liubaichuan/anaconda3/include/glog/logging.h /usr/include/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /usr/include/linux/close_range.h /usr/include/inttypes.h \
- /usr/include/glog/log_severity.h /usr/include/glog/vlog_is_on.h \
+ /usr/include/linux/close_range.h \
+ /home/liubaichuan/anaconda3/include/glog/export.h \
+ /usr/include/inttypes.h \
+ /home/liubaichuan/anaconda3/include/glog/log_severity.h \
+ /home/liubaichuan/anaconda3/include/glog/vlog_is_on.h \
  /home/liubaichuan/Work/slamdemo/include/myslam/map.h \
  /home/liubaichuan/Work/slamdemo/include/myslam/frame.h \
  /home/liubaichuan/Work/slamdemo/include/myslam/camera.h \

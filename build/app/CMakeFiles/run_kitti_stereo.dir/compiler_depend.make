@@ -12,6 +12,13 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
   /home/liubaichuan/Work/slamdemo/include/myslam/mappoint.h \
   /home/liubaichuan/Work/slamdemo/include/myslam/viewer.h \
   /home/liubaichuan/Work/slamdemo/include/myslam/visual_odometry.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h \
+  /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h \
+  /home/liubaichuan/anaconda3/include/glog/export.h \
+  /home/liubaichuan/anaconda3/include/glog/log_severity.h \
+  /home/liubaichuan/anaconda3/include/glog/logging.h \
+  /home/liubaichuan/anaconda3/include/glog/vlog_is_on.h \
   /usr/include/GL/gl.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -384,12 +391,6 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
-  /usr/include/gflags/gflags.h \
-  /usr/include/gflags/gflags_declare.h \
-  /usr/include/gflags/gflags_gflags.h \
-  /usr/include/glog/log_severity.h \
-  /usr/include/glog/logging.h \
-  /usr/include/glog/vlog_is_on.h \
   /usr/include/inttypes.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
@@ -728,12 +729,6 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 
 /usr/local/include/opencv4/opencv2/core/types.hpp:
 
-/usr/include/eigen3/Eigen/src/Core/IO.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/c++/11/debug/debug.h:
-
 /usr/include/eigen3/Eigen/src/Core/DiagonalProduct.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
@@ -769,8 +764,6 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 /usr/include/eigen3/Eigen/src/plugins/ReshapedMethods.h:
 
 /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h:
-
-/usr/include/c++/11/ctime:
 
 /usr/include/eigen3/Eigen/QR:
 
@@ -888,6 +881,8 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 
 /usr/include/c++/11/deque:
 
+/usr/include/c++/11/debug/debug.h:
+
 /usr/include/eigen3/Eigen/src/Core/DiagonalMatrix.h:
 
 /usr/include/c++/11/debug/assertions.h:
@@ -912,17 +907,37 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 
 /home/liubaichuan/Work/slamdemo/include/myslam/camera.h:
 
-/usr/include/c++/11/tr1/gamma.tcc:
+/home/liubaichuan/anaconda3/include/gflags/gflags_declare.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+/usr/include/c++/11/chrono:
 
-/usr/local/include/opencv4/opencv2/core/fast_math.hpp:
+/usr/local/include/pangolin/image/image_io.h:
 
-/usr/include/c++/11/bits/locale_classes.h:
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
-/usr/include/eigen3/Eigen/SVD:
+/usr/include/c++/11/cfloat:
 
-/usr/include/c++/11/random:
+/usr/include/eigen3/Eigen/src/Core/Redux.h:
+
+/usr/include/c++/11/cerrno:
+
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
+/usr/include/c++/11/unordered_map:
+
+/usr/include/c++/11/cctype:
+
+/usr/local/include/pangolin/video/video_interface.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:
+
+/usr/include/c++/11/condition_variable:
+
+/usr/include/c++/11/optional:
+
+/usr/local/include/pangolin/utils/type_convert.h:
+
+/usr/include/c++/11/bits/vector.tcc:
 
 /usr/include/c++/11/bits/hashtable.h:
 
@@ -948,6 +963,10 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 
 /usr/include/c++/11/iterator:
 
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/c++/11/bits/range_access.h:
+
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /usr/include/c++/11/bits/unique_ptr.h:
@@ -964,10 +983,6 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 
 /usr/include/c++/11/bits/stl_multiset.h:
 
-/usr/include/c++/11/bits/list.tcc:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
-
 /usr/include/c++/11/fstream:
 
 /usr/include/c++/11/ext/alloc_traits.h:
@@ -977,22 +992,6 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 /usr/include/c++/11/bits/random.h:
 
 /usr/include/eigen3/Eigen/src/Core/ArrayBase.h:
-
-/usr/include/c++/11/bits/concept_check.h:
-
-/usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/c++/11/ext/aligned_buffer.h:
-
-/usr/include/c++/11/bits/locale_classes.tcc:
-
-/usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h:
-
-/usr/include/eigen3/Eigen/src/Core/ArithmeticSequence.h:
 
 /usr/local/include/pangolin/gl/glstate.h:
 
@@ -1008,33 +1007,11 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 
 /usr/include/unistd.h:
 
-/usr/include/eigen3/Eigen/src/LU/arch/InverseSize4.h:
-
-/usr/include/c++/11/pstl/glue_numeric_defs.h:
-
-/usr/include/c++/11/bits/locale_facets.h:
-
-/usr/include/c++/11/map:
-
-/usr/include/c++/11/cstddef:
-
-/usr/include/c++/11/bits/stl_vector.h:
-
 /usr/include/c++/11/bits/functional_hash.h:
 
 /usr/include/c++/11/cmath:
 
 /home/liubaichuan/Work/slamdemo/include/myslam/dataset.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
-
-/usr/include/math.h:
-
-/usr/include/c++/11/bits/exception_ptr.h:
-
-/usr/include/c++/11/bits/charconv.h:
 
 /usr/local/include/pangolin/display/display.hpp:
 
@@ -1054,33 +1031,59 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 
 /usr/include/c++/11/bits/unordered_map.h:
 
+/usr/include/eigen3/Eigen/src/Core/Swap.h:
+
+/usr/include/c++/11/bits/basic_ios.h:
+
 /usr/include/eigen3/Eigen/src/Cholesky/LLT.h:
 
 /usr/include/c++/11/bits/uniform_int_dist.h:
 
-/usr/include/endian.h:
+/usr/include/c++/11/ext/numeric_traits.h:
 
-/usr/include/c++/11/bits/cpp_type_traits.h:
+/usr/include/c++/11/bits/random.tcc:
 
-/usr/include/c++/11/bits/std_thread.h:
-
-/usr/include/c++/11/bits/stl_map.h:
-
-/usr/include/eigen3/Eigen/src/Core/EigenBase.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/c++/11/bits/exception.h:
-
-/usr/include/eigen3/Eigen/src/Core/BandMatrix.h:
-
-/usr/include/c++/11/bits/hashtable_policy.h:
-
-/home/liubaichuan/Work/slamdemo/include/myslam/visual_odometry.h:
+/usr/include/c++/11/bits/atomic_base.h:
 
 /usr/include/assert.h:
 
 /usr/include/c++/11/bits/allocated_ptr.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/eigen3/Eigen/src/Core/Assign.h:
+
+/usr/include/c++/11/clocale:
+
+/usr/include/c++/11/tuple:
+
+/usr/include/c++/11/bits/stl_tree.h:
+
+/usr/include/c++/11/vector:
+
+/usr/include/c++/11/bits/align.h:
+
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h:
+
+/usr/local/include/sigslot/signal.hpp:
+
+/usr/include/eigen3/Eigen/Cholesky:
+
+/usr/include/c++/11/bits/invoke.h:
+
+/usr/include/c++/11/bits/concept_check.h:
+
+/usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/home/liubaichuan/anaconda3/include/glog/export.h:
+
+/home/liubaichuan/Work/slamdemo/include/myslam/visual_odometry.h:
+
+/usr/include/c++/11/bits/hashtable_policy.h:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
@@ -1090,13 +1093,13 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
-/usr/include/c++/11/ext/numeric_traits.h:
+/usr/include/c++/11/bits/std_thread.h:
 
-/usr/include/c++/11/bits/random.tcc:
+/usr/include/endian.h:
 
-/usr/include/c++/11/bits/atomic_base.h:
+/usr/include/c++/11/bits/cpp_type_traits.h:
 
-/usr/include/gflags/gflags_gflags.h:
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
 /usr/include/c++/11/tr1/special_function_util.h:
 
@@ -1110,13 +1113,39 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 
 /usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:
 
-/usr/include/eigen3/Eigen/src/Core/DenseStorage.h:
+/usr/include/eigen3/Eigen/SVD:
 
-/usr/local/include/sigslot/signal.hpp:
+/usr/include/c++/11/bits/locale_classes.h:
 
-/usr/include/eigen3/Eigen/Cholesky:
+/usr/include/eigen3/Eigen/src/LU/arch/InverseSize4.h:
 
-/usr/include/c++/11/bits/invoke.h:
+/usr/include/c++/11/pstl/glue_numeric_defs.h:
+
+/usr/include/eigen3/Eigen/src/Core/BandMatrix.h:
+
+/usr/include/c++/11/bits/exception.h:
+
+/usr/include/c++/11/bits/locale_facets.h:
+
+/usr/include/c++/11/map:
+
+/usr/include/c++/11/cstddef:
+
+/usr/include/c++/11/bits/stl_vector.h:
+
+/usr/include/c++/11/ctime:
+
+/home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
+
+/usr/include/math.h:
+
+/usr/include/c++/11/bits/charconv.h:
+
+/usr/include/c++/11/bits/exception_ptr.h:
 
 /usr/include/c++/11/bits/stl_heap.h:
 
@@ -1124,23 +1153,19 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 
 /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:
 
-/usr/include/c++/11/cassert:
-
-/usr/include/eigen3/Eigen/src/Geometry/Transform.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/c++/11/set:
-
-/usr/include/eigen3/Eigen/src/Core/Reshaped.h:
-
-/usr/include/c++/11/bits/ios_base.h:
-
 /usr/include/c++/11/bits/basic_string.h:
 
 /usr/include/c++/11/bits/shared_ptr_base.h:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
+
+/home/liubaichuan/anaconda3/include/glog/logging.h:
+
+/usr/local/include/pangolin/var/varvaluet.h:
+
+/home/liubaichuan/Work/slamdemo/include/myslam/map.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:
 
 /usr/include/c++/11/bits/stl_tempbuf.h:
 
@@ -1148,19 +1173,53 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 
 /home/liubaichuan/Work/slamdemo/app/run_kitti_stereo.cpp:
 
-/usr/include/c++/11/vector:
+/usr/include/c++/11/climits:
 
-/usr/include/c++/11/bits/align.h:
+/usr/include/c++/11/bits/sstream.tcc:
+
+/usr/include/c++/11/new:
+
+/usr/local/include/pangolin/display/display.h:
+
+/usr/include/c++/11/array:
+
+/usr/local/include/opencv4/opencv2/core/version.hpp:
+
+/usr/include/c++/11/tr1/beta_function.tcc:
+
+/usr/include/c++/11/random:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
+
+/usr/include/c++/11/bits/list.tcc:
+
+/usr/include/c++/11/bits/memoryfwd.h:
+
+/usr/include/c++/11/bits/stl_pair.h:
+
+/home/liubaichuan/anaconda3/include/glog/vlog_is_on.h:
+
+/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/11/bits/streambuf.tcc:
+
+/usr/include/string.h:
+
+/usr/include/c++/11/tr1/hypergeometric.tcc:
+
+/usr/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h:
+
+/usr/local/include/opencv4/opencv2/core/persistence.hpp:
+
+/usr/include/c++/11/bits/localefwd.h:
+
+/usr/include/c++/11/bits/stl_map.h:
 
 /usr/include/c++/11/functional:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/c++/11/bits/char_traits.h:
-
-/usr/include/eigen3/Eigen/src/Core/IndexedView.h:
-
-/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
 
 /usr/include/c++/11/bits/specfun.h:
 
@@ -1172,16 +1231,6 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/eigen3/Eigen/src/Core/Assign.h:
-
-/usr/include/c++/11/clocale:
-
-/usr/include/c++/11/tuple:
-
-/usr/include/c++/11/bits/stl_tree.h:
-
 /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h:
 
 /usr/include/c++/11/bits/fstream.tcc:
@@ -1191,6 +1240,28 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 /usr/include/c++/11/algorithm:
 
 /usr/include/c++/11/backward/binders.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/Transform.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/c++/11/set:
+
+/usr/include/eigen3/Eigen/src/Core/Reshaped.h:
+
+/usr/include/c++/11/bits/ios_base.h:
+
+/usr/include/c++/11/tr1/gamma.tcc:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/local/include/opencv4/opencv2/core/fast_math.hpp:
+
+/usr/include/c++/11/ext/aligned_buffer.h:
+
+/usr/include/c++/11/bits/locale_classes.tcc:
+
+/usr/include/c++/11/cassert:
 
 /usr/local/include/opencv4/opencv2/flann/miniflann.hpp:
 
@@ -1212,14 +1283,6 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 
 /home/liubaichuan/Work/slamdemo/include/myslam/frontend.h:
 
-/usr/include/c++/11/tr1/hypergeometric.tcc:
-
-/usr/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h:
-
-/usr/local/include/opencv4/opencv2/core/persistence.hpp:
-
-/usr/include/c++/11/bits/localefwd.h:
-
 /usr/include/c++/11/bits/nested_exception.h:
 
 /usr/local/include/pangolin/video/video_input.h:
@@ -1230,13 +1293,7 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 
 /usr/include/c++/11/bits/stream_iterator.h:
 
-/usr/local/include/opencv4/opencv2/core/version.hpp:
-
-/usr/include/c++/11/tr1/beta_function.tcc:
-
-/usr/local/include/pangolin/display/display.h:
-
-/usr/include/c++/11/array:
+/home/liubaichuan/anaconda3/include/gflags/gflags.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
 
@@ -1247,6 +1304,14 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 /usr/include/c++/11/bits/shared_ptr_atomic.h:
 
 /usr/include/c++/11/bits/parse_numbers.h:
+
+/home/liubaichuan/anaconda3/include/glog/log_severity.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
+
+/usr/local/include/opencv4/opencv2/core/matx.hpp:
 
 /usr/include/alloca.h:
 
@@ -1259,20 +1324,6 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/include/c++/11/bits/refwrap.h:
-
-/usr/include/c++/11/condition_variable:
-
-/usr/include/c++/11/optional:
-
-/usr/local/include/pangolin/utils/type_convert.h:
-
-/usr/include/c++/11/bits/vector.tcc:
-
-/usr/include/c++/11/bits/sstream.tcc:
-
-/usr/include/c++/11/new:
-
-/usr/include/c++/11/climits:
 
 /usr/include/c++/11/pstl/pstl_config.h:
 
@@ -1303,10 +1354,6 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
 /usr/include/c++/11/tr1/exp_integral.tcc:
-
-/usr/include/c++/11/bits/memoryfwd.h:
-
-/usr/include/c++/11/bits/stl_pair.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
@@ -1344,12 +1391,6 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
-/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
-
-/usr/include/c++/11/bits/streambuf.tcc:
-
-/usr/include/string.h:
-
 /usr/include/c++/11/bits/streambuf_iterator.h:
 
 /home/liubaichuan/Work/slamdemo/include/myslam/backend.h:
@@ -1358,39 +1399,23 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 
 /usr/include/c++/11/bits/stringfwd.h:
 
+/usr/include/eigen3/Eigen/src/Core/ArithmeticSequence.h:
+
+/usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h:
+
 /usr/include/c++/11/bits/cxxabi_init_exception.h:
+
+/usr/include/eigen3/Eigen/src/Core/EigenBase.h:
 
 /usr/include/eigen3/Eigen/src/Core/GeneralProduct.h:
 
-/usr/include/c++/11/unordered_map:
+/usr/include/eigen3/Eigen/src/Core/IO.h:
 
-/usr/include/c++/11/cctype:
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
-/usr/local/include/pangolin/video/video_interface.h:
+/usr/include/eigen3/Eigen/src/Core/IndexedView.h:
 
-/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:
-
-/usr/include/c++/11/cerrno:
-
-/usr/include/c++/11/bits/basic_ios.h:
-
-/usr/include/eigen3/Eigen/src/Core/Swap.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
-
-/usr/include/c++/11/cfloat:
-
-/usr/include/eigen3/Eigen/src/Core/Redux.h:
-
-/usr/include/c++/11/bits/range_access.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/c++/11/chrono:
-
-/usr/local/include/pangolin/image/image_io.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
 
 /usr/include/eigen3/Eigen/src/Core/Inverse.h:
 
@@ -1421,6 +1446,12 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 /usr/include/eigen3/Eigen/src/Core/NoAlias.h:
 
 /usr/include/eigen3/Eigen/src/Core/NumTraits.h:
+
+/usr/local/include/opencv4/opencv2/flann/config.h:
+
+/usr/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h:
+
+/usr/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h:
 
 /usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h:
 
@@ -1528,6 +1559,10 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 
 /usr/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h:
 
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h:
+
 /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h:
 
 /usr/include/c++/11/cstdarg:
@@ -1566,6 +1601,10 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 
 /usr/include/eigen3/Eigen/src/Core/util/IntegralConstant.h:
 
+/usr/local/include/opencv4/opencv2/core/saturate.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
 /usr/include/eigen3/Eigen/src/Core/util/MKL_support.h:
@@ -1597,12 +1636,6 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 /usr/include/c++/11/cstring:
 
 /usr/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h:
-
-/usr/local/include/pangolin/var/varvaluet.h:
-
-/home/liubaichuan/Work/slamdemo/include/myslam/map.h:
-
-/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:
 
 /usr/include/c++/11/bits/codecvt.h:
 
@@ -1668,22 +1701,6 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 
 /usr/include/features.h:
 
-/usr/include/gflags/gflags_declare.h:
-
-/usr/local/include/opencv4/opencv2/flann/config.h:
-
-/usr/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h:
-
-/usr/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h:
-
-/usr/include/glog/log_severity.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h:
-
-/usr/include/glog/logging.h:
-
 /usr/include/inttypes.h:
 
 /usr/include/c++/11/bits/stl_numeric.h:
@@ -1699,10 +1716,6 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 /usr/include/stdio.h:
 
 /usr/include/stdlib.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/local/include/opencv4/opencv2/core/saturate.hpp:
 
 /usr/include/strings.h:
 
@@ -1741,8 +1754,6 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 /usr/include/c++/11/complex:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
-
-/usr/include/glog/vlog_is_on.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
@@ -1826,8 +1837,6 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
-/usr/include/gflags/gflags.h:
-
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
@@ -1837,12 +1846,6 @@ app/CMakeFiles/run_kitti_stereo.dir/run_kitti_stereo.cpp.o: /home/liubaichuan/Wo
 /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
-
-/usr/local/include/opencv4/opencv2/core/matx.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
 

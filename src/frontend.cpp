@@ -279,7 +279,7 @@ int Frontend::TrackLastFrame() {
         if (status[i]) {
             cv::KeyPoint kp(kps_current[i], 7);//7是领域大小，用来给描述子指定邻域大小
             Feature::Ptr feature(new Feature(current_frame_, kp));
-            feature->map_point_ = last_frame_->features_left_[i]->map_point_;
+            feature->map_point_ tracking_inliners_= last_frame_->features_left_[i]->map_point_;
             current_frame_->features_left_.push_back(feature);
             num_good_pts++;
         }
