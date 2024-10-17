@@ -61,8 +61,23 @@ bool Frontend::Track() {
         status_ = FrontendStatus::LOST;
     }
 
-   InsertKeyframe(); 
-   relative_motion_ = current_frame_->Pose() * last_frame_->Pose().inverse();
+    // InsertKeyframe(); 
+    if(InsertKeyframe()) { mpCurrentKF = current_frame_; }
+    relative_motion_ = current_frame_->Pose() * last_frame_->Pose().inverse();
+
+    // Idea From ORBSLAM3
+    // 为了储存所有轨迹
+    // 为所有帧建立参考的关键帧，并且储存时间辍和相对位姿
+    current_frame_->mpReferenceKF = mpCurrentKF;
+    if(auto ref_kf = current_frame_->mpReferenceKF.lock()) {
+        SE3 Tcr_ = current_frame_->Pose() * ref_kf->Pose().inverse();
+        mlRelativeFramePoses.push_back(Tcr_);
+        mlpReferences.push_back(current_frame_->mpReferenceKF);
+    }
+    else {
+        std::cerr << "Fail to lock mpReferenceKF." << std::endl;
+    }
+    // mlFrameTimes.push_back(current_frame_->time_stamp_);
 
    if(viewer_) viewer_->AddCurrentFrame(current_frame_);
    return true;
@@ -279,7 +294,7 @@ int Frontend::TrackLastFrame() {
         if (status[i]) {
             cv::KeyPoint kp(kps_current[i], 7);//7是领域大小，用来给描述子指定邻域大小
             Feature::Ptr feature(new Feature(current_frame_, kp));
-            feature->map_point_ tracking_inliners_= last_frame_->features_left_[i]->map_point_;
+            feature->map_point_ = last_frame_->features_left_[i]->map_point_;
             current_frame_->features_left_.push_back(feature);
             num_good_pts++;
         }
@@ -413,9 +428,18 @@ bool Frontend::BuildInitMap() {
         }
     }
     // 这里只在初始化调用一次，所以第一帧一定为关键帧并且是世界系，所有没有对pworld转系，也临时直接在这里set了keyframe
+    // frame->pose没有显式初始化，默认为单位阵
     current_frame_->SetKeyFrame();//难道不是先设定为keyframe再建立地图吗，放到建图函数里面干什么
+    mpCurrentKF = current_frame_;
     map_->InsertKeyFrame(current_frame_);
     backend_->UpdateMap();
+
+    current_frame_->mpReferenceKF = mpCurrentKF;
+    SE3 Tcr_ = SE3();
+    mlRelativeFramePoses.push_back(Tcr_);
+    mlpReferences.push_back(current_frame_->mpReferenceKF);
+    // mlFrameTimes.push_back(current_frame_->time_stamp_);
+
 
     LOG(INFO) << "Initial map created with " << cnt_init_landmarks << " map points.";
     return true;

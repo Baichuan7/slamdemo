@@ -26,6 +26,8 @@ public:
     std::vector<std::shared_ptr<Feature>> features_left_;
     std::vector<std::shared_ptr<Feature>> features_right_;
 
+    std::weak_ptr<Frame> mpReferenceKF;
+
 public:
     Frame() {}
 

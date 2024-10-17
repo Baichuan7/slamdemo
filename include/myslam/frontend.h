@@ -38,7 +38,15 @@ public:
         camera_left_ = left;
         camera_right_ = right;
     }
-    
+
+    // Lists used to recover the full camera trajectory at the end of the execution.
+    // Basically we store the reference keyframe for each frame and its relative transformation
+    // From ORB_SLAM3
+    std::list<SE3> mlRelativeFramePoses;
+    std::list<std::weak_ptr<Frame>> mlpReferences;
+    // std::list<double> mlFrameTimes;
+    // std::list<bool> mlbLost;
+  
 private:
 
     bool Track();
@@ -69,8 +77,12 @@ private:
     // data
     FrontendStatus status_ = FrontendStatus::INITING;
 
+    // 注意当前帧和上一帧始终有share_ptr,如果再之前的帧不是关键帧就会被销毁
+    // 如果是关键帧，map_有一个unorder_map会一直存放这一帧的Ptr，
+    // 当前关键帧也会有一个Ptr一直指向
     Frame::Ptr current_frame_ = nullptr;
     Frame::Ptr last_frame_ = nullptr;
+    Frame::Ptr mpCurrentKF = nullptr;
     Camera::Ptr camera_left_ = nullptr;
     Camera::Ptr camera_right_ = nullptr;
 
