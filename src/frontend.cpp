@@ -68,6 +68,7 @@ bool Frontend::Track() {
     // Idea From ORBSLAM3
     // 为了储存所有轨迹
     // 为所有帧建立参考的关键帧，并且储存时间辍和相对位姿
+    // 如果后端优化所有激活的KF了，那么Tcr_就不准了，但是要求实时出位姿时，记录此刻位姿是没问题的
     current_frame_->mpReferenceKF = mpCurrentKF;
     if(auto ref_kf = current_frame_->mpReferenceKF.lock()) {
         SE3 Tcr_ = current_frame_->Pose() * ref_kf->Pose().inverse();

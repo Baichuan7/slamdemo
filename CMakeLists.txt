@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 project(myslam) # ${PROJECT_NAME}
 
-set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_BUILD_TYPE Release)
 
 set(CMAKE_CXX_FLAGS "-std=c++17 -Wall") # 传递给C++编译器的编译标志，c++17标准，启用编译器所有常见警告
 set(CMAKE_CXX_FLAGS_RELEASE "-std=c++17 -O3 -fopenmp -pthread")# 在release下的编译标志 -03最高级别优化 -fopenmp启用OpenMP支持（多线程并行编程API) -pthread启用POSIX线程支持

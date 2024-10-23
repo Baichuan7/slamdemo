@@ -1,0 +1,22 @@
+# 忽略编译生成的文件
+*.o
+*.a
+*.so
+*.exe
+*.dll
+
+# 忽略临时文件
+*.tmp
+*.log
+*.swp
+*.bak
+
+# 忽略特定目录
+build/
+cmake_modules/
+
+
+# 忽略 IDE 生成的文件
+.vscode/
+
+

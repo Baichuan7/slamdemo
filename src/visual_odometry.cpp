@@ -60,4 +60,36 @@ bool VisualOdometry::Step() {
     return success;
 }
 
+// Pose of KF is in map_
+// relative pose from every frame to KF is in frontend
+void VisualOdometry::SaveTrajectoryKITTI(const std::string& filename) {
+    LOG(INFO) << "Saving camera trajectory to" << filename << " ...";
+
+    // 去第一帧位姿，后面把轨迹的起点置为原点
+    // 一般loop closure之后起点可能不是原点了 我这里暂时不需要
+    SE3 Tow = map_->GetAllKeyFrames().at(0)->Pose().inverse();
+    
+    std::ofstream f;
+    f.open(filename.c_str());
+    f << std::fixed;
+    // frontend_->mlpReferences[i].lock()
+
+    std::list<std::weak_ptr<Frame>>::iterator lRit = frontend_->mlpReferences.begin();
+    for(std::list<SE3>::iterator lit = frontend_->mlRelativeFramePoses.begin(),
+    lend = frontend_->mlRelativeFramePoses.end();  lit!=lend; lRit++, lit++) {
+        auto pKF = (*lRit).lock();
+        if (!pKF) LOG(ERROR) << "This KF is nullptr.";
+        SE3 Trw = pKF->Pose() * Tow;
+        SE3 Tcw = (*lit) * Trw;
+        SE3 Twc = Tcw.inverse();
+        Eigen::Matrix3d Rwc = Twc.rotationMatrix();
+        Eigen::Vector3d twc = Twc.translation();
+
+        f << std::setprecision(9) << Rwc(0,0) << " " << Rwc(0,1)  << " " << Rwc(0,2) << " "  << twc(0) << " " <<
+             Rwc(1,0) << " " << Rwc(1,1)  << " " << Rwc(1,2) << " "  << twc(1) << " " <<
+             Rwc(2,0) << " " << Rwc(2,1)  << " " << Rwc(2,2) << " "  << twc(2) << std::endl;
+    }
+    f.close();
+}
+
 }

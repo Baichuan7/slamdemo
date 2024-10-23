@@ -466,6 +466,7 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/sigaction.h \
   /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
@@ -485,8 +486,14 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
   /usr/include/x86_64-linux-gnu/bits/statx.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
@@ -532,10 +539,12 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
@@ -568,6 +577,7 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/omp.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
@@ -690,6 +700,18 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
 
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
 /usr/include/eigen3/Eigen/src/Core/ConditionEstimator.h:
 
 /usr/include/c++/11/bits/stl_set.h:
@@ -697,6 +719,10 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 /usr/include/eigen3/Eigen/src/Core/Map.h:
 
 /usr/include/eigen3/Eigen/src/Core/Block.h:
+
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+
+/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h:
 
 /usr/include/c++/11/bits/locale_facets_nonio.tcc:
 
@@ -754,8 +780,6 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
-
 /usr/include/c++/11/thread:
 
 /usr/include/c++/11/ratio:
@@ -783,6 +807,8 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 /usr/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h:
 
 /usr/include/c++/11/memory:
+
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 
 /usr/include/eigen3/Eigen/Core:
 
@@ -848,8 +874,6 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /home/liubaichuan/anaconda3/include/gflags/gflags_declare.h:
 
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
 /usr/include/c++/11/cfloat:
 
 /usr/include/eigen3/Eigen/src/Core/Redux.h:
@@ -883,6 +907,8 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 /usr/include/c++/11/bits/basic_ios.tcc:
 
 /usr/include/c++/11/cwchar:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
 
 /usr/include/c++/11/bits/stl_algobase.h:
 
@@ -1150,6 +1176,16 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/c++/11/list:
 
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/math.h:
+
+/usr/include/c++/11/bits/charconv.h:
+
+/usr/include/c++/11/bits/exception_ptr.h:
+
 /usr/include/c++/11/ctime:
 
 /home/liubaichuan/anaconda3/include/gflags/gflags_gflags.h:
@@ -1234,8 +1270,6 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/c++/11/tr1/poly_hermite.tcc:
 
-/usr/include/c++/11/bits/locale_facets.tcc:
-
 /usr/include/c++/11/bits/this_thread_sleep.h:
 
 /usr/local/include/sophus/so3.hpp:
@@ -1267,6 +1301,8 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
 
 /usr/include/c++/11/bits/postypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
@@ -1340,16 +1376,6 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/eigen3/Eigen/src/Core/DiagonalMatrix.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/math.h:
-
-/usr/include/c++/11/bits/charconv.h:
-
-/usr/include/c++/11/bits/exception_ptr.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
-
 /usr/include/eigen3/Eigen/src/Core/DiagonalProduct.h:
 
 /usr/include/eigen3/Eigen/src/Core/EigenBase.h:
@@ -1375,10 +1401,6 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 /usr/include/linux/limits.h:
 
 /usr/include/eigen3/Eigen/src/Core/MathFunctions.h:
-
-/usr/include/c++/11/bits/functexcept.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
 /usr/include/eigen3/Eigen/src/Core/MatrixBase.h:
 
@@ -1427,6 +1449,8 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 /usr/include/eigen3/Eigen/src/Core/Reverse.h:
 
 /usr/include/eigen3/Eigen/src/Core/Select.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/omp.h:
 
 /usr/include/eigen3/Eigen/src/Core/SelfAdjointView.h:
 
@@ -1748,6 +1772,12 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
+/usr/include/c++/11/bits/locale_facets.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
 /usr/include/eigen3/Eigen/src/Core/Fuzzy.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
@@ -1757,6 +1787,14 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 /usr/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/c++/11/bits/functexcept.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
@@ -1806,14 +1844,6 @@ test/CMakeFiles/test_triangulation.dir/test_triangulation.cpp.o: /home/liubaichu
 
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
+
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h:
-
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:

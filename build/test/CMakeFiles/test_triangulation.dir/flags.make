@@ -6,5 +6,5 @@ CXX_DEFINES = -DGFLAGS_IS_A_DLL=0 -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -DHAVE_EIGE
 
 CXX_INCLUDES = -I/usr/include/eigen3 -I/home/liubaichuan/Work/slamdemo/include -isystem /usr/local/include/opencv4 -isystem /usr/local/include/eigen3 -isystem /home/liubaichuan/anaconda3/include
 
-CXX_FLAGS = -std=c++17 -Wall -g
+CXX_FLAGS = -std=c++17 -Wall -std=c++17 -O3 -fopenmp -pthread
 

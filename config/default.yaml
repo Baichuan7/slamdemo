@@ -1,6 +1,6 @@
 %YAML:1.0
 
-dataset_dir: /home/liubaichuan/Work/datasets/kitti/data_odometry_gray/sequences/05
+dataset_dir: /home/liubaichuan/Work/datasets/kitti/dataset/sequences/06
 
 # camera intrinsics
 

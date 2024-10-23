@@ -4,6 +4,7 @@
 namespace myslam {
 
 void Map::InsertMapPoint(MapPoint::Ptr map_point) {
+    std::unique_lock<std::mutex> lck(data_mutex_);
     if (landmarks_.find(map_point->id_) == landmarks_.end())
     {
         landmarks_.insert(make_pair(map_point->id_, map_point));
@@ -15,6 +16,7 @@ void Map::InsertMapPoint(MapPoint::Ptr map_point) {
 }
 
 void Map::InsertKeyFrame(Frame::Ptr frame) {
+    std::unique_lock<std::mutex> lck(data_mutex_);
     current_frame_ = frame;
     if (keyframes_.find(frame->keyframe_id_) == keyframes_.end())
     {

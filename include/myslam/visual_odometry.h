@@ -1,3 +1,7 @@
+/*
+/ 建立好Frontend Backend Map viewer 并连接起来，之后运行前端
+/ Frontend里更新Map和Backend 
+*/
 #pragma once 
 #ifndef MYSLAM_VISUAL_ODOMETRY_H
 #define MYSLAM_VISUAL_ODOMETRY_H
@@ -24,6 +28,8 @@ public:
     bool Step();
 
     FrontendStatus GetFrontendStatus() const { return frontend_->GetStatus(); }
+
+    void SaveTrajectoryKITTI(const std::string& filename);
 
     std::vector<float> vTimesTrack = {};
 private:

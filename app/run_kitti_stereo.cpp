@@ -21,6 +21,7 @@ int main (int argv, char** argc) {
         totaltime += time;
     }
     LOG(INFO) << "mean tracking time: " << totaltime/nTimes;
+    vo->SaveTrajectoryKITTI("/home/liubaichuan/Work/slamdemo/result/CameraTrajectory.txt");
     gflags::ShutDownCommandLineFlags();
     return 0;
 }
